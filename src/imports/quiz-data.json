@@ -1,0 +1,803 @@
+{
+  "title": "Endocrine System",
+  "totalQuestions": 78,
+  "chapters": [
+    {
+      "chapterTitle": "Pituitary Gland",
+      "topics": [
+        {
+          "topic": "Pituitary Anatomy",
+          "questions": [
+            {
+              "id": 1,
+              "type": "essay",
+              "question": "Mention the relations of the pituitary gland and its clinical importance.",
+              "modelAnswer": "Relations:\n- Anterior: Body of sphenoid and tuberculum sellae\n- Posterior: Dorsum sellae, basilar artery, pons\n- Laterally: Cavernous sinus and its contents (CN III, IV, V1, V2, internal carotid artery)\n- Superiorly: Diaphragm sellae (separates from optic chiasma)\n- Inferiorly: Body of sphenoid with air sinuses (separates from nasopharynx)\nClinical importance (pituitary tumor):\n- Upward compression of optic chiasma → bitemporal hemianopia\n- Downward compression → ballooning of sella turcica\n- Lateral pressure on cavernous sinus → eye congestion, diplopia\n- Endocrinal disturbances (hypopituitarism or hormone excess)",
+              "explanation": "The pituitary's location in the sella turcica makes it vulnerable to mass effects.",
+              "keyConcept": "Spatial relations determine clinical manifestations of pituitary tumors."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Histology",
+          "questions": [
+            {
+              "id": 2,
+              "type": "essay",
+              "question": "Compare between acidophils and basophils.",
+              "modelAnswer": "Characteristic          | Acidophils               | Basophils\n% of pituitary cells    | 35%                      | 15%\nSize                    | Smaller                  | Larger\nLM stain                | Acidic (e.g., eosin)     | Basic (e.g., H&E)\nPAS reaction            | Negative                 | Positive\nGranules (LM)           | Large                    | Small, less numerous\nTEM features            | RER, Golgi, mitochondria, large granules | RER, Golgi, mitochondria, small granules (variable density)\nHormones produced       | GH, prolactin            | TSH, ACTH, FSH, LH",
+              "explanation": "Acidophils and basophils are anterior pituitary cell types distinguished by staining and hormones.",
+              "keyConcept": "Staining affinity correlates with hormone content."
+            }
+          ]
+        },
+        {
+          "topic": "General Physiology",
+          "questions": [
+            {
+              "id": 3,
+              "type": "essay",
+              "question": "Discuss hormone receptor locations and significance.",
+              "modelAnswer": "Receptors are either:\n- Membrane-bound (for hydrophilic hormones), or\n- Intracellular (for lipophilic hormones).\nTheir location determines the mechanism of action and speed of response.",
+              "explanation": "Membrane receptors trigger rapid second messenger cascades; intracellular receptors directly influence gene transcription (slower but more prolonged).",
+              "keyConcept": "Receptor location dictates signaling mechanism."
+            },
+            {
+              "id": 4,
+              "type": "essay",
+              "question": "Distinguish between hydrophilic and lipophilic hormones.",
+              "modelAnswer": "Hydrophilic hormones (peptides, catecholamines):\n- Water-soluble, circulate freely, act on membrane receptors.\nLipophilic hormones (steroids, thyroid hormones):\n- Fat-soluble, require carrier proteins, act on intracellular receptors.",
+              "explanation": "Solubility affects transport, receptor location, and onset of action.",
+              "keyConcept": "Chemical nature determines transport and mechanism."
+            },
+            {
+              "id": 5,
+              "type": "essay",
+              "question": "Describe the hypothalamo-pituitary axis.",
+              "modelAnswer": "The hypothalamo-pituitary axis links the nervous and endocrine systems.\n- Hypothalamus secretes releasing/inhibiting hormones that regulate anterior pituitary via portal circulation.\n- Posterior pituitary hormones are synthesized in hypothalamic nuclei and transported through neural pathways.",
+              "explanation": "Hypothalamic hormones control the pituitary, which controls peripheral endocrine glands.",
+              "keyConcept": "Functional unit connecting CNS to endocrine system."
+            },
+            {
+              "id": 6,
+              "type": "essay",
+              "question": "List hypothalamic releasing and inhibiting hormones.",
+              "modelAnswer": "Releasing: TRH, CRH, GnRH, GHRH.\nInhibiting: Somatostatin (inhibits GH), Dopamine (inhibits prolactin).",
+              "explanation": "Each releasing hormone stimulates a specific anterior pituitary hormone; inhibiting hormones suppress them.",
+              "keyConcept": "Hypothalamic peptides regulate pituitary secretion."
+            },
+            {
+              "id": 7,
+              "type": "essay",
+              "question": "Define signal transduction and describe the three major stages of the process.",
+              "modelAnswer": "Signal transduction is the process by which external stimuli, detected by a receptor, are converted into an intracellular action.\nThree stages:\n1. Reception – signal binds to receptor.\n2. Transduction – signal carried through a pathway.\n3. Response – activation of cellular changes (enzyme activity, gene expression, etc.).",
+              "explanation": "A fundamental concept in endocrinology and cellular communication.",
+              "keyConcept": "Conversion of extracellular signal into cellular response."
+            },
+            {
+              "id": 8,
+              "type": "essay",
+              "question": "Describe the mechanism of the cAMP second messenger system.",
+              "modelAnswer": "1. Hormone binds to GPCR → GDP replaced with GTP on G-alpha subunit.\n2. If Gs is involved, adenylyl cyclase (AC) is activated → converts ATP to cAMP.\n3. cAMP activates Protein Kinase A (PKA) → phosphorylates cellular proteins.\n4. In nucleus, active PKA phosphorylates CREB → binds to CRE → activates gene transcription.",
+              "explanation": "cAMP is a classic second messenger for many hormones (e.g., epinephrine, glucagon).",
+              "keyConcept": "G-protein activation leads to cAMP production and PKA activation."
+            },
+            {
+              "id": 9,
+              "type": "essay",
+              "question": "Explain the concepts of specificity and amplification in signaling systems.",
+              "modelAnswer": "Specificity: Precise molecular complementarity between signal and receptor; receptors only present in certain cell types.\nAmplification: Enzyme cascades where one activated enzyme activates many molecules of a second enzyme → geometric increase in signal.",
+              "explanation": "Specificity ensures correct target cells respond; amplification allows a few hormone molecules to produce a large response.",
+              "keyConcept": "Receptor distribution ensures specificity; cascades amplify signals."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Physiology",
+          "questions": [
+            {
+              "id": 10,
+              "type": "essay",
+              "question": "Name the clinical conditions resulting from disturbances in Growth Hormone (GH) secretion. (1 Mark)",
+              "modelAnswer": "- Gigantism (excess GH before puberty)\n- Acromegaly (excess GH after puberty)\n- Dwarfism (GH deficiency in children)",
+              "explanation": "The effect of GH excess or deficiency depends on the age of onset.",
+              "keyConcept": "Timing of GH excess determines linear vs. acral growth."
+            },
+            {
+              "id": 11,
+              "type": "essay",
+              "question": "Mention 4 factors that stimulate secretion of Growth Hormone (GH). (2 Marks)",
+              "modelAnswer": "1. Deficiency of energy substrates (hypoglycemia, starvation, fasting, exercise)\n2. Stressful stimuli\n3. Increased blood amino acids after a protein meal\n4. Glucagon",
+              "explanation": "GH secretion is stimulated by low blood glucose, high amino acids, and stress.",
+              "keyConcept": "GH release increases during catabolic states."
+            },
+            {
+              "id": 12,
+              "type": "essay",
+              "question": "Discuss the metabolic effects of growth hormone.",
+              "modelAnswer": "- Carbohydrates: Anti-insulin effect → blood glucose increases.\n- Proteins: Anabolic → increased amino acid uptake & protein synthesis.\n- Fats: Lipolytic → increased free fatty acids and ketone production.",
+              "explanation": "GH shifts metabolism toward using fats for energy while sparing glucose, raising blood sugar.",
+              "keyConcept": "GH promotes lipolysis, protein synthesis, and insulin resistance."
+            },
+            {
+              "id": 13,
+              "type": "essay",
+              "question": "Explain the diabetogenic effect of GH.",
+              "modelAnswer": "GH decreases glucose uptake in tissues and increases hepatic glucose production, causing insulin resistance and hyperglycemia.",
+              "explanation": "Chronic GH excess can lead to secondary diabetes due to impaired insulin action.",
+              "keyConcept": "GH antagonizes insulin action, raising blood glucose."
+            },
+            {
+              "id": 14,
+              "type": "essay",
+              "question": "Describe the clinical conditions resulting from disturbances in prolactin secretion, including their primary causes and manifestations. (2 Marks)",
+              "modelAnswer": "[A] Hyperprolactinemia:\n- Causes: anterior pituitary tumors or hypothalamic destruction.\n- Manifestations: females – amenorrhea, galactorrhea, sterility; males – hypogonadism, sterility, impotence.\n[B] Hypoprolactinemia (rare):\n- Cause: rare.\n- Manifestation: inability to lactate after labor.",
+              "explanation": "Prolactin inhibits gonadotropin release, explaining reproductive dysfunction in hyperprolactinemia.",
+              "keyConcept": "Hyperprolactinemia causes hypogonadism and galactorrhea."
+            },
+            {
+              "id": 15,
+              "type": "essay",
+              "question": "Mention Oxytocin effects on pregnant and non-pregnant women. (2 Marks)",
+              "modelAnswer": "Pregnant women:\n1. Labor – stimulates uterine contraction.\n2. Milk ejection – contraction of myoepithelial cells (milk let-down reflex).\nNon-pregnant women:\n1. Semen transport – aids transport from vagina to uterus during intercourse.",
+              "explanation": "Oxytocin has roles in reproduction beyond parturition and lactation.",
+              "keyConcept": "Oxytocin stimulates uterine and myoepithelial contraction."
+            },
+            {
+              "id": 16,
+              "type": "essay",
+              "question": "Describe the milk let-down reflex.",
+              "modelAnswer": "1. Nipple stimulation activates sensory nerves.\n2. Impulses reach hypothalamic paraventricular and supraoptic nuclei.\n3. Oxytocin released from posterior pituitary.\n4. Oxytocin causes contraction of myoepithelial cells.\n5. Milk ejected into ducts.",
+              "explanation": "A classic neuroendocrine reflex; oxytocin is the key hormone.",
+              "keyConcept": "Suckling triggers oxytocin release and milk ejection."
+            },
+            {
+              "id": 17,
+              "type": "essay",
+              "question": "Describe volume regulation of ADH secretion.",
+              "modelAnswer": "- Significant hypovolemia (15–25% blood loss) reduces atrial stretch receptor activity → removes inhibitory signals → increases ADH release.\n- Baroreceptors also contribute.\n- ADH restores volume by water retention and vasoconstriction.",
+              "explanation": "ADH is primarily regulated by plasma osmolality, but severe hypovolemia overrides osmotic control.",
+              "keyConcept": "Hemodynamic changes strongly stimulate ADH release."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Pathology",
+          "questions": [
+            {
+              "id": 18,
+              "type": "essay",
+              "question": "Describe clinical features of acromegaly.",
+              "modelAnswer": "- Enlarged hands and feet\n- Protruding jaw (prognathism)\n- Coarse facial features\n- Organomegaly (heart, liver, kidneys)\n- Kyphosis\n- Hyperglycemia\n- Possible visual defects from pituitary tumor compressing optic chiasma",
+              "explanation": "Excess GH after epiphyseal closure causes bony overgrowth and soft tissue enlargement.",
+              "keyConcept": "Acromegaly results from post-pubertal GH excess."
+            },
+            {
+              "id": 19,
+              "type": "essay",
+              "question": "Compare between gigantism and acromegaly.",
+              "modelAnswer": "Feature          | Gigantism                          | Acromegaly\nTime of onset    | Before epiphyseal closure (childhood) | After epiphyseal closure (adulthood)\nPrimary effect   | Increased linear height            | Increased thickness of bones (hands, face, jaw)\nOther features   | Proportionate enlargement          | Coarse features, organomegaly",
+              "explanation": "Both caused by excess GH; timing determines whether linear growth or acral enlargement occurs.",
+              "keyConcept": "Open vs closed epiphyseal plates determine phenotype."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Pharmacology",
+          "questions": [
+            {
+              "id": 20,
+              "type": "essay",
+              "question": "List adverse effects of octreotide.",
+              "modelAnswer": "- Gall stones\n- Nausea, vomiting, abdominal cramps\n- Pain at injection site\n- Vitamin B12 deficiency",
+              "explanation": "Octreotide is a somatostatin analog; common GI effects and gallstones due to reduced gallbladder motility.",
+              "keyConcept": "Somatostatin analogs cause biliary and GI side effects."
+            },
+            {
+              "id": 21,
+              "type": "essay",
+              "question": "Mention TWO therapeutic uses of Octreotide. (1 Mark)",
+              "modelAnswer": "(Any two)\n1. GIT tumors (insulinoma, gastrinoma, glucagonoma, VIPoma)\n2. Bleeding esophageal varices (drug of choice)\n3. Carcinoid syndrome\n4. Acromegaly",
+              "explanation": "Octreotide suppresses hormone secretion and reduces splanchnic blood flow.",
+              "keyConcept": "Octreotide used for neuroendocrine tumors, variceal bleeding, acromegaly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Thyroid & Parathyroid Glands",
+      "topics": [
+        {
+          "topic": "Thyroid Anatomy",
+          "questions": [
+            {
+              "id": 22,
+              "type": "essay",
+              "question": "Give an account on the blood vessels related to the thyroid gland and its clinical importance.",
+              "modelAnswer": "Arterial relations:\n- Anterior border: Superior thyroid artery\n- Posterior border: Inferior thyroid artery and anastomosis with superior thyroid artery\n- Posterolateral surface: Carotid sheath (CCA, IJV, vagus nerve)\n- Upper border of isthmus: Anastomosis of superior thyroid arteries\n- Lower border of isthmus: Inferior thyroid veins and thyroidea ima artery\nClinical importance:\n- Knowledge prevents hemorrhage during thyroid surgery.\n- Recurrent laryngeal nerve runs near inferior thyroid artery – damage causes hoarseness.",
+              "explanation": "Vascular anatomy is critical in thyroid surgery.",
+              "keyConcept": "Thyroid blood supply and nerve relationships are vital surgical landmarks."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Histology",
+          "questions": [
+            {
+              "id": 23,
+              "type": "essay",
+              "question": "Enumerate different types of cells lining thyroid follicle and hormones released from each.",
+              "modelAnswer": "- Follicular cells (thyrocytes): release T3 & T4.\n- Parafollicular cells (clear or C-cells): release calcitonin.",
+              "explanation": "Follicular cells produce thyroid hormones; parafollicular cells produce calcitonin.",
+              "keyConcept": "Two cell types with distinct products."
+            },
+            {
+              "id": 24,
+              "type": "essay",
+              "question": "Compare between principle (chief) cells and oxyphil cells of parathyroid glands.",
+              "modelAnswer": "Feature              | Chief cells                         | Oxyphil cells\nNumber               | More numerous                       | Less numerous\nSize                 | Smaller                             | Larger\nNucleus              | Vesicular                           | Condensed, smaller\nCytoplasm (LM)       | Pale basophilic (glycogen, lipids)  | Acidophilic, granular\nTEM                  | Mitochondria, abundant RER, Golgi, small secretory granules | Abundant mitochondria (more than chief cells)\nFunction             | Secrete PTH                         | Possibly degenerated chief cells",
+              "explanation": "Chief cells are the main source of PTH; oxyphil cells have unknown function.",
+              "keyConcept": "Chief cells produce PTH; oxyphil cells are mitochondria-rich of uncertain function."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Physiology",
+          "questions": [
+            {
+              "id": 25,
+              "type": "essay",
+              "question": "Name the principal protein to which thyroid hormones bind in plasma and explain the advantages of this binding. (3 Marks)",
+              "modelAnswer": "- Thyroid-binding globulin (TBG).\n- Advantages:\n    1. Acts as a physiological reservoir.\n    2. Increases the half-life of circulating hormone.",
+              "explanation": "Binding to TBG protects thyroid hormones from rapid excretion and provides a buffer.",
+              "keyConcept": "TBG prolongs T4/T3 half-life and provides a reserve."
+            },
+            {
+              "id": 26,
+              "type": "essay",
+              "question": "Describe three diagnostic clinical features characteristic of Cretinism. (3 Marks)",
+              "modelAnswer": "[1] Dwarfism: disproportionate short limbs, obese body, delayed milestones.\n[2] Skin: thick dry skin, coarse scanty hair, brittle nails.\n[3] Developmental delay: mental retardation (if untreated after first month), sexual retardation.",
+              "explanation": "Cretinism is congenital hypothyroidism; early treatment prevents intellectual disability.",
+              "keyConcept": "Untreated congenital hypothyroidism causes intellectual disability and growth failure."
+            },
+            {
+              "id": 27,
+              "type": "essay",
+              "question": "Mention 3 cardiovascular manifestations that appear in Hyperthyroidism. (3 Marks)",
+              "modelAnswer": "(Any three)\n[1] Tachycardia\n[2] Increased systolic blood pressure\n[3] Decreased diastolic blood pressure (cutaneous vasodilation)\n[4] Increased pulse pressure (water hammer pulse)\n[5] High-output heart failure (relative ischemia)",
+              "explanation": "Thyroid hormone increases β-adrenergic sensitivity and metabolic rate.",
+              "keyConcept": "Hyperthyroidism causes high-output cardiac state."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Pathology",
+          "questions": [
+            {
+              "id": 28,
+              "type": "essay",
+              "question": "Describe the pathogenesis of Graves disease.",
+              "modelAnswer": "Autoantibodies (thyroid-stimulating immunoglobulins, TSI) stimulate TSH receptors → excessive T3/T4 production + diffuse thyroid hyperplasia.",
+              "explanation": "TSI act as agonists at the TSH receptor, leading to unregulated thyroid hormone secretion.",
+              "keyConcept": "TSI cause hyperthyroidism and goiter."
+            }
+          ]
+        },
+        {
+          "topic": "Parathyroid Pathology",
+          "questions": [
+            {
+              "id": 29,
+              "type": "essay",
+              "question": "Enumerate causes of primary hyperparathyroidism.",
+              "modelAnswer": "- Parathyroid adenoma (most common, 80-85%)\n- Parathyroid hyperplasia (10-15%)\n- Parathyroid carcinoma (<1%)",
+              "explanation": "Primary hyperparathyroidism is characterized by elevated PTH and hypercalcemia.",
+              "keyConcept": "Adenoma is the most frequent cause."
+            }
+          ]
+        },
+        {
+          "topic": "Parathyroid Clinical",
+          "questions": [
+            {
+              "id": 30,
+              "type": "case",
+              "question": "A 56-year-old woman presents with recurrent flank pain, hypercalcemia, decreased bone density on DEXA scan, and bilateral renal stones.",
+              "subQuestions": [
+                {
+                  "id": "30_a",
+                  "type": "essay",
+                  "question": "What is the most appropriate diagnosis? (0.5 Mark)",
+                  "modelAnswer": "Primary hyperparathyroidism.",
+                  "explanation": "Hypercalcemia with bone loss and renal stones is classic.",
+                  "keyConcept": "Primary hyperparathyroidism triad: hypercalcemia, bone loss, stones."
+                },
+                {
+                  "id": "30_b",
+                  "type": "essay",
+                  "question": "Describe the physiology underlying the decreased bone density and formation of renal stones. (1 Mark)",
+                  "modelAnswer": "Decreased bone density: Excess PTH stimulates osteoclasts → bone resorption → osteoporosis.\nRenal stones: Persistent hypercalcemia → high filtered calcium → precipitates as calcium salts → nephrolithiasis.",
+                  "explanation": "PTH mobilizes calcium from bone and increases renal calcium excretion.",
+                  "keyConcept": "PTH increases bone resorption and renal calcium load."
+                },
+                {
+                  "id": "30_c",
+                  "type": "essay",
+                  "question": "Describe the state of skeletal muscle in this patient. (0.5 Mark)",
+                  "modelAnswer": "Skeletal muscle weakness because hypercalcemia decreases neuromuscular excitability.",
+                  "explanation": "High calcium stabilizes neuronal membranes, reducing excitability.",
+                  "keyConcept": "Hypercalcemia reduces neuromuscular excitability."
+                },
+                {
+                  "id": "30_d",
+                  "type": "essay",
+                  "question": "Describe the LM and EM features of the cells responsible for secreting the hormone involved (parathyroid chief cells). (2 Marks)",
+                  "modelAnswer": "LM: small polygonal cells with centrally located vesicular nuclei; basophilic cytoplasm containing lipid and glycogen.\nEM: rough endoplasmic reticulum, prominent Golgi, and a few secretory granules.",
+                  "explanation": "Chief cells secrete PTH; ultrastructure reflects active protein synthesis.",
+                  "keyConcept": "Chief cells show protein synthesis machinery on EM."
+                },
+                {
+                  "id": "30_e",
+                  "type": "essay",
+                  "question": "Mention four pathological causes of this condition (primary hyperparathyroidism). (2 Marks)",
+                  "modelAnswer": "1. Parathyroid adenoma (85-95%)\n2. Primary hyperplasia (5-10%)\n3. Parathyroid carcinoma (~1%)\n4. Genetic defects (MEN-1 and MEN-2A)",
+                  "explanation": "Adenoma is the most common cause.",
+                  "keyConcept": "Adenoma, hyperplasia, carcinoma, MEN syndromes."
+                },
+                {
+                  "id": "30_f",
+                  "type": "essay",
+                  "question": "What is the appropriate drug to prescribe for this patient, and its mechanism of action? (2 Marks)",
+                  "modelAnswer": "Drug: Cinacalcet.\nMechanism: Calcimimetic that increases sensitivity of calcium-sensing receptors → decreases PTH secretion → lowers blood calcium.",
+                  "explanation": "Cinacalcet is used in patients with primary hyperparathyroidism who are not candidates for surgery.",
+                  "keyConcept": "Cinacalcet lowers PTH by sensitizing CaSR."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Adrenal (Suprarenal) Gland",
+      "topics": [
+        {
+          "topic": "Adrenal Anatomy",
+          "questions": [
+            {
+              "id": 36,
+              "type": "essay",
+              "question": "Describe the blood supply of the suprarenal gland.",
+              "modelAnswer": "Arterial supply (very vascular – three sources):\n1. Superior suprarenal arteries – from inferior phrenic artery\n2. Middle suprarenal artery – from abdominal aorta\n3. Inferior suprarenal artery – from renal artery\nVenous drainage:\n- Right suprarenal vein (short) → drains directly into IVC\n- Left suprarenal vein (long) → drains into left renal vein",
+              "explanation": "The suprarenal glands have a rich arterial supply from three sources and asymmetric venous drainage.",
+              "keyConcept": "Three arterial sources; asymmetric venous drainage."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Histology",
+          "questions": [
+            {
+              "id": 37,
+              "type": "essay",
+              "question": "Compare between TEM of spongiocytes and chromaffin cells in adrenal (suprarenal) glands.",
+              "modelAnswer": "Cell type          | Spongiocytes (zona fasciculata)       | Chromaffin cells (adrenal medulla)\nSER                | Numerous                              | Not prominent\nGolgi              | Well-developed                        | Present\nMitochondria       | Numerous, tubular cristae             | Present\nLipid droplets     | Densely filled with cytoplasmic lipid | Few or absent\nRER                | Not prominent                         | Many\nSecretory granules | Few                                   | Many (contain catecholamines)",
+              "explanation": "Spongiocytes produce cortisol (lipid-rich); chromaffin cells produce catecholamines (granule-rich).",
+              "keyConcept": "Spongiocytes have lipid droplets; chromaffin cells have granules."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Physiology",
+          "questions": [
+            {
+              "id": 38,
+              "type": "essay",
+              "question": "Mention the electrolyte disturbances and their effects in aldosterone hypersecretion. (5 Marks)",
+              "modelAnswer": "[1] Hypernatremia → increases ECF → hypertension (aldosterone escape prevents edema).\n[2] Hypokalemia → severe muscle weakness, renal damage (hypokalemic nephropathy), cardiac effects.\n[3] Increased H+ secretion → alkalosis → decreased ionized calcium → tetany.",
+              "explanation": "Primary hyperaldosteronism (Conn's syndrome) causes hypertension, hypokalemia, and metabolic alkalosis.",
+              "keyConcept": "Aldosterone excess causes Na+ retention, K+ loss, H+ loss."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Pathology",
+          "questions": [
+            {
+              "id": 39,
+              "type": "essay",
+              "question": "Describe the morphology of adrenal glands in Cushing syndrome.",
+              "modelAnswer": "Depends on cause:\n- Exogenous glucocorticoids → cortical atrophy\n- Endogenous ACTH-dependent (pituitary tumor) → diffuse hyperplasia\n- Primary adrenal hyperplasia → macro- or micronodular hyperplasia\n- Adrenocortical adenoma → yellow tumor (<30 g, thin capsule, cells resemble zona fasciculata)\n- Adrenocortical carcinoma → malignant features",
+              "explanation": "Morphology reflects the underlying driver of cortisol excess.",
+              "keyConcept": "Cushing syndrome causes atrophy (exogenous) or hyperplasia (endogenous)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Endocrine Pancreas",
+      "topics": [
+        {
+          "topic": "Pancreas Physiology",
+          "questions": [
+            {
+              "id": 40,
+              "type": "essay",
+              "question": "Explain the structure of the insulin receptor and how it transduces a signal.",
+              "modelAnswer": "Structure: Heterotetramer – 2 alpha subunits (extracellular, bind insulin) + 2 beta subunits (transmembrane, intracellular tyrosine kinase domain).\nSignal transduction:\n1. Insulin binding activates tyrosine kinase activity of beta subunits.\n2. Beta subunits autophosphorylate.\n3. Receptor phosphorylates target proteins (e.g., IRS).\n4. Initiates cascades leading to rapid effects (GLUT-4 translocation) and delayed effects (gene expression).",
+              "explanation": "The insulin receptor is a receptor tyrosine kinase; its activation triggers multiple metabolic pathways.",
+              "keyConcept": "Insulin receptor autophosphorylation activates downstream signaling."
+            },
+            {
+              "id": 41,
+              "type": "essay",
+              "question": "Describe the normal mechanism of insulin secretion from pancreatic β cells. (2 Marks)",
+              "modelAnswer": "- Glucose enters β-cells via GLUT-2 → metabolized to ATP.\n- High ATP closes ATP-sensitive K+ channels → depolarization → opens voltage-gated Ca2+ channels.\n- Calcium influx triggers exocytosis of insulin granules.",
+              "explanation": "This glucose-stimulated insulin secretion is the core of β-cell function.",
+              "keyConcept": "ATP closes KATP channels, depolarization, Ca2+ influx, exocytosis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Diabetes Mellitus & Metabolic Disorders",
+      "topics": [
+        {
+          "topic": "Gluconeogenesis Biochemistry",
+          "questions": [
+            {
+              "id": 42,
+              "type": "essay",
+              "question": "Mention the 4 key regulatory enzymes of gluconeogenesis and list their allosteric regulators. (3 Marks)",
+              "modelAnswer": "Enzymes:\n1. Pyruvate Carboxylase\n2. PEPCK\n3. Fructose 1,6-Bisphosphatase\n4. Glucose 6-Phosphatase\nAllosteric regulation:\n- Acetyl-CoA → activates Pyruvate Carboxylase\n- AMP → inhibits Fructose 1,6-Bisphosphatase\n- Fructose 2,6-bisphosphate → inhibits Fructose 1,6-Bisphosphatase",
+              "explanation": "These enzymes are unique to gluconeogenesis and regulated by energy status.",
+              "keyConcept": "Four unique enzymes; regulated by energy and substrate signals."
+            },
+            {
+              "id": 43,
+              "type": "essay",
+              "question": "List three factors that stimulate gluconeogenesis during severe muscle exercise. (1.5 Marks)",
+              "modelAnswer": "(Any three)\n1. Exercising muscle provides lactate via Cori cycle.\n2. Increased sympathetic activity (catecholamines) stimulates gluconeogenesis.\n3. Proteolysis of muscle proteins supplies glucogenic amino acids.\n4. Depletion of glycogen stores and increased glucose demand.",
+              "explanation": "Exercise increases energy demand; gluconeogenesis maintains blood glucose.",
+              "keyConcept": "Lactate, amino acids, catecholamines drive gluconeogenesis in exercise."
+            },
+            {
+              "id": 44,
+              "type": "essay",
+              "question": "Name two metabolic cycles that provide substrates for gluconeogenesis.",
+              "modelAnswer": "1. Lactic acid cycle (Cori cycle): muscle lactate → liver glucose.\n2. Glucose-alanine cycle (Cahill cycle): muscle alanine → liver pyruvate → glucose.",
+              "explanation": "These cycles shuttle carbon skeletons from peripheral tissues to the liver.",
+              "keyConcept": "Cori and Cahill cycles recycle carbon to liver."
+            },
+            {
+              "id": 45,
+              "type": "essay",
+              "question": "Mention two reactions of gluconeogenesis that require energy. (1 Mark)",
+              "modelAnswer": "1. Pyruvate → Oxaloacetate (Pyruvate Carboxylase): requires ATP.\n2. Oxaloacetate → Phosphoenolpyruvate (PEPCK): requires GTP.",
+              "explanation": "These energy-consuming steps bypass irreversible glycolysis reactions.",
+              "keyConcept": "ATP and GTP are consumed in two steps."
+            },
+            {
+              "id": 46,
+              "type": "essay",
+              "question": "Describe the allosteric regulation of two rate-limiting enzymes in gluconeogenesis. (1 Mark)",
+              "modelAnswer": "[1] Pyruvate Carboxylase: activated by Acetyl-CoA (high during fasting).\n[2] Fructose 1,6-Bisphosphatase: inhibited by Fructose 2,6-bisphosphate (low insulin/glucagon ratio reduces this inhibitor) and by AMP.",
+              "explanation": "Ensures gluconeogenesis is active during fasting and inhibited when energy is abundant.",
+              "keyConcept": "Acetyl-CoA activates PC; F-2,6-BP inhibits FBPase."
+            }
+          ]
+        },
+        {
+          "topic": "Feed-Fast Cycle Biochemistry",
+          "questions": [
+            {
+              "id": 47,
+              "type": "essay",
+              "question": "State four changes occurring in carbohydrate metabolism in adipose tissue during a well-fed state. (2 Marks)",
+              "modelAnswer": "1. Stimulation of glucose uptake via GLUT-4 (insulin-dependent).\n2. Stimulation of glycolysis (glycerol 3-phosphate & acetyl CoA) for TAG synthesis.\n3. Stimulation of HMP pathway in liver → NADPH for fatty acid synthesis.\n4. Stimulation of glycogenesis (minor).",
+              "explanation": "In the fed state, insulin promotes glucose storage as fat and glycogen.",
+              "keyConcept": "Insulin promotes glucose uptake, glycolysis, and lipogenesis in adipose."
+            },
+            {
+              "id": 48,
+              "type": "essay",
+              "question": "Explain the role of the kidney during long-term (prolonged) fasting. (1 Mark)",
+              "modelAnswer": "The kidney:\n[1] Expresses gluconeogenic enzymes (including glucose 6-phosphatase).\n[2] Compensates for acidosis from ketone bodies.\n[3] Takes up glutamine → produces NH3 which binds H+ to form NH4+ (excreted), reducing acid load.",
+              "explanation": "The kidney becomes a major site of gluconeogenesis and acid-base regulation during starvation.",
+              "keyConcept": "Kidney does gluconeogenesis and acid excretion via glutamine."
+            }
+          ]
+        },
+        {
+          "topic": "Hexose Metabolism Disorders Biochemistry",
+          "questions": [
+            {
+              "id": 49,
+              "type": "essay",
+              "question": "2-year-old boy with repeated hypoglycemia after fruit intake. Hereditary fructose intolerance. a. Name the deficient enzyme. b. Illustrate its reaction. (2 Marks)",
+              "modelAnswer": "a. Aldolase B deficiency.\nb. Fructose 1-phosphate → Aldolase B → DHAP + Glyceraldehyde.",
+              "explanation": "Aldolase B deficiency prevents metabolism of fructose 1-phosphate, leading to toxic accumulation.",
+              "keyConcept": "Aldolase B deficiency causes fructose intolerance."
+            },
+            {
+              "id": 50,
+              "type": "essay",
+              "question": "Child experiences severe hypoglycemia and hyperuricemia shortly after eating fruit. (2.5 Marks) a. Which enzyme is deficient? b. Why does eating fruit lead to hypoglycemia? c. What is the biochemical cause of hyperuricemia?",
+              "modelAnswer": "a. Aldolase B deficiency.\nb. Accumulation of fructose 1-phosphate inhibits glycogen phosphorylase (prevents glycogen breakdown) and depletes ATP (impairs gluconeogenesis).\nc. Inorganic phosphate (Pi) is trapped in fructose 1-phosphate; low Pi leads to AMP degradation → uric acid production.",
+              "explanation": "Same disorder (hereditary fructose intolerance) causes both metabolic disturbances.",
+              "keyConcept": "Fructose-1-P accumulation traps Pi and ATP, causing hypoglycemia and hyperuricemia."
+            },
+            {
+              "id": 51,
+              "type": "essay",
+              "question": "Mention the rate-limiting enzyme involved in normal galactose metabolism. (1 Mark)",
+              "modelAnswer": "Galactose 1-phosphate uridyl transferase.",
+              "explanation": "Deficiency causes classic galactosemia.",
+              "keyConcept": "GALT is rate-limiting for galactose metabolism."
+            },
+            {
+              "id": 52,
+              "type": "essay",
+              "question": "Mention biochemical causes of hypoglycemia in severe classic galactosemia. (2 Marks)",
+              "modelAnswer": "[1] Inhibition of glycogenolysis: accumulation of galactose 1-phosphate traps Pi → inhibits glycogen phosphorylase.\n[2] Impairment of gluconeogenesis: accumulation of phosphorylated intermediates drops ATP levels.",
+              "explanation": "Similar mechanism to hereditary fructose intolerance – trapped phosphate and ATP depletion.",
+              "keyConcept": "Galactose-1-P traps Pi and ATP, blocking glucose production."
+            }
+          ]
+        },
+        {
+          "topic": "Diabetic Complications Biochemistry",
+          "questions": [
+            {
+              "id": 53,
+              "type": "essay",
+              "question": "A 54-year-old man with type 1 diabetes mellitus is referred for evaluation of developing cataract. Mention the biochemical basis of cataract formation. (2 Marks)",
+              "modelAnswer": "[1] Sorbitol pathway: hyperglycemia → sorbitol accumulation → osmotic damage to lens cells; NADPH depletion → oxidative stress.\n[2] Advanced glycation end products (AGEs): damage and cross-link lens proteins.",
+              "explanation": "Both osmotic stress and protein damage contribute to diabetic cataracts.",
+              "keyConcept": "Sorbitol and AGEs cause lens opacity."
+            }
+          ]
+        },
+        {
+          "topic": "Type 2 Diabetes Pathology",
+          "questions": [
+            {
+              "id": 54,
+              "type": "essay",
+              "question": "Identify the primary contributing factors to the development of Type 2 Diabetes Mellitus. (1 Mark)",
+              "modelAnswer": "- Multifactorial: genetic susceptibility + environmental factors (sedentary lifestyle, dietary habits).\n- Obesity (especially visceral) is most common cause → insulin resistance via pro-inflammatory cytokines.",
+              "explanation": "Insulin resistance is the hallmark of type 2 diabetes.",
+              "keyConcept": "Obesity and insulin resistance drive type 2 DM."
+            },
+            {
+              "id": 55,
+              "type": "essay",
+              "question": "Describe the metabolic changes in carbohydrate metabolism in Type 2 Diabetes Mellitus. (1 Mark)",
+              "modelAnswer": "Hyperglycemia caused by:\n1. Increased dietary carbohydrate intake.\n2. Increased hepatic glucose production.\n3. Diminished peripheral glucose utilization due to insulin resistance.",
+              "explanation": "Type 2 diabetes is characterized by insulin resistance with relative insulin deficiency.",
+              "keyConcept": "Three factors: increased intake, increased hepatic output, decreased uptake."
+            }
+          ]
+        },
+        {
+          "topic": "Antidiabetic Drugs Pharmacology",
+          "questions": [
+            {
+              "id": 56,
+              "type": "essay",
+              "question": "Mention the mechanism of action and TWO adverse effects of Canagliflozin. (2 Marks)",
+              "modelAnswer": "Mechanism: Inhibits SGLT-2 in renal proximal tubules → prevents glucose reabsorption → reduces HbA1c, weight, and BP.\nAdverse effects (any two):\n1. Genitourinary infections.\n2. Mild hypoglycemia (if used with insulin or other antidiabetics).\n3. Increased risk of bone fracture.",
+              "explanation": "SGLT-2 inhibitors promote glucosuria, offering glycemic control with weight loss.",
+              "keyConcept": "SGLT-2 inhibitors cause glucosuria, weight loss, and UTI risk."
+            },
+            {
+              "id": 57,
+              "type": "essay",
+              "question": "List TWO adverse effects of Metformin. (1 Mark)",
+              "modelAnswer": "(Any two)\n1. GIT upsets (metallic taste, anorexia, dyspepsia, diarrhea) – most common.\n2. Lactic acidosis – most dangerous.\n3. Decreased vitamin B12 absorption.",
+              "explanation": "Metformin is first-line but requires renal function monitoring to avoid lactic acidosis.",
+              "keyConcept": "Metformin causes GI side effects and rare lactic acidosis."
+            },
+            {
+              "id": 58,
+              "type": "essay",
+              "question": "List TWO advantages of Metformin. (1 Mark)",
+              "modelAnswer": "(Any two)\n1. No weight gain (decreases insulin resistance).\n2. No hypoglycemia (euglycemic).\n3. No drug interactions.",
+              "explanation": "Metformin's safety profile makes it ideal for obese diabetic patients.",
+              "keyConcept": "Metformin is weight-neutral and does not cause hypoglycemia."
+            },
+            {
+              "id": 59,
+              "type": "essay",
+              "question": "List TWO adverse effects of Insulin. (1 Mark)",
+              "modelAnswer": "(Any two)\n1. Hypoglycemia (most common and most serious).\n2. Lipodystrophy (lipoatrophy from repeated injections).\n3. Immune reactions (anti-insulin antibodies → resistance or allergy).\n4. Weight gain.\n5. Hypokalemia (especially with high doses).",
+              "explanation": "Hypoglycemia is the main risk; careful dosing and monitoring are essential.",
+              "keyConcept": "Insulin adverse effects: hypoglycemia, lipodystrophy, weight gain."
+            },
+            {
+              "id": 60,
+              "type": "essay",
+              "question": "An adult patient with type 2 diabetes has been on metformin and lifestyle modification for a year. His HbA1c is 9%. State the next step in management. (1 Mark)",
+              "modelAnswer": "- Next step: Dual therapy → lifestyle + metformin + basal insulin or another oral drug (e.g., canagliflozin).\n- If failed → triple therapy (metformin + 2 other antidiabetic drugs).",
+              "explanation": "Current guidelines recommend adding a second agent when HbA1c remains above target.",
+              "keyConcept": "Add second agent (insulin or SGLT-2 inhibitor) when metformin fails."
+            },
+            {
+              "id": 61,
+              "type": "essay",
+              "question": "Compare between regular (short-acting) insulin and rapid-acting insulin analogues regarding their onset of action and clinical advantages. (2 Marks)",
+              "modelAnswer": "Feature                | Regular Insulin               | Rapid-acting Insulin\nOnset of action        | Slower (30-45 minutes)        | Much faster (5-15 minutes)\nClinical advantages    | Preferred for IV use in emergencies (e.g., DKA) | Better postprandial control, lower risk of late hypoglycemia",
+              "explanation": "Rapid-acting analogues more closely mimic physiological insulin secretion after meals.",
+              "keyConcept": "Rapid-acting: faster onset, less late hypoglycemia."
+            },
+            {
+              "id": 62,
+              "type": "essay",
+              "question": "Mention two oral antidiabetic drugs given to an obese patient and their mechanism of action. (2 Marks)",
+              "modelAnswer": "[1] Metformin: inhibits hepatic gluconeogenesis, increases peripheral glucose utilization – no weight gain, mild anorectic effect.\n[2] SGLT-2 inhibitors (e.g., Canagliflozin): inhibit SGLT-2 → glucosuria → weight loss and reduced BP.",
+              "explanation": "Both agents are weight-neutral or promote weight loss, beneficial in obese diabetics.",
+              "keyConcept": "Metformin and SGLT-2 inhibitors are weight-friendly."
+            },
+            {
+              "id": 63,
+              "type": "essay",
+              "question": "Describe use of subcutaneous insulin in diabetic ketoacidosis. (2 Marks)",
+              "modelAnswer": "Patients with uncomplicated mild or moderate DKA may be treated with subcutaneous rapid-acting insulin analogues (Lispro, Aspart, or Glulisine) combined with aggressive fluid management.",
+              "explanation": "Traditionally IV insulin is used, but SC rapid-acting insulin is effective in mild DKA.",
+              "keyConcept": "Subcutaneous rapid-acting insulin can be used in mild DKA."
+            }
+          ]
+        },
+        {
+          "topic": "DKA Clinical Cases",
+          "questions": [
+            {
+              "id": 64,
+              "type": "case",
+              "question": "A 10-year-old boy with type 1 diabetes presents with nausea, vomiting, dehydration, acetone breath, and disturbed consciousness. Lab: glucose 700 mg/dL, ketoacids 25 mmol/L, pH low.",
+              "subQuestions": [
+                {
+                  "id": "64_a",
+                  "type": "essay",
+                  "question": "What is the possible diagnosis? (1 Mark)",
+                  "modelAnswer": "Diabetic ketoacidosis (DKA).",
+                  "explanation": "Severe hyperglycemia, ketosis, and acidosis in a type 1 diabetic define DKA.",
+                  "keyConcept": "DKA: hyperglycemia, ketosis, acidosis."
+                },
+                {
+                  "id": "64_b",
+                  "type": "essay",
+                  "question": "Explain cause(s) of dehydration in this patient. (1 Mark)",
+                  "modelAnswer": "1. Excretion of glucose and ketone bodies in urine → polyuria and osmotic diuresis.\n2. Excessive vomiting.",
+                  "explanation": "Osmotic diuresis from glucosuria is the primary driver.",
+                  "keyConcept": "Osmotic diuresis and vomiting cause dehydration."
+                },
+                {
+                  "id": "64_c",
+                  "type": "essay",
+                  "question": "Outline metabolic changes occurring in type 1 diabetes mellitus regarding carbohydrate metabolism. (1 Mark)",
+                  "modelAnswer": "1. Decreased glucose uptake in muscle and adipose tissue (GLUT-4 insulin-dependent) → hyperglycemia.\n2. Stimulation of gluconeogenesis and glycogenolysis by liver → hyperglycemia.",
+                  "explanation": "Insulin deficiency leads to unchecked hepatic glucose production and reduced peripheral utilization.",
+                  "keyConcept": "Insulin deficiency causes increased hepatic glucose output and reduced uptake."
+                },
+                {
+                  "id": "64_d",
+                  "type": "essay",
+                  "question": "List 4 pathological complications of diabetes. (2 Marks)",
+                  "modelAnswer": "1. Arteries: microvascular disease / atherosclerosis.\n2. Kidney: diabetic nephropathy → nephrotic syndrome or CKD.\n3. Retina: retinopathy → blindness.\n4. Nerves: diabetic neuropathy → pain & numbness (glove-and-stock pattern).",
+                  "explanation": "Chronic hyperglycemia damages small and large vessels.",
+                  "keyConcept": "Microvascular (retina, kidney, nerves) and macrovascular complications."
+                },
+                {
+                  "id": "64_e",
+                  "type": "essay",
+                  "question": "State type of insulin and route of administration to be used in this case (DKA). (1 Mark)",
+                  "modelAnswer": "Regular insulin – IV/IM.",
+                  "explanation": "IV regular insulin allows rapid titration and is standard for severe DKA.",
+                  "keyConcept": "IV regular insulin for severe DKA."
+                }
+              ]
+            },
+            {
+              "id": 65,
+              "type": "case",
+              "question": "A 16-year-old girl presents with rapid deep breathing, abdominal pain, and acetone breath. Blood glucose 450 mg/dL, positive ketones, pH 7.1.",
+              "subQuestions": [
+                {
+                  "id": "65_a",
+                  "type": "essay",
+                  "question": "Mention the causes of the presenting clinical symptoms. (2 Marks)",
+                  "modelAnswer": "1. Deep rapid breathing (Kussmaul respiration) – compensatory for metabolic acidosis.\n2. Fruity odor – accumulation and expiration of acetone.\n3. Abdominal pain – triggered by acidosis and increased epinephrine (decreased intestinal motility).",
+                  "explanation": "Each symptom has a distinct metabolic cause in DKA.",
+                  "keyConcept": "Kussmaul breathing, acetone breath, abdominal pain are DKA symptoms."
+                },
+                {
+                  "id": "65_b",
+                  "type": "essay",
+                  "question": "Explain the pathogenesis of Type 1 Diabetes Mellitus. (1 Mark)",
+                  "modelAnswer": "- Autoimmune disease: destruction of pancreatic β-cells by T cells and autoantibodies (ICA, GADA).\n- Triggered by environmental factors (e.g., viral infection) in genetically susceptible individuals.",
+                  "explanation": "Type 1 diabetes results from cell-mediated autoimmunity against β-cells.",
+                  "keyConcept": "Autoimmune β-cell destruction causes type 1 DM."
+                },
+                {
+                  "id": "65_c",
+                  "type": "essay",
+                  "question": "Describe the metabolic changes in lipid metabolism in Type 1 DM. (2 Marks)",
+                  "modelAnswer": "[1] Hypertriglyceridemia: low lipoprotein lipase activity → poor clearance of chylomicrons and VLDL; liver produces more VLDL.\n[2] Ketosis: massive lipolysis → free fatty acids → accelerated β-oxidation → excess Acetyl CoA → ketone bodies.",
+                  "explanation": "Unrestrained lipolysis and reduced lipid clearance cause elevated triglycerides and ketones.",
+                  "keyConcept": "Lipoprotein lipase deficiency causes hypertriglyceridemia; lipolysis causes ketosis."
+                },
+                {
+                  "id": "65_d",
+                  "type": "essay",
+                  "question": "Identify the primary cause of dehydration in this patient (DKA). (1 Mark)",
+                  "modelAnswer": "Osmotic diuresis caused by high blood glucose (glucosuria) and ketone bodies.",
+                  "explanation": "Glucosuria is the main driver; ketonuria adds to the osmotic effect.",
+                  "keyConcept": "Osmotic diuresis from glucosuria and ketonuria."
+                },
+                {
+                  "id": "65_e",
+                  "type": "essay",
+                  "question": "For a mild, uncomplicated case of DKA, mention the preferred type of insulin and its route of administration. (2 Marks)",
+                  "modelAnswer": "Rapid-acting insulin analogs administered subcutaneously (S.C.).",
+                  "explanation": "In mild DKA, subcutaneous rapid-acting insulin is effective and avoids the need for IV infusion.",
+                  "keyConcept": "Subcutaneous rapid-acting insulin for mild DKA."
+                }
+              ]
+            },
+            {
+              "id": 66,
+              "type": "case",
+              "question": "A 52-year-old obese man presents with excessive thirst, frequent urination, and blurred vision. Laboratory tests show a fasting blood glucose of 190 mg/dL and an HbA1c of 8.1%, confirming a diagnosis of Type 2 Diabetes Mellitus. His physician discusses starting him on Liraglutide.",
+              "subQuestions": [
+                {
+                  "id": "66_a",
+                  "type": "essay",
+                  "question": "Describe the normal mechanism of insulin secretion from pancreatic β cells. (2 Marks)",
+                  "modelAnswer": "- Glucose enters β-cells via GLUT-2 → metabolized to ATP.\n- High ATP closes ATP-sensitive K+ channels → depolarization → opens voltage-gated Ca2+ channels.\n- Calcium influx triggers exocytosis of insulin granules.",
+                  "explanation": "This glucose-stimulated insulin secretion is the core of β-cell function.",
+                  "keyConcept": "ATP closes KATP channels, leading to Ca2+ influx and insulin release."
+                },
+                {
+                  "id": "66_b",
+                  "type": "essay",
+                  "question": "Name three complications associated with this patient's condition (type 2 diabetes). (3 Marks)",
+                  "modelAnswer": "1. Diabetic retinopathy.\n2. Diabetic nephropathy.\n3. Diabetic neuropathy.",
+                  "explanation": "Microvascular complications are common in both type 1 and type 2 diabetes.",
+                  "keyConcept": "Retinopathy, nephropathy, neuropathy."
+                },
+                {
+                  "id": "66_c",
+                  "type": "essay",
+                  "question": "List the adverse effects of Liraglutide. (1 Mark)",
+                  "modelAnswer": "- Nausea (most common, especially with high doses).\n- Possible association with pancreatitis.",
+                  "explanation": "Liraglutide (GLP-1 agonist) commonly causes GI side effects; rare pancreatitis risk.",
+                  "keyConcept": "Nausea and pancreatitis risk."
+                },
+                {
+                  "id": "66_d",
+                  "type": "essay",
+                  "question": "What is the route of administration for Liraglutide? (1 Mark)",
+                  "modelAnswer": "Subcutaneous (S.C.).",
+                  "explanation": "All GLP-1 receptor agonists are injected subcutaneously.",
+                  "keyConcept": "Subcutaneous injection."
+                },
+                {
+                  "id": "66_e",
+                  "type": "essay",
+                  "question": "Identify a contraindication for which Liraglutide should be avoided. (1 Mark)",
+                  "modelAnswer": "Patients with a family history of medullary carcinoma of the thyroid.",
+                  "explanation": "Liraglutide may increase the risk of thyroid C-cell tumors; contraindicated in such patients.",
+                  "keyConcept": "Contraindicated in medullary thyroid cancer history."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
