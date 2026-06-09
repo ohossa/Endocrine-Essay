@@ -51,7 +51,7 @@
             {
               "id": 88,
               "type": "essay",
-              "question": "Compare between the anterior lobe (adenohypophysis) and posterior lobe (neurohypophysis) of the pituitary gland.",
+              "question": "Compare between the adenohypophysis and neurohypophysis of the pituitary gland.",
               "modelAnswer": "| Feature | Adenohypophysis | Neurohypophysis |\n|---------|----------------|-----------------|\n| Origin | Rathke's pouch (oral ectoderm) | Infundibulum (neuroectoderm) |\n| Parts | Pars distalis, pars intermedia, pars tuberalis | Pars nervosa, infundibular stalk |\n| Cell types | Chromophobes, acidophils, basophils | Pituicytes (glial) |\n| Hormones | GH, prolactin, ACTH, TSH, FSH, LH | ADH, oxytocin (stored, not synthesized) |\n| Connection to hypothalamus | Vascular (portal) | Neural (hypothalamo-hypophyseal tract) |",
               "explanation": "The two lobes differ in origin, structure, and function.",
               "keyConcept": "Adenohypophysis synthesizes hormones; neurohypophysis stores hypothalamic hormones."
