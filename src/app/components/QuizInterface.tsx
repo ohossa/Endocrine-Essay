@@ -44,10 +44,13 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
 
   const isSpecialQuestion = current.id === 2;
 
-  const renderModelAnswer = (answer: string | undefined) => {
-    if (!answer) return null;
-    if (answer.includes('|')) {
-      const lines = answer.split('\n').map((l) => l.trim()).filter(Boolean);
+  const renderFormattedText = (
+    text: string | undefined,
+    fallbackClassName: string = "text-sm font-medium text-gray-700 dark:text-gray-355 leading-relaxed mb-4 whitespace-pre-wrap text-left"
+  ) => {
+    if (!text) return null;
+    if (text.includes('|')) {
+      const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
       const rows = lines
         .filter((line) => !line.includes('---') && line.includes('|'))
         .map((line) => {
@@ -62,12 +65,12 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         const bodyRows = rows.slice(1);
 
         return (
-          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
-            <table className="w-full text-left border-collapse">
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-250 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+            <table className="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
                 <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
                   {headers.map((h, idx) => (
-                    <th key={idx} className="p-4 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    <th key={idx} className="p-4 text-[10px] sm:text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                       {h}
                     </th>
                   ))}
@@ -77,7 +80,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                 {bodyRows.map((row, rIdx) => (
                   <tr key={rIdx} className="hover:bg-gray-50/50 dark:hover:bg-gray-950/30 transition-colors">
                     {row.map((cell, cIdx) => (
-                      <td key={cIdx} className="p-4 text-sm font-medium text-gray-750 dark:text-gray-300">
+                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-750 dark:text-gray-300">
                         {cell}
                       </td>
                     ))}
@@ -90,9 +93,9 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
       }
     }
     return (
-      <p className="text-sm font-medium text-gray-700 dark:text-gray-350 leading-relaxed mb-4 whitespace-pre-wrap text-left">
-        {answer}
-      </p>
+      <div className={fallbackClassName}>
+        {text}
+      </div>
     );
   };
 
@@ -352,9 +355,10 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
             </div>
 
             {/* Question Text */}
-            <h2 className="font-archivo text-xl lg:text-2xl font-bold text-gray-900 dark:text-white tracking-tight leading-relaxed mb-6 text-left whitespace-pre-line">
-              {current.text}
-            </h2>
+            {renderFormattedText(
+              current.text,
+              "font-archivo text-xl lg:text-2xl font-bold text-gray-900 dark:text-white tracking-tight leading-relaxed mb-6 text-left whitespace-pre-line"
+            )}
 
             {/* ANSWER AREA */}
             <div className="mt-8">
@@ -390,7 +394,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                         <Lightbulb size={16} className="text-success" />
                         <span className="text-xs font-bold text-success uppercase tracking-wider">Model Answer Reference</span>
                       </div>
-                      {renderModelAnswer(current.modelAnswer)}
+                      {renderFormattedText(current.modelAnswer)}
 
                       {/* Display Key Concept immediately upon model answer reveal */}
                       {current.keyConcept && (
@@ -462,9 +466,10 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                           </span>
                         </div>
 
-                        <h4 className="text-base font-bold text-gray-900 dark:text-white leading-relaxed text-left">
-                          {subQ.text}
-                        </h4>
+                        {renderFormattedText(
+                          subQ.text,
+                          "text-base font-bold text-gray-900 dark:text-white leading-relaxed text-left whitespace-pre-line"
+                        )}
 
                         {/* MCQ sub-type */}
                         {subQ.type === 'mcq' && subQ.options && (
@@ -560,7 +565,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                                   <Lightbulb size={14} />
                                   <span className="text-[10px] font-bold uppercase tracking-wider">Model Answer Reference</span>
                                 </div>
-                                {renderModelAnswer(subQ.modelAnswer)}
+                                  {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark leading-relaxed text-left whitespace-pre-wrap")}
 
                                 {/* Display Key Concept immediately upon model answer reveal */}
                                 {subQ.keyConcept && (

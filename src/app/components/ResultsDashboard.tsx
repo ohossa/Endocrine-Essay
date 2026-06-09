@@ -87,10 +87,13 @@ export function ResultsDashboard({
     return false;
   };
 
-  const renderModelAnswer = (answer: string | undefined, isSubQuestion: boolean = false) => {
-    if (!answer) return null;
-    if (answer.includes('|')) {
-      const lines = answer.split('\n').map((l) => l.trim()).filter(Boolean);
+  const renderFormattedText = (
+    text: string | undefined,
+    fallbackClassName: string = "text-sm font-semibold text-success-dark leading-relaxed whitespace-pre-wrap"
+  ) => {
+    if (!text) return null;
+    if (text.includes('|')) {
+      const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
       const rows = lines
         .filter((line) => !line.includes('---') && line.includes('|'))
         .map((line) => {
@@ -105,7 +108,7 @@ export function ResultsDashboard({
         const bodyRows = rows.slice(1);
 
         return (
-          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-250 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
             <table className="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
                 <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
@@ -133,9 +136,9 @@ export function ResultsDashboard({
       }
     }
     return (
-      <p className={`${isSubQuestion ? 'text-xs text-left' : 'text-sm'} font-semibold text-success-dark leading-relaxed whitespace-pre-wrap`}>
-        {answer}
-      </p>
+      <div className={fallbackClassName}>
+        {text}
+      </div>
     );
   };
 
@@ -517,9 +520,10 @@ export function ResultsDashboard({
                     </div>
 
                     {/* Question text / Scenario */}
-                    <h3 className="font-archivo text-base font-bold text-gray-900 dark:text-white tracking-tight leading-relaxed mb-5 whitespace-pre-line">
-                      {q.text}
-                    </h3>
+                    {renderFormattedText(
+                      q.text,
+                      "font-archivo text-base font-bold text-gray-900 dark:text-white tracking-tight leading-relaxed mb-5 whitespace-pre-line text-left"
+                    )}
 
                     {/* MCQ / TrueFalse Answers review */}
                     {(q.type === 'mcq' || q.type === 'truefalse') && q.options && (
@@ -615,7 +619,7 @@ export function ResultsDashboard({
                         </div>
                         <div className="bg-success/[0.02] rounded-2xl p-5 border border-success/10">
                           <div className="text-[10px] text-success font-bold uppercase tracking-wider mb-2">Reference Model Answer</div>
-                          {renderModelAnswer(q.modelAnswer, false)}
+                          {renderFormattedText(q.modelAnswer, "text-sm font-semibold text-success-dark leading-relaxed whitespace-pre-wrap text-left")}
                         </div>
                       </div>
                     )}
@@ -665,9 +669,10 @@ export function ResultsDashboard({
                                   </div>
                                 </div>
 
-                                <h4 className="text-sm font-bold text-gray-900 dark:text-white leading-relaxed mb-3">
-                                  {subQ.text}
-                                </h4>
+                                {renderFormattedText(
+                                  subQ.text,
+                                  "text-sm font-bold text-gray-900 dark:text-white leading-relaxed mb-3 text-left whitespace-pre-line"
+                                )}
 
                                 {subQ.type === 'mcq' && subQ.options && (
                                   <div className="space-y-2">
@@ -700,7 +705,7 @@ export function ResultsDashboard({
                                     </div>
                                     <div className="bg-success/[0.02] rounded-xl p-3.5 border border-success/10 text-xs">
                                       <span className="font-bold text-[10px] uppercase text-success block mb-1">Reference Answer:</span>
-                                      {renderModelAnswer(subQ.modelAnswer, true)}
+                                      {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark leading-relaxed text-left whitespace-pre-wrap")}
                                     </div>
                                   </div>
                                 )}
