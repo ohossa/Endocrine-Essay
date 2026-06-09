@@ -353,7 +353,10 @@ export function ChapterSelect({ onSelectChapter }: Props) {
             2nd Year Medical Students • Endocrine System Module
           </p>
           <p className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">
-            For inquiries or errors message 01040479155
+            For inquiries or to report errors, please contact:{' '}
+            <a href="mailto:omarhmaged@gmail.com" className="hover:text-gray-900 dark:hover:text-white transition-colors underline font-semibold">
+              omarhmaged@gmail.com
+            </a>
           </p>
         </div>
       </div>

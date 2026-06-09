@@ -827,9 +827,15 @@ export function ResultsDashboard({
           </button>
         </div>
 
-        <div className="mt-12 pb-8 text-center">
+        <div className="mt-12 pb-8 text-center space-y-1">
           <p className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">
             Endocrine Essay Questions • Chapter {chapter.id}: {chapter.title} • {subject ? subject.name : 'All Subjects'} • 2nd Year Medical Students
+          </p>
+          <p className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">
+            For inquiries or to report errors, please contact:{' '}
+            <a href="mailto:omarhmaged@gmail.com" className="hover:text-gray-900 dark:hover:text-white transition-colors underline font-semibold">
+              omarhmaged@gmail.com
+            </a>
           </p>
         </div>
       </div>
