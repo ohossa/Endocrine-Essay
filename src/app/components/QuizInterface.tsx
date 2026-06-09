@@ -905,9 +905,12 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 pb-8">
-        <p className="text-center text-[11px] text-gray-300 dark:text-gray-600 font-medium">
+      <div className="max-w-7xl mx-auto px-6 lg:px-10 pb-8 text-center space-y-1.5">
+        <p className="text-[11px] text-gray-400 dark:text-gray-500 font-medium">
           Endocrine Essay Questions • Chapter {chapter.id}: {chapter.title} • {subject ? subject.name : 'All Subjects'}
+        </p>
+        <p className="text-[11px] text-gray-400 dark:text-gray-500 font-medium">
+          For inquiries or errors message <span className="font-semibold text-gray-600 dark:text-gray-450">01040479155</span>
         </p>
       </div>
 

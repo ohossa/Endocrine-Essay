@@ -227,7 +227,7 @@ export function ChapterSelect({ onSelectChapter }: Props) {
                     <div className="text-[11px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider">
                       Chapter {chapter.id}
                     </div>
-                    <div className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">Page {chapter.page}</div>
+                    <div className="text-[11px] text-gray-400 dark:text-gray-500 font-medium">Page {chapter.page}</div>
                   </div>
                 </div>
 
@@ -313,7 +313,7 @@ export function ChapterSelect({ onSelectChapter }: Props) {
                     </div>
                   </div>
                   <div className="flex-shrink-0 text-right">
-                    <div className="text-[10px] text-gray-300 dark:text-gray-600 font-medium">{formatDate(r.date)}</div>
+                    <div className="text-[10px] text-gray-400 dark:text-gray-500 font-medium">{formatDate(r.date)}</div>
                     <Award size={14} className={`mt-1 ml-auto ${pctColor(r.pct)}`} />
                   </div>
                 </div>
@@ -348,12 +348,12 @@ export function ChapterSelect({ onSelectChapter }: Props) {
           </div>
         </div>
 
-        <div className="mt-10 pb-8 text-center space-y-1">
-          <p className="text-xs text-gray-300 dark:text-gray-600 font-medium">
+        <div className="mt-10 pb-8 text-center space-y-1.5">
+          <p className="text-xs text-gray-400 dark:text-gray-500 font-medium">
             2nd Year Medical Students • Endocrine System Module
           </p>
-          <p className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">
-            For inquiries or errors message 01040479155
+          <p className="text-[11px] text-gray-400 dark:text-gray-500 font-medium">
+            For inquiries or errors message <span className="font-semibold text-gray-600 dark:text-gray-450">01040479155</span>
           </p>
         </div>
       </div>
