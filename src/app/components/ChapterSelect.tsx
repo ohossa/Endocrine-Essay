@@ -227,7 +227,6 @@ export function ChapterSelect({ onSelectChapter }: Props) {
                     <div className="text-[11px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider">
                       Chapter {chapter.id}
                     </div>
-                    <div className="text-[11px] text-gray-300 dark:text-gray-600 font-medium">Page {chapter.page}</div>
                   </div>
                 </div>
 
