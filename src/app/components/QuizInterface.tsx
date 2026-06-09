@@ -38,6 +38,10 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
   const [subEssayDrafts, setSubEssayDrafts] = useState<Record<string, string>>({});
   const [revealedSubEssays, setRevealedSubEssays] = useState<Record<string, boolean>>({});
 
+  // Fill-in-the-blank state
+  const [blankInputs, setBlankInputs] = useState<string[]>([]);
+  const [blankSubmitted, setBlankSubmitted] = useState(false);
+
   const current = questions[currentIdx];
   const subjectColor: SubjectColor = current.subjectColor;
   const s = subjectStyles[subjectColor];
@@ -105,6 +109,9 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
     if (q.type === 'mcq' || q.type === 'truefalse' || q.type === 'matching' || q.type === 'essay') {
       return true;
     }
+    if (q.type === 'fillblank') {
+      return ans?.submitted === true;
+    }
     if (q.type === 'case' && q.subQuestions) {
       return q.subQuestions.every((subQ) => ans[subQ.id] !== undefined);
     }
@@ -118,6 +125,10 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
     setShowEssayAnswer(false);
     if (current.type === 'essay') {
       setEssayDraft(answers[currentIdx]?.text || '');
+    } else if (current.type === 'fillblank') {
+      const saved = answers[currentIdx]?.inputs as string[] | undefined;
+      setBlankInputs(saved || Array((current.blanks || []).length).fill(''));
+      setBlankSubmitted(answers[currentIdx]?.submitted === true);
     } else if (current.type === 'case' && current.subQuestions) {
       const drafts: Record<string, string> = {};
       const revs: Record<string, boolean> = {};
@@ -147,6 +158,17 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
     }
     if (q.type === 'essay') {
       return ans?.selfGrade === 'correct';
+    }
+    if (q.type === 'fillblank') {
+      const inputs: string[] = ans?.inputs || [];
+      const blanks: string[] = q.blanks || [];
+      const accepted: string[][] = q.acceptedAnswers || [];
+      return blanks.every((correct, i) => {
+        const userAns = (inputs[i] || '').trim().toLowerCase();
+        const primary = correct.trim().toLowerCase();
+        const alts = (accepted[i] || []).map((a) => a.trim().toLowerCase());
+        return userAns === primary || alts.includes(userAns);
+      });
     }
     if (q.type === 'case' && q.subQuestions) {
       return q.subQuestions.every((subQ) => {
@@ -337,7 +359,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                 </span>
                 <span className="text-xs text-gray-300 dark:text-gray-600 font-bold uppercase tracking-wider">•</span>
                 <span className="text-xs text-gray-400 dark:text-gray-500 font-bold uppercase tracking-wider">
-                  {current.type === 'case' ? 'Clinical Case' : 'Essay'}
+                  {current.type === 'case' ? 'Clinical Case' : current.type === 'fillblank' ? 'Fill in the Blank' : current.type === 'mcq' ? 'Multiple Choice' : current.type === 'truefalse' ? 'True / False' : current.type === 'matching' ? 'Matching' : 'Essay'}
                 </span>
               </div>
               
@@ -354,8 +376,8 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
               </button>
             </div>
 
-            {/* Question Text */}
-            {renderFormattedText(
+            {/* Question Text (hidden for fillblank – the sentence is shown interactively in the answer area) */}
+            {current.type !== 'fillblank' && renderFormattedText(
               current.text,
               "font-archivo text-xl lg:text-2xl font-bold text-gray-900 dark:text-white tracking-tight leading-relaxed mb-6 text-left whitespace-pre-line"
             )}
@@ -444,6 +466,145 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                   )}
                 </div>
               )}
+
+              {/* Fill in the Blank Type Question */}
+              {current.type === 'fillblank' && current.blanks && (() => {
+                const blanks = current.blanks;
+                const accepted = current.acceptedAnswers || [];
+                const checkBlank = (i: number, val: string) => {
+                  const primary = blanks[i].trim().toLowerCase();
+                  const alts = (accepted[i] || []).map((a) => a.trim().toLowerCase());
+                  return val.trim().toLowerCase() === primary || alts.includes(val.trim().toLowerCase());
+                };
+
+                // Split the text into segments and blanks
+                const parts = current.text.split('___');
+
+                return (
+                  <div className="space-y-6">
+                    {/* Interactive sentence with inline inputs */}
+                    <div className="p-6 rounded-3xl bg-gray-50 dark:bg-gray-900/50 border border-gray-100 dark:border-gray-800 leading-loose text-base font-semibold text-gray-800 dark:text-gray-200 text-left">
+                      {parts.map((part, i) => (
+                        <span key={i}>
+                          <span className="whitespace-pre-wrap">{part}</span>
+                          {i < blanks.length && (
+                            <span className={`inline-block mx-1 align-middle ${
+                              blankSubmitted
+                                ? checkBlank(i, blankInputs[i] || '')
+                                  ? 'ring-2 ring-success/40'
+                                  : 'ring-2 ring-danger/40'
+                                : 'ring-2 ring-gray-200 dark:ring-gray-700 focus-within:ring-physiology/40'
+                            } rounded-xl transition-all`}>
+                              <input
+                                type="text"
+                                disabled={blankSubmitted}
+                                value={blankInputs[i] || ''}
+                                onChange={(e) => {
+                                  const next = [...blankInputs];
+                                  next[i] = e.target.value;
+                                  setBlankInputs(next);
+                                }}
+                                placeholder={`Blank ${i + 1}`}
+                                className={`px-3 py-1.5 rounded-xl text-sm font-bold outline-none bg-white dark:bg-gray-900 border-0 min-w-[120px] text-center transition-all ${
+                                  blankSubmitted
+                                    ? checkBlank(i, blankInputs[i] || '')
+                                      ? 'text-success bg-success/5 dark:bg-success/10'
+                                      : 'text-danger bg-danger/5 dark:bg-danger/10 line-through'
+                                    : 'text-gray-800 dark:text-gray-200'
+                                }`}
+                                style={{ width: `${Math.max(120, (blankInputs[i]?.length || 8) * 9 + 40)}px` }}
+                              />
+                            </span>
+                          )}
+                        </span>
+                      ))}
+                    </div>
+
+                    {/* Submit button */}
+                    {!blankSubmitted && (
+                      <div className="flex justify-end">
+                        <button
+                          onClick={() => {
+                            setBlankSubmitted(true);
+                            setAnswers((prev) => ({
+                              ...prev,
+                              [currentIdx]: { inputs: [...blankInputs], submitted: true },
+                            }));
+                          }}
+                          disabled={blankInputs.some((v, i) => i < blanks.length && !v?.trim())}
+                          className="px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-full text-xs font-bold tracking-wide hover:scale-[0.98] transition-transform disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100"
+                        >
+                          Check Answers
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Per-blank result feedback */}
+                    {blankSubmitted && (
+                      <div className="feedback-animate space-y-3">
+                        {blanks.map((correctAns, i) => {
+                          const isBlankCorrect = checkBlank(i, blankInputs[i] || '');
+                          return (
+                            <div
+                              key={i}
+                              className={`flex items-start gap-3 p-4 rounded-2xl border ${
+                                isBlankCorrect
+                                  ? 'bg-success/[0.03] border-success/20'
+                                  : 'bg-danger/[0.03] border-danger/20'
+                              }`}
+                            >
+                              <div className={`flex-shrink-0 w-7 h-7 rounded-xl flex items-center justify-center ${
+                                isBlankCorrect ? 'bg-success/10' : 'bg-danger/10'
+                              }`}>
+                                {isBlankCorrect
+                                  ? <Check size={14} className="text-success" />
+                                  : <X size={14} className="text-danger" />}
+                              </div>
+                              <div className="flex-1 text-left">
+                                <div className={`text-xs font-bold mb-0.5 ${
+                                  isBlankCorrect ? 'text-success-dark' : 'text-danger-dark'
+                                }`}>
+                                  Blank {i + 1}: {isBlankCorrect ? 'Correct!' : `Incorrect — you wrote "${blankInputs[i] || '—'}"`}
+                                </div>
+                                {!isBlankCorrect && (
+                                  <div className="text-xs text-gray-500 dark:text-gray-400 font-semibold">
+                                    Correct answer: <span className="text-success-dark font-bold">{correctAns}</span>
+                                    {accepted[i]?.length > 0 && (
+                                      <span className="text-gray-400 dark:text-gray-500"> (also accepted: {accepted[i].join(', ')})</span>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+
+                        {/* Overall explanation */}
+                        {current.explanation && (
+                          <div className="mt-2 p-4 rounded-2xl bg-success/[0.03] border border-success/15 flex items-start gap-3">
+                            <Lightbulb size={16} className="text-success flex-shrink-0 mt-0.5" />
+                            <div>
+                              <div className="text-[10px] font-bold text-success uppercase tracking-wider mb-1">Explanation</div>
+                              <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">{current.explanation}</p>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Key Concept */}
+                        {current.keyConcept && (
+                          <div className="p-4 rounded-2xl bg-biochem/[0.04] border border-biochem/15 flex items-start gap-3">
+                            <Bookmark size={16} className="text-biochem mt-0.5 flex-shrink-0" />
+                            <div>
+                              <span className="text-[10px] font-bold text-biochem-dark uppercase tracking-wider block mb-0.5">Key Concept</span>
+                              <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">{current.keyConcept}</p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
 
               {/* Case Study Type Question (Sub-questions) */}
               {current.type === 'case' && current.subQuestions && (
@@ -691,7 +852,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                   )
                 )}
 
-                {current.explanation && (
+                {current.explanation && current.type !== 'fillblank' && (
                   <div className="rounded-3xl bg-success/[0.04] border border-success/15 px-7 py-5 flex items-start gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-2xl bg-success/10 flex items-center justify-center mt-0.5">
                       <Lightbulb size={20} className="text-success" />

@@ -17,7 +17,7 @@ type RawSubQuestion = {
 
 type RawQuestion = {
   id: number;
-  type?: 'mcq' | 'truefalse' | 'matching' | 'essay' | 'case';
+  type?: 'mcq' | 'truefalse' | 'matching' | 'essay' | 'case' | 'fillblank';
   question?: string;
   text?: string;
   options?: string[];
@@ -27,6 +27,8 @@ type RawQuestion = {
   explanation?: string;
   keyConcept?: string;
   subQuestions?: RawSubQuestion[];
+  blanks?: string[];          // correct answers for ___ blanks
+  acceptedAnswers?: string[][];  // optional extra accepted answers per blank
 };
 
 type RawTopic = {
@@ -151,6 +153,20 @@ function transformQuestion(q: RawQuestion, color: SubjectColor): Question {
       lecture: 1,
       subjectColor: color,
       modelAnswer: q.modelAnswer || '',
+      explanation: q.explanation || '',
+      keyConcept: q.keyConcept,
+    };
+  }
+
+  if (rawType === 'fillblank') {
+    return {
+      id: q.id,
+      type: 'fillblank',
+      text: textVal,
+      lecture: 1,
+      subjectColor: color,
+      blanks: q.blanks || [],
+      acceptedAnswers: q.acceptedAnswers,
       explanation: q.explanation || '',
       keyConcept: q.keyConcept,
     };

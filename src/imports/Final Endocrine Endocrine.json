@@ -1,0 +1,1350 @@
+{
+  "title": "Endocrine System - Comprehensive Question Bank",
+  "totalQuestions": 142,
+  "chapters": [
+    {
+      "chapterTitle": "Pituitary Gland",
+      "topics": [
+        {
+          "topic": "Pituitary Anatomy",
+          "questions": [
+            {
+              "id": 1,
+              "type": "essay",
+              "question": "Mention the relations of the pituitary gland and its clinical importance.",
+              "modelAnswer": "Relations:\n- Anterior: Tuberculum sellae\n- Posterior: Dorsum sellae, basilar artery, pons\n- Superior: Diaphragma sellae (separates from optic chiasma)\n- Inferior: Body of sphenoid & sphenoidal air sinus\n- Lateral: Cavernous sinus with its contents (CN III, IV, V1, V2, internal carotid artery)\nClinical importance (pituitary tumor):\n- Upward compression → bitemporal hemianopia\n- Downward compression → ballooning of sella turcica\n- Lateral pressure → eye congestion, diplopia\n- Endocrinal disturbances",
+              "explanation": "The pituitary's location in the sella turcica makes mass effects predictable.",
+              "keyConcept": "Spatial relations determine clinical manifestations of pituitary tumors."
+            },
+            {
+              "id": 2,
+              "type": "essay",
+              "question": "Enumerate the blood supply of the pituitary gland.",
+              "modelAnswer": "Arterial supply:\n- Superior hypophyseal arteries (from internal carotid)\n- Inferior hypophyseal artery (from internal carotid)\nVenous drainage:\n- Cavernous sinus",
+              "explanation": "The portal system connects hypothalamus to anterior pituitary.",
+              "keyConcept": "Superior hypophyseal arteries supply the portal system."
+            },
+            {
+              "id": 3,
+              "type": "essay",
+              "question": "What is the origin and development of the pituitary gland?",
+              "modelAnswer": "Origin: Ectodermal (two primordia).\nDevelopment:\n- Hypophysial (Rathke's pouch): upward diverticulum from stomodeal ectoderm → forms adenohypophysis.\n- Neurohypophysial (infundibular process): downward diverticulum from diencephalon → forms neurohypophysis.",
+              "explanation": "Adenohypophysis from oral ectoderm, neurohypophysis from neural ectoderm.",
+              "keyConcept": "Dual origin: Rathke's pouch + infundibulum."
+            },
+            {
+              "id": 4,
+              "type": "essay",
+              "question": "Enumerate the anomalies of the pituitary gland.",
+              "modelAnswer": "- Pharyngeal hypophysis (ectopic anterior pituitary tissue)\n- Craniopharyngioma (Rathke's pouch remnant)",
+              "explanation": "Remnants of Rathke's pouch can give rise to tumors or ectopic tissue.",
+              "keyConcept": "Craniopharyngioma is the most common suprasellar tumor in children."
+            },
+            {
+              "id": 5,
+              "type": "essay",
+              "question": "Compare between the anterior lobe (adenohypophysis) and posterior lobe (neurohypophysis) of the pituitary gland.",
+              "modelAnswer": "| Feature | Adenohypophysis | Neurohypophysis |\n|---------|----------------|-----------------|\n| Origin | Rathke's pouch (oral ectoderm) | Infundibulum (neuroectoderm) |\n| Parts | Pars distalis, pars intermedia, pars tuberalis | Pars nervosa, infundibular stalk |\n| Cell types | Chromophobes, acidophils, basophils | Pituicytes (glial) |\n| Hormones | GH, prolactin, ACTH, TSH, FSH, LH | ADH, oxytocin (stored, not synthesized) |\n| Connection to hypothalamus | Vascular (portal) | Neural (hypothalamo-hypophyseal tract) |",
+              "explanation": "The two lobes differ in origin, structure, and function.",
+              "keyConcept": "Adenohypophysis synthesizes hormones; neurohypophysis stores hypothalamic hormones."
+            },
+            {
+              "id": 6,
+              "type": "essay",
+              "question": "Describe the effects of pituitary tumors.",
+              "modelAnswer": "Upward pressure: optic chiasma compression → bitemporal hemianopia.\nDownward pressure: ballooning of sella turcica.\nLateral pressure: cavernous sinus involvement → eye congestion, diplopia, ophthalmoplegia.\nEndocrine disturbances: hypersecretion (e.g., prolactin, GH, ACTH) or hypopituitarism.",
+              "explanation": "Tumor effects depend on direction of expansion and hormone secretion.",
+              "keyConcept": "Mass effect and hormone excess/deficit define clinical presentation."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Histology",
+          "questions": [
+            {
+              "id": 7,
+              "type": "essay",
+              "question": "Compare between acidophils and basophils in the anterior pituitary.",
+              "modelAnswer": "| Feature | Acidophils | Basophils |\n|---------|------------|-----------|\n| % of cells | ~35% | ~15% |\n| LM stain | Acidic (eosin, orange G) | Basic (H&E, PAS positive) |\n| Granules (LM) | Large | Small, less numerous |\n| Hormones | GH, prolactin | TSH, ACTH, FSH, LH |",
+              "explanation": "Staining affinity correlates with hormone content.",
+              "keyConcept": "Acidophils → GH/prolactin; basophils → TSH/ACTH/FSH/LH."
+            },
+            {
+              "id": 8,
+              "type": "essay",
+              "question": "Describe the LM and EM structure of somatotrophs.",
+              "modelAnswer": "LM: Acidophilic, large closely packed granules.\nEM: Dense secretory granules (300-400 nm), well-developed rER and Golgi.\nFunction: Secrete growth hormone (GH) which stimulates IGF-1 production → bone and soft tissue growth.",
+              "explanation": "Somatotrophs are the most numerous acidophils.",
+              "keyConcept": "GH-secreting cells have large, dense granules."
+            },
+            {
+              "id": 9,
+              "type": "essay",
+              "question": "Describe the structure and function of pars intermedia.",
+              "modelAnswer": "Structure: Thin sheet of basophilic cells (corticotroph-like) separated from pars distalis by the pituitary cleft; often contains colloid-filled Rathke cysts.\nFunction: Secretes POMC-derived peptides (ACTH, lipotropin, MSH). In humans, largely rudimentary.",
+              "explanation": "Pars intermedia is better developed in lower animals.",
+              "keyConcept": "MSH production is minimal in adult humans."
+            },
+            {
+              "id": 10,
+              "type": "essay",
+              "question": "What are Herring bodies and where are they found?",
+              "modelAnswer": "Herring bodies are dilated terminal axons in the pars nervosa (posterior pituitary) that contain aggregates of neurosecretory granules (ADH or oxytocin) and neurophysins. They represent storage sites for posterior pituitary hormones.",
+              "explanation": "Visible on light microscopy as eosinophilic structures.",
+              "keyConcept": "Herring bodies = hormone storage in posterior pituitary."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Physiology",
+          "questions": [
+            {
+              "id": 11,
+              "type": "essay",
+              "question": "Define signal transduction and describe its three major stages.",
+              "modelAnswer": "Signal transduction = conversion of an extracellular signal into an intracellular response.\nStages:\n1. Reception – ligand binds to receptor.\n2. Transduction – signal relayed via second messengers or cascades.\n3. Response – cellular effect (enzyme activation, gene transcription, etc.).",
+              "explanation": "Fundamental concept in endocrinology.",
+              "keyConcept": "Reception → transduction → response."
+            },
+            {
+              "id": 12,
+              "type": "essay",
+              "question": "Describe the mechanism of the cAMP second messenger system.",
+              "modelAnswer": "1. Hormone binds to Gs-coupled receptor → GDP replaced by GTP on Gsα.\n2. Gsα activates adenylyl cyclase → ATP → cAMP.\n3. cAMP activates PKA → phosphorylates target proteins.\n4. PKA can translocate to nucleus and phosphorylate CREB → gene transcription.",
+              "explanation": "cAMP is a classic second messenger for many hormones (e.g., glucagon, epinephrine).",
+              "keyConcept": "GPCR → Gs → AC → cAMP → PKA."
+            },
+            {
+              "id": 13,
+              "type": "essay",
+              "question": "Compare between up‑regulation and down‑regulation of hormone receptors.",
+              "modelAnswer": "| Feature | Up‑regulation | Down‑regulation |\n|---------|---------------|-----------------|\n| Definition | Increase in receptor number | Decrease in receptor number |\n| Effect on sensitivity | Increases sensitivity to hormone | Decreases sensitivity |\n| Mechanism | Prolonged exposure to low hormone or antagonist | Prolonged exposure to high hormone (homologous desensitization) |",
+              "explanation": "Cells adjust receptor density to modulate responsiveness.",
+              "keyConcept": "Up = more sensitive; down = less sensitive."
+            },
+            {
+              "id": 14,
+              "type": "essay",
+              "question": "List the hormones secreted by the anterior pituitary and their primary targets.",
+              "modelAnswer": "- GH → liver, bone, soft tissues (via IGF-1)\n- Prolactin → mammary glands\n- TSH → thyroid\n- ACTH → adrenal cortex\n- FSH → gonads (follicle/spermatogenesis)\n- LH → gonads (ovulation/testosterone)",
+              "explanation": "Anterior pituitary is the master gland.",
+              "keyConcept": "Each tropic hormone controls a peripheral endocrine gland."
+            },
+            {
+              "id": 15,
+              "type": "essay",
+              "question": "Mention the factors that stimulate growth hormone (GH) secretion.",
+              "modelAnswer": "- Hypoglycemia, fasting, starvation\n- Exercise\n- Stress (surgery, trauma, fever)\n- Increased blood amino acids (arginine)\n- Glucagon\n- GHRH (hypothalamus)\n- Ghrelin",
+              "explanation": "GH release is increased during catabolic states.",
+              "keyConcept": "Low glucose and high amino acids stimulate GH."
+            },
+            {
+              "id": 16,
+              "type": "essay",
+              "question": "Discuss the metabolic effects of growth hormone.",
+              "modelAnswer": "- Carbohydrate metabolism: anti-insulin → increases blood glucose (diabetogenic).\n- Protein metabolism: anabolic → increases amino acid uptake and protein synthesis.\n- Fat metabolism: lipolytic → increases free fatty acids and ketogenesis.",
+              "explanation": "GH shifts metabolism toward fat utilization, sparing glucose.",
+              "keyConcept": "GH promotes lipolysis, protein synthesis, and insulin resistance."
+            },
+            {
+              "id": 17,
+              "type": "essay",
+              "question": "Describe the clinical features of acromegaly.",
+              "modelAnswer": "- Enlarged hands and feet\n- Coarse facial features (prognathism, broad nose)\n- Thickened skin, hyperhidrosis\n- Organomegaly (heart, liver, kidneys)\n- Kyphosis, arthropathy\n- Hypertension, glucose intolerance\n- Visual field defects (if macroadenoma)",
+              "explanation": "Excess GH after epiphyseal closure causes acral and soft tissue overgrowth.",
+              "keyConcept": "Acromegaly = post‑pubertal GH excess."
+            },
+            {
+              "id": 18,
+              "type": "essay",
+              "question": "Explain the milk‑let‑down reflex.",
+              "modelAnswer": "1. Nipple stimulation (suckling) → sensory impulses to spinal cord → hypothalamus.\n2. Paraventricular and supraoptic nuclei release oxytocin from posterior pituitary.\n3. Oxytocin contracts myoepithelial cells of breast alveoli and ducts → milk ejection.",
+              "explanation": "A classic neuroendocrine reflex.",
+              "keyConcept": "Suckling → oxytocin release → milk ejection."
+            },
+            {
+              "id": 19,
+              "type": "essay",
+              "question": "What are the renal and extra‑renal effects of ADH?",
+              "modelAnswer": "Renal (V2 receptors): increases aquaporin‑2 insertion in collecting duct → water reabsorption → concentrated urine.\nExtra‑renal:\n- V1a receptors (vascular smooth muscle): vasoconstriction → increased BP.\n- V1b (V3) receptors (anterior pituitary): increase ACTH secretion.",
+              "explanation": "ADH is primarily antidiuretic but also vasopressor at high doses.",
+              "keyConcept": "V2 = water reabsorption; V1 = vasoconstriction/ACTH."
+            },
+            {
+              "id": 20,
+              "type": "essay",
+              "question": "Describe the volume regulation of ADH secretion.",
+              "modelAnswer": "Hypovolemia (>15‑25% blood loss) reduces atrial stretch receptor activity → removes tonic inhibition → increases ADH release. Baroreceptors in carotid sinus and aortic arch also stimulate ADH. ADH then promotes water retention and vasoconstriction to restore volume.",
+              "explanation": "Volume regulation overrides osmotic control during severe hypovolemia.",
+              "keyConcept": "Severe hypovolemia strongly stimulates ADH."
+            },
+            {
+              "id": 21,
+              "type": "essay",
+              "question": "Compare between central and nephrogenic diabetes insipidus.",
+              "modelAnswer": "| Feature | Central DI | Nephrogenic DI |\n|---------|------------|----------------|\n| Cause | ADH deficiency (hypothalamus/pituitary lesion) | Kidney unresponsive to ADH (V2 receptor or aquaporin defect) |\n| Plasma ADH | Low | Normal/high |\n| Response to desmopressin | Corrects polyuria | No response |",
+              "explanation": "Differentiating test: desmopressin administration.",
+              "keyConcept": "Central DI responds to synthetic ADH; nephrogenic does not."
+            },
+            {
+              "id": 22,
+              "type": "essay",
+              "question": "Discuss the regulation of prolactin secretion.",
+              "modelAnswer": "Under tonic inhibition by dopamine (prolactin‑inhibiting factor, PIF) from hypothalamus. Prolactin‑releasing factors include TRH, VIP, and suckling-induced reflex. Estrogen increases prolactin secretion. Negative feedback: prolactin stimulates hypothalamic dopamine release.",
+              "explanation": "Dopamine is the primary regulator.",
+              "keyConcept": "Dopamine inhibits prolactin; suckling overrides it."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Pathology",
+          "questions": [
+            {
+              "id": 23,
+              "type": "essay",
+              "question": "What are the types of pituitary adenomas?",
+              "modelAnswer": "Functioning (hormone‑secreting):\n- Prolactinoma (most common)\n- GH‑secreting (gigantism/acromegaly)\n- ACTH‑secreting (Cushing disease)\n- TSH‑secreting (rare)\n- Gonadotroph adenomas (FSH/LH, often nonfunctioning)\nNonfunctioning (null cell) adenomas – present with mass effect.",
+              "explanation": "Prolactinoma is the most frequent functioning type.",
+              "keyConcept": "Adenomas are benign but can cause mass effect or hormone excess."
+            },
+            {
+              "id": 24,
+              "type": "essay",
+              "question": "Describe Sheehan's syndrome (postpartum pituitary necrosis).",
+              "modelAnswer": "Ischemic necrosis of the anterior pituitary following severe postpartum hemorrhage. Enlarged pituitary (from pregnancy) is vulnerable to hypotension. Results in panhypopituitarism: failure of lactation (prolactin), amenorrhea (FSH/LH), hypothyroidism (TSH), adrenal insufficiency (ACTH).",
+              "explanation": "First sign is often inability to breastfeed.",
+              "keyConcept": "Sheehan's = pituitary infarction after obstetric hemorrhage."
+            },
+            {
+              "id": 25,
+              "type": "essay",
+              "question": "List the causes of anterior pituitary hypofunction.",
+              "modelAnswer": "- Nonfunctioning pituitary adenomas (compression)\n- Sheehan syndrome\n- Surgical or radiation ablation\n- Infiltrative diseases (sarcoidosis, hemochromatosis)\n- Pituitary apoplexy (hemorrhage into adenoma)\n- Autoimmune hypophysitis\n- Empty sella syndrome",
+              "explanation": "Hypopituitarism may be gradual or acute.",
+              "keyConcept": "Mass, ischemia, infiltration, or autoimmunity."
+            },
+            {
+              "id": 26,
+              "type": "essay",
+              "question": "Compare between gigantism and acromegaly.",
+              "modelAnswer": "| Feature | Gigantism | Acromegaly |\n|---------|-----------|------------|\n| Age of onset | Before epiphyseal closure (childhood) | After epiphyseal closure (adulthood) |\n| Effect | Linear growth (tall stature) | Acral enlargement (hands, feet, jaw) |\n| Facial features | Normal proportions | Coarse, prognathism |\n| Organomegaly | Less prominent | Present |",
+              "explanation": "Same hormone (GH) but different effects due to growth plate status.",
+              "keyConcept": "Open plates → gigantism; closed plates → acromegaly."
+            },
+            {
+              "id": 27,
+              "type": "essay",
+              "question": "What is the clinical importance of posterior pituitary syndromes?",
+              "modelAnswer": "- Central diabetes insipidus (ADH deficiency): polyuria, polydipsia, dilute urine.\n- SIADH (inappropriate ADH secretion): hyponatremia, concentrated urine, fluid retention (due to tumors, CNS disorders, drugs).\nEctopic ADH production (e.g., small cell lung cancer) also causes SIADH.",
+              "explanation": "Posterior pituitary disorders involve water balance.",
+              "keyConcept": "DI = ADH deficiency; SIADH = ADH excess."
+            },
+            {
+              "id": 28,
+              "type": "case",
+              "question": "A 29‑year‑old primigravida has marked vaginal bleeding after the onset of labor. She remains hypotensive for 6 hours and requires transfusion of 12 packed RBC units. Postpartum, she becomes unable to breast‑feed the infant and does not resume normal menstrual cycles.",
+              "subQuestions": [
+                {
+                  "id": "28_a",
+                  "type": "essay",
+                  "question": "What is the most likely diagnosis?",
+                  "modelAnswer": "Sheehan syndrome (postpartum pituitary necrosis).",
+                  "explanation": "Massive postpartum hemorrhage leads to ischemic necrosis of the enlarged pituitary.",
+                  "keyConcept": "Sheehan syndrome."
+                },
+                {
+                  "id": "28_b",
+                  "type": "essay",
+                  "question": "What are the expected hormonal deficiencies?",
+                  "modelAnswer": "Deficiencies of GH, prolactin (→ failure to lactate), TSH (→ central hypothyroidism), ACTH (→ adrenal insufficiency), and FSH/LH (→ amenorrhea).",
+                  "explanation": "Destruction of anterior pituitary causes panhypopituitarism.",
+                  "keyConcept": "Panhypopituitarism."
+                }
+              ],
+              "explanation": "Classic presentation of Sheehan syndrome.",
+              "keyConcept": "Postpartum hemorrhage → pituitary infarction."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Pharmacology",
+          "questions": [
+            {
+              "id": 29,
+              "type": "essay",
+              "question": "List the therapeutic uses of octreotide.",
+              "modelAnswer": "- Acromegaly (somatostatin analogue)\n- Neuroendocrine tumors (carcinoid, VIPoma, glucagonoma, gastrinoma)\n- Bleeding esophageal varices (reduces splanchnic blood flow)\n- Refractory diarrhea (e.g., in HIV, short bowel syndrome)",
+              "explanation": "Octreotide suppresses GH and other gut hormone secretion.",
+              "keyConcept": "Octreotide = long‑acting somatostatin analogue."
+            },
+            {
+              "id": 30,
+              "type": "essay",
+              "question": "What are the adverse effects of octreotide?",
+              "modelAnswer": "- Gallstones (reduced gallbladder motility)\n- Nausea, vomiting, abdominal cramps\n- Pain at injection site\n- Vitamin B12 deficiency (long‑term use)\n- Hypoglycemia or hyperglycemia",
+              "explanation": "Biliary side effects are common due to inhibition of CCK and gallbladder contraction.",
+              "keyConcept": "Monitor gallbladder with long‑term octreotide."
+            },
+            {
+              "id": 31,
+              "type": "essay",
+              "question": "Mention the uses of bromocriptine.",
+              "modelAnswer": "- Prolactin‑secreting adenomas (reduces prolactin and tumor size)\n- Hyperprolactinemic amenorrhea/galactorrhea\n- Infertility due to hyperprolactinemia\n- Acromegaly (adjunct)\n- Parkinsonism (dopamine agonist)",
+              "explanation": "Bromocriptine is a dopamine agonist that inhibits prolactin secretion.",
+              "keyConcept": "Dopamine agonist = prolactin inhibitor."
+            },
+            {
+              "id": 32,
+              "type": "essay",
+              "question": "What are the adverse effects of ADH analogues (desmopressin, vasopressin)?",
+              "modelAnswer": "- Water intoxication and hyponatremia (if excessive water intake)\n- Vasoconstriction: facial pallor, coronary spasm, hypertension\n- Colic (intestinal smooth muscle contraction)\n- Allergic reactions",
+              "explanation": "Desmopressin is V2‑selective, reducing vasopressor effects.",
+              "keyConcept": "Monitor sodium and fluid balance during therapy."
+            },
+            {
+              "id": 33,
+              "type": "essay",
+              "question": "What is the mechanism of action of vaptans (ADH antagonists)?",
+              "modelAnswer": "Vaptans (e.g., tolvaptan, conivaptan) block V2 receptors in the renal collecting duct, preventing aquaporin‑2 insertion → water loss (aquaresis). Used in SIADH and hypervolemic hyponatremia.",
+              "explanation": "Vaptans produce electrolyte‑free water diuresis.",
+              "keyConcept": "V2 antagonists = aquaretics."
+            }
+          ]
+        },
+        {
+          "topic": "Pituitary Clinical Cases",
+          "questions": [
+            {
+              "id": 34,
+              "type": "case",
+              "question": "A 45‑year‑old man presents with enlargement of hands and feet, coarse facial features, and hypertension. Serum IGF‑1 is elevated.",
+              "subQuestions": [
+                {
+                  "id": "34_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Acromegaly.",
+                  "explanation": "GH excess after epiphyseal closure causes acral overgrowth.",
+                  "keyConcept": "Acromegaly."
+                },
+                {
+                  "id": "34_b",
+                  "type": "essay",
+                  "question": "Which imaging study would you order?",
+                  "modelAnswer": "MRI of the pituitary with contrast to look for a macroadenoma.",
+                  "explanation": "GH‑secreting pituitary adenoma is the most common cause.",
+                  "keyConcept": "Pituitary MRI is the imaging of choice."
+                }
+              ],
+              "explanation": "Typical acromegaly case.",
+              "keyConcept": "Elevated IGF‑1 confirms GH excess."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Thyroid & Parathyroid Glands",
+      "topics": [
+        {
+          "topic": "Thyroid Anatomy",
+          "questions": [
+            {
+              "id": 35,
+              "type": "essay",
+              "question": "Describe the relations of the thyroid gland.",
+              "modelAnswer": "Lies opposite C5‑T1. Each lobe:\n- Apex: oblique line of thyroid cartilage\n- Base: 5th‑6th tracheal ring\n- Medial surface: larynx, pharynx, trachea, esophagus\n- Posterolateral surface: carotid sheath (CCA, IJV, vagus)\n- Lateral surface: infra‑hyoid muscles (sternohyoid, sternothyroid, omohyoid) and skin.\nIsthmus: anterior to 2nd‑4th tracheal rings.",
+              "explanation": "Surgical anatomy is critical for thyroidectomy.",
+              "keyConcept": "Thyroid relations: trachea, esophagus, carotid sheath, infra‑hyoid muscles."
+            },
+            {
+              "id": 36,
+              "type": "essay",
+              "question": "Give an account on the blood supply of the thyroid gland and its clinical importance.",
+              "modelAnswer": "Arteries:\n- Superior thyroid (from ECA) – runs with external laryngeal nerve\n- Inferior thyroid (from thyrocervical trunk) – close to recurrent laryngeal nerve\n- Thyroidea ima (from brachiocephalic trunk, 10%)\nVeins: superior, middle → IJV; inferior → left brachiocephalic.\nClinical importance: ligation of superior thyroid near gland avoids external laryngeal nerve; ligation of inferior thyroid away from gland avoids recurrent laryngeal nerve.",
+              "explanation": "Nerve preservation is key during thyroid surgery.",
+              "keyConcept": "External laryngeal nerve near superior thyroid; recurrent laryngeal near inferior thyroid."
+            },
+            {
+              "id": 37,
+              "type": "essay",
+              "question": "Compare between the true and false capsules of the thyroid gland.",
+              "modelAnswer": "| Feature | True capsule | False capsule |\n|---------|--------------|---------------|\n| Nature | Condensation of connective tissue | Peritracheal layer of deep cervical fascia |\n| Adherence | Closely adherent to gland | Loosely surrounds the gland |\n| Surgical plane | None | Contains parathyroid glands and recurrent laryngeal nerve |",
+              "explanation": "The false capsule is the surgical capsule.",
+              "keyConcept": "False capsule contains important structures."
+            },
+            {
+              "id": 38,
+              "type": "essay",
+              "question": "Mention the structures related to the medial surface of the thyroid lobe.",
+              "modelAnswer": "- Larynx and pharynx (down to C6)\n- Trachea and esophagus (down to T1)\n- Cricothyroid muscle\n- Inferior constrictor muscle\n- External laryngeal nerve (on superior part)\n- Recurrent laryngeal nerve (in tracheoesophageal groove)",
+              "explanation": "These structures are at risk during thyroidectomy.",
+              "keyConcept": "Two tubes (larynx/trachea, pharynx/esophagus) and two nerves."
+            },
+            {
+              "id": 39,
+              "type": "essay",
+              "question": "Enumerate the lymph drainage of the thyroid gland.",
+              "modelAnswer": "- Prelaryngeal and pretracheal nodes (to deep cervical nodes)\n- Paratracheal nodes (to mediastinal nodes)\n- Direct drainage to deep cervical nodes (especially jugulodigastric)",
+              "explanation": "Lymphatic spread is important in thyroid cancer.",
+              "keyConcept": "First echelon: paratracheal and deep cervical."
+            },
+            {
+              "id": 40,
+              "type": "essay",
+              "question": "What precautions should be taken during thyroidectomy to avoid complications?",
+              "modelAnswer": "- Cut infrahyoid muscles in upper part to avoid denervation\n- Ligate superior thyroid artery near the gland to protect external laryngeal nerve\n- Ligate inferior thyroid artery away from the gland (posteriorly) to protect recurrent laryngeal nerve\n- Do not remove the posterior border of the gland to preserve parathyroid glands\n- Identify and preserve recurrent laryngeal nerve",
+              "explanation": "Nerve and parathyroid preservation are the keys.",
+              "keyConcept": "Ligate inferior thyroid artery away from gland."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Histology",
+          "questions": [
+            {
+              "id": 41,
+              "type": "essay",
+              "question": "Enumerate the cell types in the thyroid follicle and their hormones.",
+              "modelAnswer": "- Follicular cells (thyrocytes): T3 and T4\n- Parafollicular cells (C cells): calcitonin",
+              "explanation": "Two endocrine cell types with different products.",
+              "keyConcept": "Follicular cells = thyroid hormones; C cells = calcitonin."
+            },
+            {
+              "id": 42,
+              "type": "essay",
+              "question": "Describe the LM structure of thyroid follicles in normal, hyperactive, and hypoactive states.",
+              "modelAnswer": "Normal: cuboidal cells, moderate colloid.\nHyperactive (e.g., Graves): columnar cells, papillary infoldings, scalloped colloid margins.\nHypoactive (e.g., Hashimoto): flattened cells, large follicles distended with colloid.",
+              "explanation": "Epithelial height reflects functional activity.",
+              "keyConcept": "Columnar = hyperactive; flattened = hypoactive."
+            },
+            {
+              "id": 43,
+              "type": "essay",
+              "question": "Describe the EM features of a thyroid follicular cell.",
+              "modelAnswer": "- Junctional complexes (tight junctions) at apical border\n- Short microvilli on luminal surface\n- Well‑developed rER with dilated cisternae\n- Supranuclear Golgi apparatus\n- Apical secretory vesicles\n- Numerous mitochondria, lysosomes, and endocytotic vesicles",
+              "explanation": "EM reveals active protein synthesis and secretion.",
+              "keyConcept": "rER, Golgi, and apical vesicles indicate thyroglobulin production."
+            },
+            {
+              "id": 44,
+              "type": "essay",
+              "question": "Compare between chief cells and oxyphil cells of the parathyroid gland.",
+              "modelAnswer": "| Feature | Chief cells | Oxyphil cells |\n|---------|-------------|---------------|\n| Number | More numerous | Fewer |\n| Size | Smaller | Larger |\n| Cytoplasm | Basophilic (glycogen, lipids) | Acidophilic, granular (mitochondria) |\n| Function | Secrete PTH | Unknown (may be degenerate chief cells) |\n| Age | Present at all ages | Absent before 7 years |",
+              "explanation": "Oxyphil cells increase with age.",
+              "keyConcept": "Chief cells = PTH; oxyphil cells = mitochondria‑rich, function unclear."
+            },
+            {
+              "id": 45,
+              "type": "essay",
+              "question": "What are the staining characteristics of parafollicular (C) cells?",
+              "modelAnswer": "On H&E: larger and paler than follicular cells, located between the basement membrane and follicular cells (do not reach lumen). Special stains: silver stains (argyrophilic) and calcitonin immunostain (positive).",
+              "explanation": "C cells are neuroendocrine.",
+              "keyConcept": "Calcitonin immunostain confirms C‑cell origin."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Physiology",
+          "questions": [
+            {
+              "id": 46,
+              "type": "essay",
+              "question": "Name the principal thyroid hormone binding protein in plasma and its advantages.",
+              "modelAnswer": "Thyroxine‑binding globulin (TBG).\nAdvantages:\n1. Acts as a physiological reservoir (protects against acute fluctuations).\n2. Increases the half‑life of T4 and T3 (T4 half‑life ~7 days, T3 ~1 day).",
+              "explanation": "Only free hormone is biologically active.",
+              "keyConcept": "TBG prolongs hormone half‑life and provides a buffer."
+            },
+            {
+              "id": 47,
+              "type": "essay",
+              "question": "Explain why T3 is more biologically active than T4.",
+              "modelAnswer": "- T3 is less bound to plasma proteins (more free).\n- Higher affinity for nuclear thyroid hormone receptors.\n- Most T4 is converted to T3 in target cells (deiodination by D2).",
+              "explanation": "T4 is a prohormone; T3 is the active form.",
+              "keyConcept": "Peripheral conversion of T4 to T3 is essential for full activity."
+            },
+            {
+              "id": 48,
+              "type": "essay",
+              "question": "Describe three diagnostic clinical features of cretinism.",
+              "modelAnswer": "1. Disproportionate dwarfism (short limbs, delayed bone age).\n2. Dry, thick skin; coarse, scanty hair; umbilical hernia.\n3. Severe mental retardation (if untreated after first month).\nAlso: macroglossia, hoarse cry, constipation, bradycardia.",
+              "explanation": "Early treatment (thyroxine) prevents intellectual disability.",
+              "keyConcept": "Cretinism = congenital hypothyroidism with irreversible CNS damage if untreated."
+            },
+            {
+              "id": 49,
+              "type": "essay",
+              "question": "List cardiovascular manifestations of hyperthyroidism.",
+              "modelAnswer": "- Tachycardia (sinus rhythm or atrial fibrillation)\n- Increased systolic blood pressure, widened pulse pressure\n- Decreased diastolic BP (peripheral vasodilation)\n- Bounding peripheral pulses (water‑hammer pulse)\n- High‑output heart failure (if prolonged)",
+              "explanation": "Thyroid hormone increases β‑adrenergic sensitivity and cardiac contractility.",
+              "keyConcept": "Hyperthyroidism mimics sympathetic overactivity."
+            },
+            {
+              "id": 50,
+              "type": "essay",
+              "question": "Mention the steps of thyroid hormone synthesis.",
+              "modelAnswer": "1. Iodide trapping (NIS symporter)\n2. Oxidation of iodide to iodine (thyroperoxidase, TPO)\n3. Iodination of thyroglobulin tyrosine residues → MIT and DIT\n4. Coupling (MIT + DIT = T3; DIT + DIT = T4)\n5. Endocytosis of colloid\n6. Proteolysis and release of T3/T4 into blood",
+              "explanation": "All steps except iodide trapping require TSH stimulation.",
+              "keyConcept": "TPO catalyzes both iodination and coupling."
+            },
+            {
+              "id": 51,
+              "type": "essay",
+              "question": "What is the Wolff‑Chaikoff effect?",
+              "modelAnswer": "Acute high iodine load decreases thyroid hormone synthesis by:\n- Inhibiting organic binding of iodine (TPO)\n- Reducing cAMP response to TSH\n- Inhibiting thyroglobulin proteolysis\nThis autoregulatory effect lasts ~2 weeks (escape phenomenon).",
+              "explanation": "Protects against iodine overload.",
+              "keyConcept": "High iodine transiently blocks thyroid hormone synthesis."
+            },
+            {
+              "id": 52,
+              "type": "essay",
+              "question": "Discuss the effect of thyroid hormones on growth and development.",
+              "modelAnswer": "- Physical growth: stimulate GH secretion and potentiate its effects, promote protein synthesis.\n- Mental growth: essential for CNS myelination, synapse formation, and neuronal development in fetal and early postnatal life.\n- Sexual growth: required for normal gonadal function and fertility.",
+              "explanation": "Thyroid hormone deficiency during development causes cretinism.",
+              "keyConcept": "Thyroid hormones are permissive for normal development."
+            }
+          ]
+        },
+        {
+          "topic": "Thyroid Pathology",
+          "questions": [
+            {
+              "id": 53,
+              "type": "essay",
+              "question": "Describe the pathogenesis of Graves' disease.",
+              "modelAnswer": "Autoimmune disorder: production of thyroid‑stimulating immunoglobulins (TSI) that bind to TSH receptors on follicular cells, mimicking TSH action → unregulated T3/T4 production, diffuse goiter, and hyperthyroidism. Associated with antibodies against thyroid peroxidase and thyroglobulin. Exophthalmos due to orbital fibroblast activation and lymphocytic infiltration.",
+              "explanation": "TSI are agonists, not blockers.",
+              "keyConcept": "TSI cause hyperthyroidism and goiter."
+            },
+            {
+              "id": 54,
+              "type": "essay",
+              "question": "What are the microscopic features of Hashimoto's thyroiditis?",
+              "modelAnswer": "- Dense lymphocytic and plasma cell infiltrate with lymphoid follicles (germinal centers).\n- Atrophy of thyroid follicles, diminished colloid.\n- Hurthle cell (oncocytic) metaplasia: large cells with abundant granular, eosinophilic cytoplasm (mitochondria).\n- Variable fibrosis (fibrosing variant).",
+              "explanation": "Autoimmune destruction leads to hypothyroidism.",
+              "keyConcept": "Hurthle cells + germinal centers = Hashimoto."
+            },
+            {
+              "id": 55,
+              "type": "essay",
+              "question": "Describe the gross and microscopic features of subacute (de Quervain) thyroiditis.",
+              "modelAnswer": "Gross: enlarged, tender gland.\nMicroscopic: disrupted follicles with colloid extravasation → granulomatous reaction with multinucleated foreign‑body giant cells surrounding colloid. Mixed inflammatory infiltrate (neutrophils early, then lymphocytes, plasma cells, macrophages).",
+              "explanation": "Often post‑viral, self‑limited.",
+              "keyConcept": "Multinucleated giant cells + colloid = de Quervain."
+            },
+            {
+              "id": 56,
+              "type": "case",
+              "question": "A 45‑year‑old woman presents with painless, diffuse goiter. Histology shows lymphocytic infiltration, germinal centers, and Hurthle cell change.",
+              "subQuestions": [
+                {
+                  "id": "56_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Hashimoto's thyroiditis.",
+                  "explanation": "Classic histologic triad.",
+                  "keyConcept": "Hashimoto's thyroiditis."
+                },
+                {
+                  "id": "56_b",
+                  "type": "essay",
+                  "question": "What is the expected thyroid function?",
+                  "modelAnswer": "Usually hypothyroid (elevated TSH, low T4), but can be euthyroid or rarely hyperthyroid (hashitoxicosis).",
+                  "explanation": "Progressive destruction leads to hypothyroidism.",
+                  "keyConcept": "Hypothyroidism is the usual outcome."
+                }
+              ],
+              "explanation": "Hashimoto's is the most common cause of hypothyroidism in iodine‑sufficient areas.",
+              "keyConcept": "Lymphocytic infiltration + Hurthle cells."
+            },
+            {
+              "id": 57,
+              "type": "essay",
+              "question": "What are the main subtypes of thyroid carcinoma?",
+              "modelAnswer": "1. Papillary carcinoma (~85%): best prognosis, lymphatic spread, psammoma bodies, nuclear features (ground glass, grooves, inclusions).\n2. Follicular carcinoma (~10%): hematogenous spread, requires capsular/vascular invasion for diagnosis.\n3. Medullary carcinoma (~4%): from C cells, secretes calcitonin, amyloid stroma, MEN2 association.\n4. Anaplastic carcinoma (~1%): very aggressive, spindle/giant cells.",
+              "explanation": "Papillary is most common and indolent.",
+              "keyConcept": "Papillary → lymphatic; follicular → hematogenous; medullary → calcitonin; anaplastic → lethal."
+            },
+            {
+              "id": 58,
+              "type": "case",
+              "question": "A 30‑year‑old woman has a painless neck mass. FNA shows cells with intranuclear pseudoinclusions and psammoma bodies.",
+              "subQuestions": [
+                {
+                  "id": "58_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Papillary thyroid carcinoma.",
+                  "explanation": "Diagnostic nuclear features and psammoma bodies.",
+                  "keyConcept": "Papillary carcinoma."
+                },
+                {
+                  "id": "58_b",
+                  "type": "essay",
+                  "question": "What is the most common route of spread?",
+                  "modelAnswer": "Lymphatic spread to cervical lymph nodes.",
+                  "explanation": "Lymph node metastases are common and do not worsen prognosis.",
+                  "keyConcept": "Lymphatic metastasis."
+                }
+              ],
+              "explanation": "Classic FNA findings.",
+              "keyConcept": "Psammoma bodies + nuclear grooves = papillary carcinoma."
+            },
+            {
+              "id": 59,
+              "type": "essay",
+              "question": "What are the causes of hypothyroidism?",
+              "modelAnswer": "Primary (thyroid failure):\n- Hashimoto's thyroiditis (most common in iodine‑sufficient areas)\n- Iatrogenic (surgical removal, radioiodine)\n- Iodine deficiency (endemic)\n- Drugs (amiodarone, lithium)\nSecondary (pituitary): TSH deficiency (tumor, Sheehan)\nTertiary (hypothalamic): TRH deficiency",
+              "explanation": "Primary hypothyroidism is far more common.",
+              "keyConcept": "Most hypothyroidism is primary (thyroid gland failure)."
+            },
+            {
+              "id": 60,
+              "type": "case",
+              "question": "A patient presents with a multinodular goiter, fine‑needle aspiration shows benign follicular cells. The patient is euthyroid.",
+              "subQuestions": [
+                {
+                  "id": "60_a",
+                  "type": "essay",
+                  "question": "What is the most likely diagnosis?",
+                  "modelAnswer": "Simple (colloid) multinodular goiter.",
+                  "explanation": "Common in iodine‑deficient areas.",
+                  "keyConcept": "Multinodular goiter."
+                },
+                {
+                  "id": "60_b",
+                  "type": "essay",
+                  "question": "What is the pathogenesis?",
+                  "modelAnswer": "Iodine deficiency → low T4 → increased TSH → follicular hyperplasia → involution with nodule formation, hemorrhage, fibrosis.",
+                  "explanation": "Cyclic stimulation and involution produce nodules.",
+                  "keyConcept": "TSH drives hyperplasia and nodule formation."
+                }
+              ],
+              "explanation": "Most goiters are non‑neoplastic and euthyroid.",
+              "keyConcept": "Compensatory hyperplasia due to low iodine."
+            }
+          ]
+        },
+        {
+          "topic": "Parathyroid Pathology",
+          "questions": [
+            {
+              "id": 61,
+              "type": "essay",
+              "question": "Enumerate causes of primary hyperparathyroidism.",
+              "modelAnswer": "- Parathyroid adenoma (80‑85%)\n- Primary parathyroid hyperplasia (10‑15%)\n- Parathyroid carcinoma (<1%)\n- MEN1 or MEN2A associated",
+              "explanation": "Adenoma is the most common cause.",
+              "keyConcept": "Adenoma > hyperplasia > carcinoma."
+            },
+            {
+              "id": 62,
+              "type": "essay",
+              "question": "What are the skeletal manifestations of hyperparathyroidism?",
+              "modelAnswer": "- Generalized osteopenia/osteoporosis\n- Osteitis fibrosa cystica (brown tumors): bone cysts, subperiosteal resorption (especially phalanges)\n- Increased risk of fractures\n- Bone pain",
+              "explanation": "PTH stimulates osteoclast activity.",
+              "keyConcept": "Brown tumors = focal osteoclastic lesions."
+            },
+            {
+              "id": 63,
+              "type": "essay",
+              "question": "Describe the clinical features of hypoparathyroidism.",
+              "modelAnswer": "Hypocalcemia → neuromuscular irritability:\n- Tetany (carpopedal spasm, laryngospasm, generalized convulsions)\n- Chvostek sign (facial twitching on tapping)\n- Trousseau sign (carpal spasm with BP cuff)\n- Prolonged QT interval on ECG\n- Chronic: basal ganglia calcification, cataracts, dental abnormalities.",
+              "explanation": "Most common cause is iatrogenic (thyroidectomy).",
+              "keyConcept": "Hypocalcemia increases neuronal excitability."
+            },
+            {
+              "id": 64,
+              "type": "essay",
+              "question": "What is pseudohypoparathyroidism?",
+              "modelAnswer": "End‑organ resistance to PTH, most commonly due to Gs protein deficiency (Albright hereditary osteodystrophy). Laboratory: hypocalcemia, hyperphosphatemia, high PTH. Physical features: short stature, round face, brachydactyly (short 4th‑5th metacarpals), subcutaneous calcifications.",
+              "explanation": "PTH is high but ineffective.",
+              "keyConcept": "Receptor/G‑protein defect → PTH resistance."
+            },
+            {
+              "id": 65,
+              "type": "case",
+              "question": "A 56‑year‑old woman has recurrent renal stones, hypercalcemia, and low bone density. PTH is elevated.",
+              "subQuestions": [
+                {
+                  "id": "65_a",
+                  "type": "essay",
+                  "question": "What is the most likely diagnosis?",
+                  "modelAnswer": "Primary hyperparathyroidism.",
+                  "explanation": "Classic triad: hypercalcemia, renal stones, bone disease.",
+                  "keyConcept": "Primary hyperparathyroidism."
+                },
+                {
+                  "id": "65_b",
+                  "type": "essay",
+                  "question": "What is the most common cause?",
+                  "modelAnswer": "Solitary parathyroid adenoma.",
+                  "explanation": "Adenoma accounts for ~85% of cases.",
+                  "keyConcept": "Parathyroid adenoma."
+                }
+              ],
+              "explanation": "Hypercalcemia with elevated PTH = primary hyperparathyroidism.",
+              "keyConcept": "PTH appropriate for calcium level."
+            },
+            {
+              "id": 66,
+              "type": "essay",
+              "question": "What is the drug of choice for managing symptomatic hypocalcemia in hypoparathyroidism?",
+              "modelAnswer": "Acute symptomatic hypocalcemia (tetany): intravenous calcium gluconate.\nChronic: oral calcium and active vitamin D (calcitriol).",
+              "explanation": "Calcitriol increases intestinal calcium absorption.",
+              "keyConcept": "IV calcium for acute; oral calcium + calcitriol for maintenance."
+            }
+          ]
+        },
+        {
+          "topic": "Parathyroid Clinical",
+          "questions": [
+            {
+              "id": 67,
+              "type": "case",
+              "question": "A 60‑year‑old man with chronic kidney disease presents with bone pain and hyperphosphatemia. Labs: low calcium, high PTH.",
+              "subQuestions": [
+                {
+                  "id": "67_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Secondary hyperparathyroidism due to renal failure.",
+                  "explanation": "Low calcium and hyperphosphatemia stimulate PTH secretion.",
+                  "keyConcept": "Secondary hyperparathyroidism."
+                },
+                {
+                  "id": "67_b",
+                  "type": "essay",
+                  "question": "What is the treatment?",
+                  "modelAnswer": "Phosphate binders, vitamin D analogs (calcitriol), and calcimimetics (cinacalcet) to lower PTH.",
+                  "explanation": "Treatment targets underlying renal osteodystrophy.",
+                  "keyConcept": "Cinacalcet sensitizes calcium‑sensing receptors."
+                }
+              ],
+              "explanation": "Renal hyperparathyroidism is common in CKD.",
+              "keyConcept": "Low 1,25‑vitamin D and hyperphosphatemia drive PTH up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Adrenal (Suprarenal) Gland",
+      "topics": [
+        {
+          "topic": "Adrenal Anatomy",
+          "questions": [
+            {
+              "id": 68,
+              "type": "essay",
+              "question": "Describe the blood supply of the suprarenal gland.",
+              "modelAnswer": "Arterial: three sources\n- Superior suprarenal arteries (from inferior phrenic)\n- Middle suprarenal artery (from aorta)\n- Inferior suprarenal artery (from renal artery)\nVenous:\n- Right suprarenal vein → IVC (short)\n- Left suprarenal vein → left renal vein (long)",
+              "explanation": "Rich arterial supply; asymmetric venous drainage.",
+              "keyConcept": "Three arterial sources; right vein to IVC, left to renal vein."
+            },
+            {
+              "id": 69,
+              "type": "essay",
+              "question": "Compare between right and left suprarenal glands.",
+              "modelAnswer": "| Feature | Right | Left |\n|---------|-------|------|\n| Site | Lower (retroperitoneal) | Higher (more medial) |\n| Shape | Pyramidal | Semilunar |\n| Size | Smaller | Larger |\n| Anterior relations | Liver, IVC | Stomach, pancreas, spleen, lesser sac |\n| Venous drainage | Direct to IVC | Left renal vein |",
+              "explanation": "Anatomical differences are important in surgery.",
+              "keyConcept": "Left adrenal is more elongated and higher."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Histology",
+          "questions": [
+            {
+              "id": 70,
+              "type": "essay",
+              "question": "Compare between the EM features of spongiocytes and chromaffin cells.",
+              "modelAnswer": "| Feature | Spongiocytes (zona fasciculata) | Chromaffin cells (medulla) |\n|---------|--------------------------------|----------------------------|\n| SER | Abundant | Not prominent |\n| Mitochondria | Numerous, tubular cristae | Present, fewer |\n| Lipid droplets | Many (vacuolated cytoplasm) | Few or absent |\n| Secretory granules | Few | Many (catecholamines) |\n| RER | Not prominent | Moderate |",
+              "explanation": "Spongiocytes produce cortisol (lipid‑rich); chromaffin cells produce catecholamines (granule‑rich).",
+              "keyConcept": "Lipid droplets = steroid synthesis; granules = catecholamines."
+            },
+            {
+              "id": 71,
+              "type": "essay",
+              "question": "Describe the LM structure of zona glomerulosa.",
+              "modelAnswer": "Closely packed, rounded or arched cords of columnar/pyramidal cells with many fenestrated capillaries. Cytoplasm pale acidophilic with few small lipid droplets (vacuoles on H&E). Nucleus deeply stained, spherical. No distinct zonation.",
+              "explanation": "Zona glomerulosa is the outermost cortical layer.",
+              "keyConcept": "Aldosterone‑producing cells; lipid droplets but fewer than fasciculata."
+            },
+            {
+              "id": 72,
+              "type": "essay",
+              "question": "What are the staining characteristics of chromaffin cells?",
+              "modelAnswer": "- Chromaffin reaction: fresh tissue in potassium dichromate → brown/black granules (oxidation of catecholamines).\n- Iodine stain: red.\n- Immunohistochemistry: chromogranin A, synaptophysin, and specific enzymes (tyrosine hydroxylase).",
+              "explanation": "Chromaffin reaction is the classic histochemical stain.",
+              "keyConcept": "Dichromate oxidizes catecholamines to brown pigments."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Physiology",
+          "questions": [
+            {
+              "id": 73,
+              "type": "essay",
+              "question": "Mention the electrolyte disturbances in aldosterone hypersecretion.",
+              "modelAnswer": "- Hypernatremia (mild due to escape)\n- Hypokalemia (causes muscle weakness, cardiac arrhythmias, polyuria)\n- Metabolic alkalosis (H+ loss)\n- Hypomagnesemia (occasional)",
+              "explanation": "Aldosterone increases Na+ reabsorption and K+/H+ excretion.",
+              "keyConcept": "Conn's syndrome: hypertension, hypokalemia, alkalosis."
+            },
+            {
+              "id": 74,
+              "type": "essay",
+              "question": "Illustrate the regulation of cortisol secretion.",
+              "modelAnswer": "Hypothalamus: CRH → anterior pituitary: ACTH → adrenal cortex: cortisol.\nNegative feedback: cortisol inhibits CRH and ACTH (long loop). Also ACTH inhibits CRH (short loop).\nStress (physical, emotional) activates CRH secretion.\nCircadian rhythm: peak ~8 am, nadir midnight.",
+              "explanation": "The HPA axis is the classic neuroendocrine feedback loop.",
+              "keyConcept": "CRH → ACTH → cortisol → feedback inhibition."
+            },
+            {
+              "id": 75,
+              "type": "essay",
+              "question": "What are the metabolic effects of cortisol?",
+              "modelAnswer": "- Carbohydrate: stimulates gluconeogenesis, decreases glucose uptake (anti‑insulin) → hyperglycemia.\n- Protein: catabolic (muscle wasting, thin skin, osteoporosis).\n- Fat: lipolytic, but causes central obesity (redistribution to face, neck, trunk).\n- Mineralocorticoid (weak): sodium retention, potassium loss.",
+              "explanation": "Chronic excess causes Cushing syndrome.",
+              "keyConcept": "Cortisol is catabolic to protein and anti‑insulin."
+            },
+            {
+              "id": 76,
+              "type": "essay",
+              "question": "Describe the functions of catecholamines secreted by the adrenal medulla.",
+              "modelAnswer": "- Reinforce sympathetic nervous system (fight‑or‑flight).\n- Increase heart rate and contractility, vasoconstriction (α1) or vasodilation (β2) depending on vascular bed.\n- Mobilize energy: glycogenolysis (liver), lipolysis.\n- Bronchodilation (β2).\n- Stimulate non‑innervated structures (e.g., sweat glands).",
+              "explanation": "Adrenal medulla acts as a neuroendocrine amplifier.",
+              "keyConcept": "Epinephrine prolongs and enhances sympathetic effects."
+            }
+          ]
+        },
+        {
+          "topic": "Adrenal Pathology",
+          "questions": [
+            {
+              "id": 77,
+              "type": "essay",
+              "question": "Describe the morphology of adrenal glands in Cushing syndrome.",
+              "modelAnswer": "- Exogenous glucocorticoids: bilateral cortical atrophy.\n- ACTH‑dependent (pituitary tumor): diffuse bilateral hyperplasia (thickened cortex).\n- Primary adrenal adenoma: solitary yellow nodule, compresses adjacent cortex.\n- Adrenocortical carcinoma: large (>5 cm), invasive, necrosis, hemorrhage.",
+              "explanation": "Morphology depends on the cause.",
+              "keyConcept": "Atrophy = exogenous; hyperplasia = ACTH excess; tumor = primary adrenal."
+            },
+            {
+              "id": 78,
+              "type": "case",
+              "question": "A 28‑year‑old woman presents with moon face, buffalo hump, easy bruising, and hypertension. ACTH is low.",
+              "subQuestions": [
+                {
+                  "id": "78_a",
+                  "type": "essay",
+                  "question": "What is the most likely cause?",
+                  "modelAnswer": "Adrenocortical adenoma (primary adrenal Cushing).",
+                  "explanation": "Low ACTH indicates autonomous cortisol secretion from adrenal.",
+                  "keyConcept": "Low ACTH + hypercortisolism = adrenal tumor."
+                },
+                {
+                  "id": "78_b",
+                  "type": "essay",
+                  "question": "What imaging would you order?",
+                  "modelAnswer": "CT of adrenal glands to identify a mass.",
+                  "explanation": "Adenomas are typically small and well‑circumscribed.",
+                  "keyConcept": "Adrenal CT is the study of choice."
+                }
+              ],
+              "explanation": "Primary adrenal Cushing is ACTH‑independent.",
+              "keyConcept": "ACTH low → primary adrenal lesion."
+            },
+            {
+              "id": 79,
+              "type": "essay",
+              "question": "What are the clinical features of Addison's disease (chronic adrenal insufficiency)?",
+              "modelAnswer": "- Hyperpigmentation (due to increased ACTH and MSH)\n- Fatigue, weight loss, anorexia\n- Hypotension, hyponatremia, hyperkalemia\n- Hypoglycemia (cortisol deficiency)\n- Salt craving\n- Vitiligo (autoimmune form)",
+              "explanation": "Primary adrenal insufficiency is autoimmune in developed countries.",
+              "keyConcept": "Hyperpigmentation + hyponatremia + hyperkalemia = Addison's."
+            },
+            {
+              "id": 80,
+              "type": "case",
+              "question": "A 45‑year‑old man presents with acute abdominal pain, vomiting, hypotension, and hyperpigmentation. He was on long‑term steroids for asthma but stopped 2 days ago.",
+              "subQuestions": [
+                {
+                  "id": "80_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Acute adrenal insufficiency (Addisonian crisis).",
+                  "explanation": "Sudden withdrawal of exogenous steroids in a suppressed HPA axis.",
+                  "keyConcept": "Steroid withdrawal can cause fatal adrenal crisis."
+                },
+                {
+                  "id": "80_b",
+                  "type": "essay",
+                  "question": "What is the immediate management?",
+                  "modelAnswer": "IV hydrocortisone, IV fluids (normal saline with glucose), and treat underlying precipitant.",
+                  "explanation": "Fluids and steroids save life.",
+                  "keyConcept": "IV hydrocortisone + saline resuscitation."
+                }
+              ],
+              "explanation": "Adrenal crisis is a medical emergency.",
+              "keyConcept": "Any stress in a steroid‑dependent patient requires stress‑dose steroids."
+            },
+            {
+              "id": 81,
+              "type": "essay",
+              "question": "Describe the rule of 10 for pheochromocytoma.",
+              "modelAnswer": "- 10% are extra‑adrenal (paragangliomas)\n- 10% are bilateral\n- 10% are malignant (metastasize)\n- 10% are familial (MEN2, VHL, NF1)\n- 10% occur in children (old rule; now ~20% familial)",
+              "explanation": "Helpful mnemonic for clinical features.",
+              "keyConcept": "The 10% rule for pheochromocytoma."
+            },
+            {
+              "id": 82,
+              "type": "case",
+              "question": "A 35‑year‑old woman has episodic headaches, palpitations, and hypertension. 24‑hour urine metanephrines are elevated. CT shows a 3 cm adrenal mass.",
+              "subQuestions": [
+                {
+                  "id": "82_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Pheochromocytoma.",
+                  "explanation": "Paroxysmal hypertension + elevated metanephrines + adrenal mass.",
+                  "keyConcept": "Pheochromocytoma."
+                },
+                {
+                  "id": "82_b",
+                  "type": "essay",
+                  "question": "What preoperative management is required?",
+                  "modelAnswer": "Alpha‑adrenergic blockade (phenoxybenzamine) for 10‑14 days, followed by beta‑blockade if needed, to prevent hypertensive crisis during surgery.",
+                  "explanation": "Uncontrolled tumor can release catecholamines during manipulation.",
+                  "keyConcept": "Alpha blockade first, then beta."
+                }
+              ],
+              "explanation": "Preoperative alpha blockade is mandatory.",
+              "keyConcept": "Always block alpha before beta in pheochromocytoma."
+            },
+            {
+              "id": 83,
+              "type": "case",
+              "question": "A 4‑year‑old child has a large abdominal mass, bone pain, and periorbital ecchymosis. Urine VMA and HVA are elevated. Biopsy shows small round blue cells forming Homer‑Wright rosettes.",
+              "subQuestions": [
+                {
+                  "id": "83_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Neuroblastoma.",
+                  "explanation": "Classic presentation in a child with catecholamine metabolites.",
+                  "keyConcept": "Neuroblastoma."
+                },
+                {
+                  "id": "83_b",
+                  "type": "essay",
+                  "question": "What is the cell of origin?",
+                  "modelAnswer": "Neural crest cells (sympathogonia).",
+                  "explanation": "Derived from embryonic neural crest.",
+                  "keyConcept": "Neural crest origin."
+                }
+              ],
+              "explanation": "Neuroblastoma is the most common extracranial solid tumor in children.",
+              "keyConcept": "Homer‑Wright rosettes, elevated VMA/HVA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Endocrine Pancreas",
+      "topics": [
+        {
+          "topic": "Pancreas Physiology",
+          "questions": [
+            {
+              "id": 84,
+              "type": "essay",
+              "question": "Explain the structure of the insulin receptor and how it transduces a signal.",
+              "modelAnswer": "Structure: tetramer of 2 α (extracellular, bind insulin) and 2 β (transmembrane, tyrosine kinase) subunits.\nMechanism: Insulin binds α → β subunits autophosphorylate → activate intracellular tyrosine kinase → phosphorylate IRS proteins → activate PI3K and MAPK pathways → GLUT‑4 translocation, glycogen synthesis, gene expression.",
+              "explanation": "Insulin receptor is a receptor tyrosine kinase.",
+              "keyConcept": "Autophosphorylation of β subunits is the first step."
+            },
+            {
+              "id": 85,
+              "type": "essay",
+              "question": "Describe the normal mechanism of glucose‑stimulated insulin secretion from pancreatic β cells.",
+              "modelAnswer": "1. Glucose enters β cells via GLUT‑2 → metabolized to ATP.\n2. Increased ATP closes ATP‑sensitive K+ channels → membrane depolarization.\n3. Depolarization opens voltage‑gated Ca2+ channels → Ca2+ influx.\n4. Calcium triggers exocytosis of insulin‑containing granules.",
+              "explanation": "This is the core of β‑cell function.",
+              "keyConcept": "ATP closes KATP channels → Ca2+ entry → insulin release."
+            },
+            {
+              "id": 86,
+              "type": "essay",
+              "question": "What are the effects of insulin on carbohydrate, fat, and protein metabolism?",
+              "modelAnswer": "Carbohydrate: increases glucose uptake (GLUT‑4), glycogenesis, glycolysis; decreases gluconeogenesis and glycogenolysis.\nFat: stimulates lipogenesis (fatty acid and triglyceride synthesis), inhibits lipolysis.\nProtein: increases amino acid uptake and protein synthesis; decreases protein degradation.",
+              "explanation": "Insulin is an anabolic hormone.",
+              "keyConcept": "Insulin lowers blood glucose, promotes fat storage, and builds protein."
+            },
+            {
+              "id": 87,
+              "type": "essay",
+              "question": "Compare between insulin and glucagon regarding their actions and deficiency states.",
+              "modelAnswer": "| Action | Insulin | Glucagon |\n|--------|---------|----------|\n| Blood glucose | Decreases | Increases |\n| Glycogen | Increases synthesis | Increases breakdown |\n| Gluconeogenesis | Inhibits | Stimulates |\n| Lipolysis | Inhibits | Stimulates |\n| Ketogenesis | Inhibits | Stimulates |\n| Overall | Anabolic, energy storage | Catabolic, energy release |\n| Deficiency | Diabetes mellitus | Hypoglycemia (rare) |",
+              "explanation": "Insulin and glucagon are counter‑regulatory hormones.",
+              "keyConcept": "Insulin = fuel storage; glucagon = fuel mobilization."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterTitle": "Diabetes Mellitus & Metabolic Disorders",
+      "topics": [
+        {
+          "topic": "Gluconeogenesis Biochemistry",
+          "questions": [
+            {
+              "id": 88,
+              "type": "essay",
+              "question": "Mention the four key regulatory enzymes of gluconeogenesis and list their allosteric regulators.",
+              "modelAnswer": "1. Pyruvate carboxylase: activated by acetyl‑CoA.\n2. PEPCK: not allosterically regulated (hormonally).\n3. Fructose 1,6‑bisphosphatase: inhibited by AMP and fructose‑2,6‑bisphosphate.\n4. Glucose‑6‑phosphatase: inhibited by glucose‑6‑phosphate (product inhibition).",
+              "explanation": "These enzymes bypass the irreversible steps of glycolysis.",
+              "keyConcept": "Acetyl‑CoA activates pyruvate carboxylase; AMP and F‑2,6‑BP inhibit FBPase."
+            },
+            {
+              "id": 89,
+              "type": "essay",
+              "question": "Name two metabolic cycles that provide substrates for gluconeogenesis.",
+              "modelAnswer": "1. Cori cycle (lactic acid cycle): muscle lactate → liver glucose.\n2. Glucose‑alanine cycle (Cahill cycle): muscle alanine → liver glucose.",
+              "explanation": "These cycles shuttle carbon from peripheral tissues to the liver.",
+              "keyConcept": "Cori cycle and glucose‑alanine cycle."
+            },
+            {
+              "id": 90,
+              "type": "essay",
+              "question": "How many ATP equivalents are required to synthesize one glucose from two pyruvate?",
+              "modelAnswer": "6 ATP (2 pyruvate → 2 oxaloacetate: 2 ATP; 2 oxaloacetate → 2 PEP: 2 GTP; 2 3‑phosphoglycerate → 2 1,3‑bisphosphoglycerate: 2 ATP; total = 4 ATP + 2 GTP = 6 ATP equivalents).",
+              "explanation": "Gluconeogenesis is energy‑intensive.",
+              "keyConcept": "6 high‑energy bonds per glucose."
+            },
+            {
+              "id": 91,
+              "type": "essay",
+              "question": "List three factors that stimulate gluconeogenesis during severe exercise.",
+              "modelAnswer": "1. Increased lactate from muscle (Cori cycle).\n2. Increased glucagon and catecholamines.\n3. Increased supply of gluconeogenic amino acids from muscle proteolysis.",
+              "explanation": "Exercise increases demand for glucose.",
+              "keyConcept": "Lactate, glucagon, and amino acids drive gluconeogenesis."
+            },
+            {
+              "id": 92,
+              "type": "essay",
+              "question": "What is the importance of gluconeogenesis?",
+              "modelAnswer": "- Maintains blood glucose during fasting and starvation.\n- Provides glucose for obligate users (brain, RBCs).\n- Clears lactate (Cori cycle).\n- Supplies glucose for lactose synthesis in mammary gland.",
+              "explanation": "Essential for survival during fasting.",
+              "keyConcept": "Gluconeogenesis prevents hypoglycemia."
+            },
+            {
+              "id": 93,
+              "type": "essay",
+              "question": "Compare between hexokinase and glucokinase.",
+              "modelAnswer": "| Feature | Hexokinase | Glucokinase |\n|---------|------------|-------------|\n| Km | Low (0.1 mM) | High (10 mM) |\n| Location | Most tissues | Liver, β cells |\n| Function | Basal glucose phosphorylation | Postprandial glucose clearance |\n| Regulation | Inhibited by G6P | Induced by insulin |",
+              "explanation": "Glucokinase acts as a glucose sensor in β cells and liver.",
+              "keyConcept": "Glucokinase has high Km, low affinity."
+            }
+          ]
+        },
+        {
+          "topic": "Feed‑Fast Cycle Biochemistry",
+          "questions": [
+            {
+              "id": 94,
+              "type": "essay",
+              "question": "State four changes in carbohydrate metabolism in adipose tissue during the well‑fed state.",
+              "modelAnswer": "1. Increased glucose uptake via GLUT‑4 (insulin).\n2. Increased glycolysis → glycerol‑3‑phosphate for TAG synthesis.\n3. Increased HMP shunt → NADPH for fatty acid synthesis.\n4. Increased TAG storage (lipogenesis).",
+              "explanation": "Fed state promotes fat storage.",
+              "keyConcept": "Insulin promotes glucose uptake and lipogenesis in adipose."
+            },
+            {
+              "id": 95,
+              "type": "essay",
+              "question": "Explain the role of the kidney during prolonged fasting.",
+              "modelAnswer": "- Performs gluconeogenesis (expresses all four key enzymes).\n- Takes up glutamine → NH3 to buffer H+ (excreted as NH4+) → compensates for ketosis.\n- Synthesizes glucose from glutamine and lactate.",
+              "explanation": "Kidney contributes ~20‑25% of glucose during prolonged fasting.",
+              "keyConcept": "Renal gluconeogenesis and acid‑base regulation."
+            },
+            {
+              "id": 96,
+              "type": "essay",
+              "question": "What are the metabolic differences between the absorptive and fasting states regarding insulin/glucagon ratio?",
+              "modelAnswer": "Absorptive state: high insulin, low glucagon (high I/G ratio).\nFasting state: low insulin, high glucagon (low I/G ratio).",
+              "explanation": "I/G ratio switches from anabolic to catabolic.",
+              "keyConcept": "High I/G = storage; low I/G = mobilization."
+            }
+          ]
+        },
+        {
+          "topic": "Hexose Metabolism Disorders Biochemistry",
+          "questions": [
+            {
+              "id": 97,
+              "type": "essay",
+              "question": "A 2‑year‑old boy has recurrent hypoglycemia after eating fruit. Name the deficient enzyme and its reaction.",
+              "modelAnswer": "Enzyme: Aldolase B.\nReaction: Fructose‑1‑phosphate → dihydroxyacetone phosphate + glyceraldehyde.",
+              "explanation": "Aldolase B deficiency causes hereditary fructose intolerance.",
+              "keyConcept": "Aldolase B deficiency."
+            },
+            {
+              "id": 98,
+              "type": "essay",
+              "question": "Why does eating fruit lead to hypoglycemia in hereditary fructose intolerance?",
+              "modelAnswer": "Accumulation of fructose‑1‑phosphate traps inorganic phosphate (Pi) and depletes ATP. Low Pi inhibits glycogen phosphorylase (blocking glycogenolysis) and low ATP impairs gluconeogenesis, resulting in hypoglycemia.",
+              "explanation": "Similar mechanism to galactosemia.",
+              "keyConcept": "Fructose‑1‑P accumulation depletes Pi and ATP."
+            },
+            {
+              "id": 99,
+              "type": "essay",
+              "question": "What is the biochemical cause of hyperuricemia in hereditary fructose intolerance?",
+              "modelAnswer": "Pi trapping leads to AMP deamination → uric acid production.",
+              "explanation": "Increased uric acid from nucleotide breakdown.",
+              "keyConcept": "Low Pi → AMP degradation → hyperuricemia."
+            },
+            {
+              "id": 100,
+              "type": "essay",
+              "question": "Mention the rate‑limiting enzyme in normal galactose metabolism.",
+              "modelAnswer": "Galactose‑1‑phosphate uridyltransferase (GALT).",
+              "explanation": "GALT deficiency causes classic galactosemia.",
+              "keyConcept": "GALT is the key enzyme."
+            },
+            {
+              "id": 101,
+              "type": "essay",
+              "question": "What are the biochemical causes of hypoglycemia in severe classic galactosemia?",
+              "modelAnswer": "Accumulation of galactose‑1‑phosphate traps Pi and depletes ATP, inhibiting glycogenolysis and gluconeogenesis, similar to hereditary fructose intolerance.",
+              "explanation": "Galactose‑1‑P is toxic.",
+              "keyConcept": "Galactose‑1‑P accumulation depletes Pi and ATP."
+            },
+            {
+              "id": 102,
+              "type": "essay",
+              "question": "When do symptoms of galactosemia typically appear?",
+              "modelAnswer": "Symptoms appear during breast feeding or after milk ingestion (newborn period).",
+              "explanation": "Milk contains lactose (galactose + glucose).",
+              "keyConcept": "Onset with milk feeding."
+            }
+          ]
+        },
+        {
+          "topic": "Diabetic Complications Biochemistry",
+          "questions": [
+            {
+              "id": 103,
+              "type": "essay",
+              "question": "A 54‑year‑old man with type 1 diabetes develops cataracts. Explain the biochemical basis.",
+              "modelAnswer": "Hyperglycemia → glucose enters lens via GLUT‑1 → converted to sorbitol by aldose reductase. Sorbitol accumulates (poorly diffuses) → osmotic damage, lens fiber swelling, and protein denaturation. Also, NADPH depletion and advanced glycation end products (AGEs) contribute to cataract formation.",
+              "explanation": "Sorbitol pathway is the main mechanism in lens and nerves.",
+              "keyConcept": "Sorbitol accumulation causes osmotic injury."
+            },
+            {
+              "id": 104,
+              "type": "essay",
+              "question": "What are the chronic complications of diabetes?",
+              "modelAnswer": "- Microvascular: retinopathy, nephropathy, neuropathy\n- Macrovascular: atherosclerosis (CAD, PVD, stroke)\n- Other: cataracts, foot ulcers, increased infections",
+              "explanation": "Hyperglycemia drives both micro and macrovascular damage.",
+              "keyConcept": "Chronic hyperglycemia causes end‑organ damage."
+            }
+          ]
+        },
+        {
+          "topic": "Type 2 Diabetes Pathology",
+          "questions": [
+            {
+              "id": 105,
+              "type": "essay",
+              "question": "Identify the primary contributing factors to the development of type 2 diabetes mellitus.",
+              "modelAnswer": "- Genetic susceptibility (multiple genes).\n- Environmental factors: sedentary lifestyle, high‑calorie diet, obesity (especially visceral).\n- Insulin resistance (peripheral tissues).\n- Beta‑cell dysfunction (relative insulin deficiency).",
+              "explanation": "Obesity is the strongest risk factor.",
+              "keyConcept": "Insulin resistance + β‑cell failure = type 2 DM."
+            },
+            {
+              "id": 106,
+              "type": "essay",
+              "question": "Describe the metabolic changes in carbohydrate metabolism in type 2 diabetes.",
+              "modelAnswer": "- Fasting and postprandial hyperglycemia.\n- Increased hepatic glucose production (gluconeogenesis, glycogenolysis).\n- Decreased peripheral glucose uptake (muscle, adipose).\n- Glucose toxicity worsens β‑cell function.",
+              "explanation": "Insulin resistance is the primary defect.",
+              "keyConcept": "High HGP + low glucose uptake = hyperglycemia."
+            },
+            {
+              "id": 107,
+              "type": "essay",
+              "question": "What is the morphological finding in the pancreas of long‑standing type 2 diabetes?",
+              "modelAnswer": "Amyloid deposition in the islets of Langerhans (islet amyloid polypeptide, IAPP, co‑secreted with insulin). Also, reduced β‑cell mass and islet fibrosis.",
+              "explanation": "Amyloid is a characteristic feature of type 2, not type 1.",
+              "keyConcept": "Islet amyloid is pathognomonic for type 2 DM."
+            }
+          ]
+        },
+        {
+          "topic": "Antidiabetic Drugs Pharmacology",
+          "questions": [
+            {
+              "id": 108,
+              "type": "essay",
+              "question": "Explain the mechanism of action of metformin.",
+              "modelAnswer": "- Decreases hepatic gluconeogenesis (major effect).\n- Increases peripheral glucose uptake (muscle).\n- Reduces intestinal glucose absorption.\n- Activates AMP‑activated protein kinase (AMPK).",
+              "explanation": "Metformin does not cause hypoglycemia.",
+              "keyConcept": "Metformin = AMPK activator, reduces HGP."
+            },
+            {
+              "id": 109,
+              "type": "essay",
+              "question": "List two advantages and two adverse effects of metformin.",
+              "modelAnswer": "Advantages:\n- No weight gain (often weight loss)\n- No hypoglycemia (safe)\nAdverse effects:\n- GI: metallic taste, diarrhea, nausea\n- Lactic acidosis (rare, but serious; contraindicated in renal failure)",
+              "explanation": "Metformin is first‑line for type 2 DM.",
+              "keyConcept": "GI side effects common; lactic acidosis rare."
+            },
+            {
+              "id": 110,
+              "type": "essay",
+              "question": "Explain the mechanism of sulfonylureas and their contraindications.",
+              "modelAnswer": "Mechanism: bind to SUR1 subunit of KATP channel on β cells → block channel → depolarization → Ca2+ influx → insulin secretion.\nContraindications: type 1 DM, pregnancy, severe liver/renal disease, allergy to sulfa.",
+              "explanation": "Sulfonylureas require functioning β cells.",
+              "keyConcept": "Sulfonylureas close KATP channels → insulin release."
+            },
+            {
+              "id": 111,
+              "type": "essay",
+              "question": "What are the adverse effects of insulin therapy?",
+              "modelAnswer": "- Hypoglycemia (most common and dangerous)\n- Weight gain\n- Lipodystrophy (at injection sites)\n- Allergic reactions (rare)\n- Insulin resistance (high doses)",
+              "explanation": "Hypoglycemia is the main limiting factor.",
+              "keyConcept": "Hypoglycemia is the major adverse effect."
+            },
+            {
+              "id": 112,
+              "type": "essay",
+              "question": "Mention the mechanism of action and two adverse effects of SGLT‑2 inhibitors (e.g., canagliflozin).",
+              "modelAnswer": "Mechanism: inhibit SGLT‑2 in proximal renal tubule → block glucose reabsorption → glucosuria → lowers blood glucose, weight, and BP.\nAdverse effects: genitourinary infections (UTI, balanitis), euglycemic DKA (rare), volume depletion, increased risk of fractures (canagliflozin).",
+              "explanation": "SGLT‑2 inhibitors are weight‑neutral and cardioprotective.",
+              "keyConcept": "Glucosuria → osmotic diuresis, weight loss, UTI risk."
+            },
+            {
+              "id": 113,
+              "type": "essay",
+              "question": "What is the role of subcutaneous rapid‑acting insulin in mild diabetic ketoacidosis?",
+              "modelAnswer": "In uncomplicated mild to moderate DKA, subcutaneous rapid‑acting insulin analogues (lispro, aspart) can be used every 1‑2 hours with aggressive fluid management, instead of IV regular insulin, as long as the patient is hemodynamically stable and can eat/hydrate orally.",
+              "explanation": "IV insulin is still standard for severe DKA.",
+              "keyConcept": "SC rapid‑acting insulin is an option in mild DKA."
+            },
+            {
+              "id": 114,
+              "type": "essay",
+              "question": "Compare between regular insulin and rapid‑acting insulin analogues.",
+              "modelAnswer": "| Feature | Regular | Rapid‑acting |\n|---------|---------|--------------|\n| Onset | 30‑60 min | 5‑15 min |\n| Peak | 2‑4 hours | 30‑90 min |\n| Duration | 6‑8 hours | 3‑5 hours |\n| Advantages | IV use, cheap | Better postprandial control, less late hypoglycemia |",
+              "explanation": "Rapid‑acting analogues more closely mimic physiologic prandial insulin.",
+              "keyConcept": "Rapid‑acting = faster onset, shorter duration."
+            }
+          ]
+        },
+        {
+          "topic": "DKA Clinical Cases",
+          "questions": [
+            {
+              "id": 115,
+              "type": "case",
+              "question": "A 10‑year‑old boy with type 1 diabetes presents with nausea, vomiting, dehydration, acetone breath, and Kussmaul breathing. Glucose 700 mg/dL, pH 7.1.",
+              "subQuestions": [
+                {
+                  "id": "115_a",
+                  "type": "essay",
+                  "question": "What is the diagnosis?",
+                  "modelAnswer": "Diabetic ketoacidosis (DKA).",
+                  "explanation": "Severe hyperglycemia, ketosis, acidosis.",
+                  "keyConcept": "DKA."
+                },
+                {
+                  "id": "115_b",
+                  "type": "essay",
+                  "question": "What are the causes of dehydration in DKA?",
+                  "modelAnswer": "Osmotic diuresis from glucosuria and ketonuria, plus vomiting.",
+                  "explanation": "Glucose acts as an osmotic agent.",
+                  "keyConcept": "Osmotic diuresis."
+                },
+                {
+                  "id": "115_c",
+                  "type": "essay",
+                  "question": "What is the preferred insulin route for severe DKA?",
+                  "modelAnswer": "IV regular insulin (continuous infusion).",
+                  "explanation": "IV allows rapid titration.",
+                  "keyConcept": "IV regular insulin."
+                }
+              ],
+              "explanation": "Classic DKA presentation.",
+              "keyConcept": "DKA triad: hyperglycemia, ketosis, acidosis."
+            },
+            {
+              "id": 116,
+              "type": "case",
+              "question": "A 16‑year‑old girl has rapid deep breathing, abdominal pain, and acetone breath. Glucose 450 mg/dL, pH 7.25.",
+              "subQuestions": [
+                {
+                  "id": "116_a",
+                  "type": "essay",
+                  "question": "What is the cause of Kussmaul breathing?",
+                  "modelAnswer": "Compensatory respiratory alkalosis for metabolic acidosis.",
+                  "explanation": "The lungs blow off CO2 to raise pH.",
+                  "keyConcept": "Kussmaul breathing = compensation for acidosis."
+                },
+                {
+                  "id": "116_b",
+                  "type": "essay",
+                  "question": "Describe the lipid metabolism changes in type 1 DM.",
+                  "modelAnswer": "Increased lipolysis → free fatty acids → ketogenesis (acetoacetate, β‑hydroxybutyrate). Also, increased VLDL due to decreased LPL activity → hypertriglyceridemia.",
+                  "explanation": "Unrestrained lipolysis drives ketosis.",
+                  "keyConcept": "Lipolysis → FFA → ketones."
+                }
+              ],
+              "explanation": "DKA with moderate acidosis.",
+              "keyConcept": "Ketogenesis from excessive lipolysis."
+            },
+            {
+              "id": 117,
+              "type": "case",
+              "question": "A 52‑year‑old obese man with type 2 diabetes is started on liraglutide. He asks about side effects.",
+              "subQuestions": [
+                {
+                  "id": "117_a",
+                  "type": "essay",
+                  "question": "What are the common adverse effects of liraglutide?",
+                  "modelAnswer": "Nausea, vomiting, diarrhea (dose‑dependent). Less common: pancreatitis, gallbladder disease, increased heart rate.",
+                  "explanation": "Nausea is the most frequent reason for discontinuation.",
+                  "keyConcept": "GI side effects are common."
+                },
+                {
+                  "id": "117_b",
+                  "type": "essay",
+                  "question": "What is a contraindication to liraglutide?",
+                  "modelAnswer": "Personal or family history of medullary thyroid carcinoma (MEN2) – GLP‑1 agonists may increase risk of C‑cell tumors.",
+                  "explanation": "Boxed warning for thyroid C‑cell tumors.",
+                  "keyConcept": "Contraindicated in MEN2 or MTC history."
+                }
+              ],
+              "explanation": "GLP‑1 agonists are useful for weight loss and glycemic control.",
+              "keyConcept": "Liraglutide is a GLP‑1 receptor agonist."
+            },
+            {
+              "id": 118,
+              "type": "case",
+              "question": "An adult with type 2 diabetes on metformin has HbA1c 9%. What is the next step?",
+              "subQuestions": [
+                {
+                  "id": "118_a",
+                  "type": "essay",
+                  "question": "What is the recommended next therapy?",
+                  "modelAnswer": "Add a second agent: metformin + SGLT‑2 inhibitor, GLP‑1 agonist, or basal insulin.",
+                  "explanation": "Dual therapy is indicated when HbA1c remains >7% on metformin alone.",
+                  "keyConcept": "Add second agent."
+                }
+              ],
+              "explanation": "Stepwise approach to type 2 DM management.",
+              "keyConcept": "Metformin failure → add another class."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

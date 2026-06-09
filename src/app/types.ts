@@ -11,7 +11,7 @@ export type Screen = 'chapters' | 'subjects' | 'quiz' | 'results';
 
 export interface SubQuestion {
   id: string;
-  type: 'mcq' | 'essay';
+  type: 'mcq' | 'essay' | 'fillblank';
   text: string;
   options?: string[];
   correctIndex?: number;
@@ -22,7 +22,7 @@ export interface SubQuestion {
 
 export interface Question {
   id: number;
-  type: 'mcq' | 'truefalse' | 'matching' | 'essay' | 'case';
+  type: 'mcq' | 'truefalse' | 'matching' | 'essay' | 'case' | 'fillblank';
   text: string;
   lecture: number;
   subjectColor: SubjectColor;
@@ -33,6 +33,8 @@ export interface Question {
   explanation: string;
   keyConcept?: string;
   subQuestions?: SubQuestion[];
+  blanks?: string[];         // correct answers for each ___ slot (in order)
+  acceptedAnswers?: string[][];  // optional alternatives per blank slot
 }
 
 export interface SubjectData {

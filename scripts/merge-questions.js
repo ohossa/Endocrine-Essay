@@ -97,8 +97,12 @@ try {
                 });
               }
 
+              // fillblank questions don't need sub-ID changes — blanks[] are just strings
+              // Both 'question' and 'text' field names are supported by data.ts
+
               mainTp.questions.push(updatedQ);
-              console.log(`Added question ID ${maxId}: "${updatedQ.question.substring(0, 50)}..."`);
+              const label = (updatedQ.question || updatedQ.text || '(no text)').substring(0, 50);
+              console.log(`Added question ID ${maxId} [${updatedQ.type}]: "${label}..."`);
             });
           }
         });
