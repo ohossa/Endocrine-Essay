@@ -51,7 +51,7 @@ function topicToColor(topic: string): SubjectColor {
   if (t.includes('biochem')) return 'biochem';
   if (t.includes('pathology')) return 'pathology';
   if (t.includes('pharmacology') || t.includes('pharma')) return 'pharma';
-  if (t.includes('clinical')) return 'clinical';
+  if (t.includes('clinical') || t.includes('case')) return 'clinical';
   return 'physiology'; // fallback
 }
 
