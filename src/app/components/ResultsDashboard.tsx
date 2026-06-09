@@ -87,6 +87,58 @@ export function ResultsDashboard({
     return false;
   };
 
+  const renderModelAnswer = (answer: string | undefined, isSubQuestion: boolean = false) => {
+    if (!answer) return null;
+    if (answer.includes('|')) {
+      const lines = answer.split('\n').map((l) => l.trim()).filter(Boolean);
+      const rows = lines
+        .filter((line) => !line.includes('---') && line.includes('|'))
+        .map((line) => {
+          const parts = line.split('|');
+          if (parts[0] === '') parts.shift();
+          if (parts[parts.length - 1] === '') parts.pop();
+          return parts.map((cell) => cell.trim());
+        });
+
+      if (rows.length > 0) {
+        const headers = rows[0];
+        const bodyRows = rows.slice(1);
+
+        return (
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+            <table className="w-full text-left border-collapse text-xs sm:text-sm">
+              <thead>
+                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
+                  {headers.map((h, idx) => (
+                    <th key={idx} className="p-4 text-[10px] sm:text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 dark:divide-gray-850">
+                {bodyRows.map((row, rIdx) => (
+                  <tr key={rIdx} className="hover:bg-gray-50/50 dark:hover:bg-gray-950/30 transition-colors">
+                    {row.map((cell, cIdx) => (
+                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-750 dark:text-gray-350">
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+      }
+    }
+    return (
+      <p className={`${isSubQuestion ? 'text-xs text-left' : 'text-sm'} font-semibold text-success-dark leading-relaxed whitespace-pre-wrap`}>
+        {answer}
+      </p>
+    );
+  };
+
   // Points-based calculations for case sub-questions
   const getPointsStats = () => {
     let totalPoints = 0;
@@ -398,11 +450,17 @@ export function ResultsDashboard({
             return (
               <div
                 key={i}
-                className={`card-stagger review-card bg-white dark:bg-gray-900 rounded-[30px] border overflow-hidden ${
-                  isCorrect ? 'border-gray-100 dark:border-gray-800' : 'border-danger/15'
+                className={`card-stagger review-card bg-white dark:bg-gray-900 rounded-[30px] border overflow-hidden transition-all duration-300 ${
+                  q.id === 2
+                    ? 'border-pink-300 dark:border-purple-800'
+                    : isCorrect
+                    ? 'border-gray-100 dark:border-gray-800'
+                    : 'border-danger/15'
                 }`}
                 style={{
-                  boxShadow: isCorrect
+                  boxShadow: q.id === 2
+                    ? '0 4px 20px rgba(236,72,153,0.1)'
+                    : isCorrect
                     ? '0 2px 12px rgba(0,0,0,0.04)'
                     : '0 2px 12px rgba(239,68,68,0.06)',
                   animationDelay: `${500 + staggerIdx * 100}ms`,
@@ -557,9 +615,7 @@ export function ResultsDashboard({
                         </div>
                         <div className="bg-success/[0.02] rounded-2xl p-5 border border-success/10">
                           <div className="text-[10px] text-success font-bold uppercase tracking-wider mb-2">Reference Model Answer</div>
-                          <p className="text-sm font-semibold text-success-dark leading-relaxed whitespace-pre-wrap">
-                            {q.modelAnswer}
-                          </p>
+                          {renderModelAnswer(q.modelAnswer, false)}
                         </div>
                       </div>
                     )}
@@ -644,9 +700,7 @@ export function ResultsDashboard({
                                     </div>
                                     <div className="bg-success/[0.02] rounded-xl p-3.5 border border-success/10 text-xs">
                                       <span className="font-bold text-[10px] uppercase text-success block mb-1">Reference Answer:</span>
-                                      <p className="font-semibold text-success-dark leading-relaxed text-left whitespace-pre-wrap">
-                                        {subQ.modelAnswer}
-                                      </p>
+                                      {renderModelAnswer(subQ.modelAnswer, true)}
                                     </div>
                                   </div>
                                 )}

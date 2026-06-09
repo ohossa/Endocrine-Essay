@@ -42,6 +42,60 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
   const subjectColor: SubjectColor = current.subjectColor;
   const s = subjectStyles[subjectColor];
 
+  const isSpecialQuestion = current.id === 2;
+
+  const renderModelAnswer = (answer: string | undefined) => {
+    if (!answer) return null;
+    if (answer.includes('|')) {
+      const lines = answer.split('\n').map((l) => l.trim()).filter(Boolean);
+      const rows = lines
+        .filter((line) => !line.includes('---') && line.includes('|'))
+        .map((line) => {
+          const parts = line.split('|');
+          if (parts[0] === '') parts.shift();
+          if (parts[parts.length - 1] === '') parts.pop();
+          return parts.map((cell) => cell.trim());
+        });
+
+      if (rows.length > 0) {
+        const headers = rows[0];
+        const bodyRows = rows.slice(1);
+
+        return (
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
+                  {headers.map((h, idx) => (
+                    <th key={idx} className="p-4 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 dark:divide-gray-850">
+                {bodyRows.map((row, rIdx) => (
+                  <tr key={rIdx} className="hover:bg-gray-50/50 dark:hover:bg-gray-950/30 transition-colors">
+                    {row.map((cell, cIdx) => (
+                      <td key={cIdx} className="p-4 text-sm font-medium text-gray-750 dark:text-gray-300">
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+      }
+    }
+    return (
+      <p className="text-sm font-medium text-gray-700 dark:text-gray-350 leading-relaxed mb-4 whitespace-pre-wrap text-left">
+        {answer}
+      </p>
+    );
+  };
+
   // Helper check if question is completed
   const isQuestionCompleted = (q: Question, ans: any) => {
     if (ans === undefined) return false;
@@ -183,7 +237,11 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50/70 dark:bg-gray-950 font-manrope">
+    <div className={`min-h-screen font-manrope transition-all duration-500 ${
+      isSpecialQuestion
+        ? 'bg-gradient-to-br from-pink-100/30 via-purple-100/30 to-pink-50/20 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-pink-950/10'
+        : 'bg-gray-50/70 dark:bg-gray-950'
+    }`}>
       <style>{`
         @keyframes fadeInUp {
           from { opacity: 0; transform: translateY(16px); }
@@ -247,7 +305,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         {/* Progress bar */}
         <div className="h-1 bg-gray-100 dark:bg-gray-800 w-full relative">
           <div
-            className={`h-full ${s.bg} transition-all duration-300 ease-out`}
+            className={`h-full ${isSpecialQuestion ? 'bg-gradient-to-r from-pink-500 to-purple-600' : s.bg} transition-all duration-300 ease-out`}
             style={{ width: `${progressPercent}%` }}
           />
         </div>
@@ -258,12 +316,20 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         <div className="flex flex-col xl:flex-row gap-8 items-start">
           
           {/* Main Card */}
-          <div className="flex-1 w-full bg-white dark:bg-gray-900 rounded-[32px] border border-gray-100 dark:border-gray-800 p-6 lg:p-8" style={{ boxShadow: '0 4px 24px rgba(0,0,0,0.03)' }}>
+          <div className={`flex-1 w-full bg-white dark:bg-gray-900 rounded-[32px] border p-6 lg:p-8 transition-all duration-500 ${
+            isSpecialQuestion
+              ? 'border-pink-300 dark:border-purple-800 shadow-[0_4px_30px_rgba(236,72,153,0.15)]'
+              : 'border-gray-100 dark:border-gray-800'
+          }`} style={{ boxShadow: !isSpecialQuestion ? '0 4px 24px rgba(0,0,0,0.03)' : undefined }}>
             
             {/* Question Header */}
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-3">
-                <span className={`inline-flex items-center justify-center px-3 py-1 rounded-full ${s.bgOp10} ${s.textDark} text-xs font-bold`}>
+                <span className={`inline-flex items-center justify-center px-3 py-1 rounded-full text-xs font-bold transition-all ${
+                  isSpecialQuestion
+                    ? 'bg-pink-100 dark:bg-pink-950/40 text-pink-600 dark:text-pink-400'
+                    : `${s.bgOp10} ${s.textDark}`
+                }`}>
                   Question {currentIdx + 1} of {questions.length}
                 </span>
                 <span className="text-xs text-gray-300 dark:text-gray-600 font-bold uppercase tracking-wider">•</span>
@@ -324,9 +390,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                         <Lightbulb size={16} className="text-success" />
                         <span className="text-xs font-bold text-success uppercase tracking-wider">Model Answer Reference</span>
                       </div>
-                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300 leading-relaxed mb-4 whitespace-pre-wrap">
-                        {current.modelAnswer}
-                      </p>
+                      {renderModelAnswer(current.modelAnswer)}
 
                       {/* Display Key Concept immediately upon model answer reveal */}
                       {current.keyConcept && (
@@ -342,7 +406,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                       {!answered && (
                         <div className="pt-4 border-t border-success/10">
                           <h4 className="font-archivo text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
-                            Self-Grading: Did you get it right? (Be lenient: if you got the general idea or key words, mark it correct!)
+                            Self-grading
                           </h4>
                           <div className="flex items-center gap-3">
                             <button
@@ -496,9 +560,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                                   <Lightbulb size={14} />
                                   <span className="text-[10px] font-bold uppercase tracking-wider">Model Answer Reference</span>
                                 </div>
-                                <p className="text-xs font-medium text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
-                                  {subQ.modelAnswer}
-                                </p>
+                                {renderModelAnswer(subQ.modelAnswer)}
 
                                 {/* Display Key Concept immediately upon model answer reveal */}
                                 {subQ.keyConcept && (
@@ -514,7 +576,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                                 {!isSubQAnswered && (
                                   <div className="pt-3 border-t border-success/10">
                                     <h5 className="text-[10px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
-                                      Did you get this correct? (Be lenient: if you got the general idea or key words, mark it correct!)
+                                      Self-grading
                                     </h5>
                                     <div className="flex items-center gap-2">
                                       <button
@@ -813,7 +875,11 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
               </div>
 
               {/* Subject Info */}
-              <div className={`sidebar-card bg-gradient-to-br ${s.bgOp5} to-clinical/5 rounded-3xl p-5 ${s.borderOp10} border md:col-span-2 xl:col-span-1`}>
+              <div className={`sidebar-card bg-gradient-to-br rounded-3xl p-5 border md:col-span-2 xl:col-span-1 transition-all ${
+                isSpecialQuestion
+                  ? 'from-pink-50/40 to-purple-50/40 dark:from-pink-950/10 dark:to-purple-950/10 border-pink-200 dark:border-purple-800'
+                  : `${s.bgOp5} to-clinical/5 ${s.borderOp10}`
+              }`}>
                 <div className="flex items-center gap-3 mb-3">
                   <div className={`w-10 h-10 rounded-xl ${s.bgOp15} flex items-center justify-center`}>
                     <Activity size={18} className={s.text} />
