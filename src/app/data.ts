@@ -6,7 +6,8 @@ import rawData from '../imports/quiz-data.json';
 type RawSubQuestion = {
   id: string;
   type: 'mcq' | 'essay';
-  question: string;
+  question?: string;
+  text?: string;
   options?: string[];
   correctAnswer?: string;
   modelAnswer?: string;
@@ -17,7 +18,8 @@ type RawSubQuestion = {
 type RawQuestion = {
   id: number;
   type?: 'mcq' | 'truefalse' | 'matching' | 'essay' | 'case';
-  question: string;
+  question?: string;
+  text?: string;
   options?: string[];
   correctAnswer?: string;
   pairs?: { premise: string; target: string }[];
@@ -86,11 +88,12 @@ const SUBJECT_ORDER: SubjectColor[] = [
 ];
 
 function transformSubQuestion(sq: RawSubQuestion): SubQuestion {
+  const textVal = sq.question || sq.text || '';
   if (sq.type === 'essay') {
     return {
       id: sq.id,
       type: 'essay',
-      text: sq.question,
+      text: textVal,
       modelAnswer: sq.modelAnswer || '',
       explanation: sq.explanation || '',
       keyConcept: sq.keyConcept,
@@ -102,7 +105,7 @@ function transformSubQuestion(sq: RawSubQuestion): SubQuestion {
   return {
     id: sq.id,
     type: 'mcq',
-    text: sq.question,
+    text: textVal,
     options,
     correctIndex: idx >= 0 && idx < options.length ? idx : 0,
     explanation: sq.explanation || '',
@@ -112,12 +115,13 @@ function transformSubQuestion(sq: RawSubQuestion): SubQuestion {
 
 function transformQuestion(q: RawQuestion, color: SubjectColor): Question {
   const rawType = q.type || 'essay'; // default to essay if not specified
+  const textVal = q.question || q.text || '';
 
   if (rawType === 'case') {
     return {
       id: q.id,
       type: 'case',
-      text: q.question,
+      text: textVal,
       lecture: 1,
       subjectColor: color,
       explanation: q.explanation || '',
@@ -130,7 +134,7 @@ function transformQuestion(q: RawQuestion, color: SubjectColor): Question {
     return {
       id: q.id,
       type: 'matching',
-      text: q.question,
+      text: textVal,
       lecture: 1,
       subjectColor: color,
       pairs: q.pairs || [],
@@ -143,7 +147,7 @@ function transformQuestion(q: RawQuestion, color: SubjectColor): Question {
     return {
       id: q.id,
       type: 'essay',
-      text: q.question,
+      text: textVal,
       lecture: 1,
       subjectColor: color,
       modelAnswer: q.modelAnswer || '',
@@ -163,7 +167,7 @@ function transformQuestion(q: RawQuestion, color: SubjectColor): Question {
   return {
     id: q.id,
     type: isTrueFalse ? 'truefalse' : 'mcq',
-    text: q.question,
+    text: textVal,
     lecture: 1,
     subjectColor: color,
     options,

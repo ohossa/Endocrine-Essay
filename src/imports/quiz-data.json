@@ -181,33 +181,33 @@
               "keyConcept": "Open vs closed epiphyseal plates determine phenotype."
             },
             {
-              "id": 79,
+              "id": 67,
               "type": "case",
               "question": "A 29-year-old primigravida has marked vaginal bleeding after the onset of labor. She remains hypotensive for 6 hours and requires transfusion of 12 packed RBC units. Postpartum, she becomes unable to breast-feed the infant. She does not have a resumption of normal menstrual cycles.",
               "subQuestions": [
                 {
-                  "id": "79_a",
+                  "id": "67_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Pituitary necrosis (Sheehan's syndrome).",
-                  "explanation": "Severe postpartum hemorrhage leads to ischemic necrosis of the anterior pituitary due to reduced blood flow in an already enlarged gland.",
-                  "keyConcept": "Sheehan's syndrome: postpartum pituitary necrosis from hemorrhage."
+                  "explanation": "Postpartum hemorrhage leading to hypotension can cause ischemic necrosis of the enlarged pituitary gland.",
+                  "keyConcept": "Sheehan's syndrome: pituitary infarction after massive postpartum hemorrhage."
                 },
                 {
-                  "id": "79_b",
+                  "id": "67_b",
                   "type": "essay",
-                  "text": "What is the name of this syndrome?",
+                  "question": "What is the name of this syndrome?",
                   "modelAnswer": "Sheehan's syndrome.",
-                  "explanation": "Named after Harold Leeming Sheehan who described it in 1937.",
-                  "keyConcept": "Sheehan's syndrome = postpartum hypopituitarism."
+                  "explanation": "Named after Harold Sheehan who described postpartum pituitary necrosis.",
+                  "keyConcept": "Sheehan's syndrome."
                 },
                 {
-                  "id": "79_c",
+                  "id": "67_c",
                   "type": "essay",
-                  "text": "What are the other possible complications which may occur?",
+                  "question": "What are the other possible complications which may occur?",
                   "modelAnswer": "Pituitary myxedema (hypothyroidism due to lack of TSH) and atrophy of the sexual organs (due to lack of FSH and LH). Adrenal insufficiency may also occur.",
-                  "explanation": "Loss of anterior pituitary hormones causes secondary hypothyroidism, hypogonadism, and adrenal insufficiency.",
-                  "keyConcept": "Panhypopituitarism leads to multiple endocrine deficiencies."
+                  "explanation": "Loss of anterior pituitary hormones leads to secondary hypothyroidism, hypogonadism, and adrenal insufficiency.",
+                  "keyConcept": "Panhypopituitarism following pituitary necrosis."
                 }
               ]
             }
@@ -314,495 +314,495 @@
               "keyConcept": "TSI cause hyperthyroidism and goiter."
             },
             {
-              "id": 80,
+              "id": 68,
               "type": "case",
               "question": "A lady suffers from severe dyspnea. Clinical examination shows enlargement of the thyroid gland which is very firm. Ultrasound examination of the neck reveals evidence of thyroiditis with fixation to surrounding structures.",
               "subQuestions": [
                 {
-                  "id": "80_a",
+                  "id": "68_a",
                   "type": "essay",
-                  "text": "What is the most possible type of thyroiditis in this case?",
+                  "question": "What is the most possible type of thyroiditis in this case?",
                   "modelAnswer": "Riedel's (fibrosing) thyroiditis.",
-                  "explanation": "Riedel's thyroiditis is characterized by rock-hard thyroid fixed to adjacent structures due to dense fibrosis.",
-                  "keyConcept": "Riedel's thyroiditis: rock-hard, fixed goiter."
+                  "explanation": "Riedel's thyroiditis is characterized by a rock-hard goiter fixed to surrounding structures.",
+                  "keyConcept": "Riedel's thyroiditis: invasive fibrous replacement of thyroid."
                 },
                 {
-                  "id": "80_b",
+                  "id": "68_b",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this lesion.",
+                  "question": "Describe the histologic picture of this lesion.",
                   "modelAnswer": "The histologic picture shows marked fibrosis (dense, keloid-like collagen) that replaces the normal thyroid parenchyma. The fibrous tissue extends beyond the thyroid capsule into surrounding neck structures (e.g., muscles, trachea). There is a chronic inflammatory infiltrate, often with lymphoid follicles, but the key feature is the obliterative fibrosis.",
-                  "explanation": "Fibrosis invades extrathyroidal tissues, distinguishing it from other thyroiditides.",
-                  "keyConcept": "Dense keloid-like fibrosis with extension beyond capsule."
+                  "explanation": "Dense fibrosis extending into surrounding tissues is diagnostic.",
+                  "keyConcept": "Obliterative fibrosis with extension beyond capsule."
                 },
                 {
-                  "id": "80_c",
+                  "id": "68_c",
                   "type": "essay",
-                  "text": "Why is this type of thyroiditis may be misdiagnosed as cancer?",
+                  "question": "Why is this type of thyroiditis may be misdiagnosed as cancer?",
                   "modelAnswer": "Because the thyroid gland is very firm, rock-hard, and fixed to surrounding structures (e.g., trachea, muscles). In cancer, fixation is due to malignant infiltration, while in Riedel's thyroiditis, it is due to dense fibrous adhesions.",
-                  "explanation": "Clinical presentation mimics anaplastic carcinoma, but histology shows benign fibrosis.",
-                  "keyConcept": "Rock-hard fixation mimics malignancy."
+                  "explanation": "Clinical presentation mimics anaplastic carcinoma.",
+                  "keyConcept": "Rock-hard fixed goiter mimics cancer."
                 },
                 {
-                  "id": "80_d",
+                  "id": "68_d",
                   "type": "essay",
-                  "text": "Mention the expected serum level of thyroid hormones.",
+                  "question": "Mention the expected serum level of thyroid hormones.",
                   "modelAnswer": "Serum thyroid hormones (T3, T4) are usually decreased (hypothyroid) or sometimes normal, as the thyroid parenchyma is replaced by fibrous tissue.",
-                  "explanation": "Extensive fibrosis destroys functional follicular cells, leading to hypothyroidism.",
-                  "keyConcept": "Often hypothyroid or euthyroid."
+                  "explanation": "Destruction of follicles leads to hypothyroidism.",
+                  "keyConcept": "Usually hypothyroid or euthyroid."
                 },
                 {
-                  "id": "80_e",
+                  "id": "68_e",
                   "type": "essay",
-                  "text": "Enumerate other 3 types of thyroiditis.",
+                  "question": "Enumerate other 3 types of thyroiditis.",
                   "modelAnswer": "1. Hashimoto's thyroiditis (chronic autoimmune thyroiditis)\n2. Subacute granulomatous (de Quervain's) thyroiditis\n3. Lymphocytic thyroiditis",
-                  "explanation": "Thyroiditis includes autoimmune, viral, and fibrous variants.",
+                  "explanation": "Thyroiditis includes autoimmune, viral, and fibrosing variants.",
                   "keyConcept": "Hashimoto's, de Quervain's, lymphocytic."
                 }
               ]
             },
             {
-              "id": 81,
+              "id": 69,
               "type": "case",
-              "question": "A woman 45 years old presented with painless diffusely enlarged thyroid gland. Thyroidectomy was done and histologic examination gave the diagnosis of Hashimoto's thyroiditis. (Also appears in Problem Cases 4, 6, 15, 26, 29)",
+              "question": "A woman 45 years old presented with painless diffusely enlarged thyroid gland. Thyroidectomy was done and histologic examination gave the diagnosis of Hashimoto's thyroiditis.",
               "subQuestions": [
                 {
-                  "id": "81_a",
+                  "id": "69_a",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this lesion.",
+                  "question": "Describe the histologic picture of this lesion.",
                   "modelAnswer": "- Dense, diffuse lymphocytic and plasma cell infiltrate with formation of lymphoid follicles containing germinal centers.\n- Atrophy and destruction of thyroid follicles.\n- Hurthle cell (oncocytic) change: Thyroid follicular epithelial cells become large, with abundant granular, eosinophilic cytoplasm due to accumulation of mitochondria.\n- Variable fibrosis.",
-                  "explanation": "Autoimmune destruction leads to germinal centers, Hurthle cells, and fibrosis.",
-                  "keyConcept": "Lymphoid follicles, Hurthle cells, follicular atrophy."
+                  "explanation": "Hashimoto's thyroiditis is characterized by lymphocytic infiltration, germinal centers, Hurthle cell change, and follicular destruction.",
+                  "keyConcept": "Lymphocytic infiltrate, germinal centers, Hurthle cells."
                 },
                 {
-                  "id": "81_b",
+                  "id": "69_b",
                   "type": "essay",
-                  "text": "Explain the underlying mechanism of this disease.",
+                  "question": "Explain the underlying mechanism of this disease.",
                   "modelAnswer": "It is an autoimmune disease mediated by T-cells (especially CD4+ T cells) and autoantibodies against thyroid antigens, including anti-thyroglobulin and anti-thyroid peroxidase (anti-TPO). The autoimmune attack leads to destruction of thyroid follicles, resulting in hypothyroidism.",
-                  "explanation": "Loss of self-tolerance leads to chronic autoimmune thyroiditis.",
-                  "keyConcept": "T-cell mediated autoimmunity with anti-TPO antibodies."
+                  "explanation": "Autoimmune destruction of thyroid tissue by cellular and humoral immunity.",
+                  "keyConcept": "Autoimmune (anti-TPO, anti-thyroglobulin) T-cell mediated."
                 },
                 {
-                  "id": "81_c",
+                  "id": "69_c",
                   "type": "essay",
-                  "text": "What is the most possible malignancy that may develop on top of this disease?",
+                  "question": "What is the most possible malignancy that may develop on top of this disease?",
                   "modelAnswer": "Non-Hodgkin's lymphoma (B-cell lymphoma), usually of the mucosa-associated lymphoid tissue (MALT) type.",
-                  "explanation": "Chronic lymphocytic infiltration increases risk of lymphoma, especially in long-standing Hashimoto's.",
-                  "keyConcept": "Increased risk of primary thyroid lymphoma."
+                  "explanation": "Chronic lymphocytic infiltration increases risk of lymphoma.",
+                  "keyConcept": "Risk of MALT lymphoma."
                 },
                 {
-                  "id": "81_d",
+                  "id": "69_d",
                   "type": "essay",
-                  "text": "Enumerate other three types of thyroiditis.",
+                  "question": "Enumerate other three types of thyroiditis.",
                   "modelAnswer": "1. Subacute granulomatous (de Quervain's) thyroiditis\n2. Riedel's (fibrosing) thyroiditis\n3. Acute suppurative thyroiditis",
-                  "explanation": "Other inflammatory conditions of the thyroid gland.",
-                  "keyConcept": "de Quervain's, Riedel's, suppurative."
+                  "explanation": "Other inflammatory thyroid conditions.",
+                  "keyConcept": "Subacute, Riedel's, acute suppurative."
                 }
               ]
             },
             {
-              "id": 82,
+              "id": 70,
               "type": "case",
               "question": "A middle-aged female complained of fever and markedly tender and enlarged thyroid gland. The condition was self-limited with complete resolution. This case was clinically diagnosed as thyroiditis.",
               "subQuestions": [
                 {
-                  "id": "82_a",
+                  "id": "70_a",
                   "type": "essay",
-                  "text": "What is the type of thyroiditis in this case?",
+                  "question": "What is the type of thyroiditis in this case?",
                   "modelAnswer": "Subacute granulomatous (de Quervain's) thyroiditis.",
-                  "explanation": "Viral prodrome, tender goiter, and self-limited course are classic for de Quervain's.",
-                  "keyConcept": "de Quervain's thyroiditis = painful, self-limited."
+                  "explanation": "Viral prodrome, tender thyroid, self-limited course.",
+                  "keyConcept": "De Quervain's thyroiditis: painful, self-limited."
                 },
                 {
-                  "id": "82_b",
+                  "id": "70_b",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this lesion.",
+                  "question": "Describe the histologic picture of this lesion.",
                   "modelAnswer": "- Disruption of thyroid follicles with loss of colloid.\n- Characteristic multinucleated giant cells surrounding remnants of colloid (foreign body-type giant cell reaction).\n- Inflammatory infiltrate: lymphocytes, histiocytes, and neutrophils.\n- Later stages show fibrosis and healing.",
-                  "explanation": "Giant cells engulfing colloid are pathognomonic.",
-                  "keyConcept": "Multinucleated giant cells with colloid remnants."
+                  "explanation": "Granulomatous inflammation with giant cells engulfing colloid.",
+                  "keyConcept": "Multinucleated giant cells, follicle disruption."
                 },
                 {
-                  "id": "82_c",
+                  "id": "70_c",
                   "type": "essay",
-                  "text": "Enumerate other types of thyroiditis.",
+                  "question": "Enumerate other types of thyroiditis.",
                   "modelAnswer": "1. Hashimoto's thyroiditis\n2. Riedel's thyroiditis\n3. Lymphocytic thyroiditis",
-                  "explanation": "Other forms include autoimmune and fibrosing variants.",
+                  "explanation": "Other variants include autoimmune and fibrosing.",
                   "keyConcept": "Hashimoto's, Riedel's, lymphocytic."
                 }
               ]
             },
             {
-              "id": 83,
+              "id": 71,
               "type": "case",
               "question": "A child presents with signs of physical and mental retardation. Ultrasound examination shows fibrosed thyroid gland. Thyroid function tests reveal hypothyroidism and increased serum level of TSH.",
               "subQuestions": [
                 {
-                  "id": "83_a",
+                  "id": "71_a",
                   "type": "essay",
-                  "text": "What is the diagnosis?",
+                  "question": "What is the diagnosis?",
                   "modelAnswer": "Cretinism (congenital hypothyroidism).",
-                  "explanation": "Physical and mental retardation with hypothyroidism from birth defines cretinism.",
-                  "keyConcept": "Congenital hypothyroidism = cretinism."
+                  "explanation": "Hypothyroidism from birth leading to developmental delay.",
+                  "keyConcept": "Cretinism: congenital hypothyroidism."
                 },
                 {
-                  "id": "83_b",
+                  "id": "71_b",
                   "type": "essay",
-                  "text": "Mention the possible causes of this disease.",
+                  "question": "Mention the possible causes of this disease.",
                   "modelAnswer": "- Dietary iodine deficiency (endemic cretinism)\n- Congenital defect in synthesis of thyroid hormones (dyshormonogenesis)\n- Thyroid agenesis or hypoplasia\n- Maternal hypothyroidism or iodine deficiency\n- Thyroid fibrosis (as in this case, possibly from autoimmune thyroiditis)",
-                  "explanation": "Lack of thyroid hormone during development causes irreversible brain damage.",
-                  "keyConcept": "Iodine deficiency, dyshormonogenesis, agenesis."
+                  "explanation": "Causes include iodine deficiency, dyshormonogenesis, agenesis, maternal factors.",
+                  "keyConcept": "Iodine deficiency, enzyme defects, agenesis."
                 },
                 {
-                  "id": "83_c",
+                  "id": "71_c",
                   "type": "essay",
-                  "text": "Explain why the serum level of TSH is elevated in this case.",
+                  "question": "Explain why the serum level of TSH is elevated in this case.",
                   "modelAnswer": "Due to loss of the negative feedback inhibition of TSH production by the pituitary gland. Low levels of circulating thyroid hormones (T3, T4) fail to suppress the anterior pituitary, leading to compensatory hypersecretion of TSH.",
-                  "explanation": "Primary hypothyroidism results in elevated TSH due to lack of feedback.",
-                  "keyConcept": "Low T3/T4 → no feedback → high TSH."
+                  "explanation": "Low T3/T4 removes feedback inhibition on pituitary.",
+                  "keyConcept": "Compensatory TSH elevation."
                 },
                 {
-                  "id": "83_d",
+                  "id": "71_d",
                   "type": "essay",
-                  "text": "If hypothyroidism develops in adults, what is the diagnosis?",
+                  "question": "If hypothyroidism develops in adults, what is the diagnosis?",
                   "modelAnswer": "Myxedema.",
-                  "explanation": "Adult hypothyroidism presents with myxedema (non-pitting edema, slow mentation, etc.).",
-                  "keyConcept": "Myxedema = adult hypothyroidism."
+                  "explanation": "Adult hypothyroidism is termed myxedema.",
+                  "keyConcept": "Myxedema: adult hypothyroidism."
                 },
                 {
-                  "id": "83_e",
+                  "id": "71_e",
                   "type": "essay",
-                  "text": "Mention the possible causes of adult hypothyroidism.",
+                  "question": "Mention the possible causes of adult hypothyroidism.",
                   "modelAnswer": "1. Surgical removal of the thyroid gland\n2. Chronic thyroiditis (especially Hashimoto's thyroiditis)\n3. Deficiency of TSH (e.g., pituitary tumors or Sheehan's syndrome)\n4. Iodine deficiency or excess\n5. Drug-induced (e.g., amiodarone, lithium)",
-                  "explanation": "Causes include autoimmune, iatrogenic, central, and drug-related.",
+                  "explanation": "Causes include autoimmune, iatrogenic, central, nutritional, drugs.",
                   "keyConcept": "Hashimoto's, iatrogenic, central, drugs."
                 }
               ]
             },
             {
-              "id": 84,
+              "id": 72,
               "type": "case",
               "question": "A patient presented with markedly enlarged thyroid which is multinodular. Clinical and radiologic examinations gave the diagnosis of endemic goiter.",
               "subQuestions": [
                 {
-                  "id": "84_a",
+                  "id": "72_a",
                   "type": "essay",
-                  "text": "Explain the pathogenesis of this disease.",
+                  "question": "Explain the pathogenesis of this disease.",
                   "modelAnswer": "Dietary iodine deficiency leads to decreased production of thyroid hormones (T3, T4). This results in compensatory increased production of TSH by the pituitary gland. TSH stimulates hyperplasia and hypertrophy of thyroid follicular cells, causing the thyroid gland to become enlarged (goiter). Over time, recurrent stimulation leads to nodular hyperplasia, involution, and fibrosis, resulting in a multinodular goiter.",
-                  "explanation": "Chronic TSH stimulation causes nodular transformation.",
-                  "keyConcept": "Iodine deficiency → low T4 → high TSH → goiter."
+                  "explanation": "Iodine deficiency → low T4 → high TSH → goiter.",
+                  "keyConcept": "TSH-driven compensatory hyperplasia."
                 },
                 {
-                  "id": "84_b",
+                  "id": "72_b",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this disease.",
+                  "question": "Describe the histologic picture of this disease.",
                   "modelAnswer": "- Initially: Diffuse hyperplasia with tall columnar follicular cells and scalloped colloid margins.\n- Later: Nodularity with follicles of variable size, some hyperplastic, some involuted with abundant colloid (colloid nodules), areas of hemorrhage, fibrosis, and calcification.",
-                  "explanation": "Mixed hyperplastic and involuted follicles produce a multinodular appearance.",
-                  "keyConcept": "Nodules with variable follicle size and colloid."
+                  "explanation": "Early diffuse hyperplasia, later nodular involution.",
+                  "keyConcept": "Nodular hyperplasia with colloid nodules."
                 },
                 {
-                  "id": "84_c",
+                  "id": "72_c",
                   "type": "essay",
-                  "text": "What is the expected picture of the thyroid function tests (T3, T4, TSH) in this disease?",
+                  "question": "What is the expected picture of the thyroid function tests (T3, T4, TSH) in this disease?",
                   "modelAnswer": "T3 and T4 are usually decreased (or low-normal), and TSH is increased.",
-                  "explanation": "Euthyroid or hypothyroid with elevated TSH due to iodine deficiency.",
+                  "explanation": "Euthyroid or mildly hypothyroid with elevated TSH.",
                   "keyConcept": "Low T4, high TSH."
                 },
                 {
-                  "id": "84_d",
+                  "id": "72_d",
                   "type": "essay",
-                  "text": "Mention the effects of this disease.",
+                  "question": "Mention the effects of this disease.",
                   "modelAnswer": "- Cosmetic disfigurement from neck swelling.\n- Compression of trachea (dyspnea, stridor), esophagus (dysphagia), or recurrent laryngeal nerve (hoarseness).\n- Hypothyroidism (if severe iodine deficiency).\n- Rarely, development of a thyroid nodule that may become malignant.",
-                  "explanation": "Mass effect and functional consequences are main complications.",
-                  "keyConcept": "Compressive symptoms, hypothyroidism, rare malignancy."
+                  "explanation": "Mass effects, hypothyroidism, rare malignant transformation.",
+                  "keyConcept": "Compression symptoms, hypothyroidism."
                 }
               ]
             },
             {
-              "id": 85,
+              "id": 73,
               "type": "case",
-              "question": "A female patient 50 years old complained of dry rough skin. Clinical examination showed enlarged heart and atrophic thyroid. (Also appears in Problem Cases 13, 29)",
+              "question": "A female patient 50 years old complained of dry rough skin. Clinical examination showed enlarged heart and atrophic thyroid.",
               "subQuestions": [
                 {
-                  "id": "85_a",
+                  "id": "73_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Myxedema (adult hypothyroidism).",
-                  "explanation": "Dry skin, cardiomegaly, atrophic thyroid with hypothyroid symptoms.",
-                  "keyConcept": "Adult hypothyroidism = myxedema."
+                  "explanation": "Dry skin, cardiomegaly, atrophic thyroid suggest hypothyroidism.",
+                  "keyConcept": "Myxedema: severe adult hypothyroidism."
                 },
                 {
-                  "id": "85_b",
+                  "id": "73_b",
                   "type": "essay",
-                  "text": "Mention the etiology of this disease.",
+                  "question": "Mention the etiology of this disease.",
                   "modelAnswer": "- Autoimmune (Hashimoto's thyroiditis) – most common cause\n- Iatrogenic (surgical removal, radioactive iodine therapy)\n- Drugs (amiodarone, lithium)\n- Pituitary or hypothalamic failure (secondary hypothyroidism)\n- Iodine deficiency",
-                  "explanation": "Chronic autoimmune destruction is the leading cause in adults.",
-                  "keyConcept": "Hashimoto's most common; also iatrogenic, drugs, central."
+                  "explanation": "Primary (Hashimoto's most common) or secondary causes.",
+                  "keyConcept": "Hashimoto's, iatrogenic, drugs, central."
                 },
                 {
-                  "id": "85_c",
+                  "id": "73_c",
                   "type": "essay",
-                  "text": "Describe the histologic picture of the thyroid in this disease.",
+                  "question": "Describe the histologic picture of the thyroid in this disease.",
                   "modelAnswer": "Depends on the cause. In atrophic form (end-stage Hashimoto's): extensive fibrosis, marked atrophy of thyroid follicles, and lymphocytic infiltrate. There may be Hurthle cell change.",
-                  "explanation": "End-stage autoimmune thyroiditis shows fibrosis and atrophy.",
-                  "keyConcept": "Atrophic thyroid with fibrosis and lymphocytic infiltrate."
+                  "explanation": "End-stage Hashimoto's shows fibrosis and atrophy.",
+                  "keyConcept": "Fibrosis, atrophy, lymphocytic infiltrate."
                 },
                 {
-                  "id": "85_d",
+                  "id": "73_d",
                   "type": "essay",
-                  "text": "If this condition occurs during fetal life, what is the diagnosis? Describe the manifestations.",
+                  "question": "If this condition occurs during fetal life, what is the diagnosis? Describe the manifestations.",
                   "modelAnswer": "Cretinism. Manifestations include:\n- Severe physical and mental retardation.\n- Short stature, coarse facial features, macroglossia.\n- Umbilical hernia, hypotonia.\n- Delayed bone age and delayed tooth eruption.\n- Hoarse cry, constipation, bradycardia.",
-                  "explanation": "Congenital hypothyroidism leads to irreversible neurodevelopmental deficits.",
+                  "explanation": "Congenital hypothyroidism leads to irreversible developmental deficits.",
                   "keyConcept": "Cretinism: mental retardation, short stature, coarse features."
                 }
               ]
             },
             {
-              "id": 86,
+              "id": 74,
               "type": "case",
-              "question": "A female patient presented with a solitary thyroid nodule which is completely encapsulated. (Separate case: An old female presented with a small thyroid nodule. Biopsy showed that the tumor consisted of follicles of variable size. It is completely surrounded by a capsule which is infiltrated by the tumor.)",
+              "question": "An old female presented with a small thyroid nodule. Biopsy showed that the tumor consisted of follicles of variable size. It is completely surrounded by a capsule which is infiltrated by the tumor.",
               "subQuestions": [
                 {
-                  "id": "86_a",
+                  "id": "74_a",
                   "type": "essay",
-                  "text": "What is the differential diagnosis?",
+                  "question": "What is the differential diagnosis?",
                   "modelAnswer": "Follicular adenoma versus follicular carcinoma.",
-                  "explanation": "Both are encapsulated follicular neoplasms; distinction requires capsular/vascular invasion.",
-                  "keyConcept": "Adenoma vs carcinoma based on invasion."
+                  "explanation": "Both are follicular neoplasms; distinction requires capsular/vascular invasion.",
+                  "keyConcept": "Follicular adenoma vs carcinoma."
                 },
                 {
-                  "id": "86_b",
+                  "id": "74_b",
                   "type": "essay",
-                  "text": "How to achieve the correct diagnosis in such condition?",
+                  "question": "How to achieve the correct diagnosis in such condition?",
                   "modelAnswer": "By careful histological examination of the entire capsule to search for capsular invasion (tumor cells penetrating through the capsule) and/or vascular invasion (tumor cells within blood vessels in or outside the capsule).",
-                  "explanation": "Only invasion indicates malignancy; sampling the entire capsule is essential.",
-                  "keyConcept": "Capsular or vascular invasion = carcinoma."
+                  "explanation": "Capsular or vascular invasion indicates malignancy.",
+                  "keyConcept": "Capsular and vascular invasion define carcinoma."
                 },
                 {
-                  "id": "86_c",
+                  "id": "74_c",
                   "type": "essay",
-                  "text": "Mention the role of fine needle aspiration (FNA) technique in this case.",
+                  "question": "Mention the role of fine needle aspiration technique in this case.",
                   "modelAnswer": "FNA has no definitive role in distinguishing follicular adenoma from follicular carcinoma because both yield similar cytology (follicular cells). FNA cannot detect capsular or vascular invasion; this requires examination of the entire surgical specimen.",
-                  "explanation": "Cytology cannot differentiate benign from malignant follicular neoplasms.",
+                  "explanation": "FNA cannot differentiate benign from malignant follicular neoplasms.",
                   "keyConcept": "FNA cannot diagnose follicular carcinoma."
                 },
                 {
-                  "id": "86_d",
+                  "id": "74_d",
                   "type": "essay",
-                  "text": "If the capsule is not infiltrated by tumor, what is the diagnosis?",
+                  "question": "If the capsule is not infiltrated by tumor, what is the diagnosis?",
                   "modelAnswer": "Follicular adenoma.",
-                  "explanation": "Lack of invasion defines benign follicular adenoma.",
-                  "keyConcept": "Non-invasive = adenoma."
+                  "explanation": "Absence of invasion indicates benign.",
+                  "keyConcept": "Follicular adenoma: no invasion."
                 },
                 {
-                  "id": "86_e",
+                  "id": "74_e",
                   "type": "essay",
-                  "text": "What is the diagnosis when the capsule is infiltrated?",
+                  "question": "What is the diagnosis when the capsule is infiltrated?",
                   "modelAnswer": "Follicular carcinoma.",
                   "explanation": "Capsular invasion confirms malignancy.",
-                  "keyConcept": "Invasive = carcinoma."
+                  "keyConcept": "Follicular carcinoma: capsular invasion."
                 },
                 {
-                  "id": "86_f",
+                  "id": "74_f",
                   "type": "essay",
-                  "text": "What is the earliest method of distant spread in follicular carcinoma?",
+                  "question": "What is the earliest method of distant spread in follicular carcinoma?",
                   "modelAnswer": "Hematogenous spread (by blood), most commonly to lungs and bone.",
-                  "explanation": "Follicular carcinoma metastasizes via bloodstream, not lymphatics.",
-                  "keyConcept": "Hematogenous metastases to lung, bone."
+                  "explanation": "Follicular carcinoma metastasizes via bloodstream.",
+                  "keyConcept": "Hematogenous metastasis to lung and bone."
                 },
                 {
-                  "id": "86_g",
+                  "id": "74_g",
                   "type": "essay",
-                  "text": "Mention the tumor marker for follicular carcinoma.",
+                  "question": "Mention the tumor marker for follicular carcinoma.",
                   "modelAnswer": "Thyroglobulin.",
-                  "explanation": "Thyroglobulin is produced by follicular cells; elevated after thyroidectomy suggests recurrence.",
-                  "keyConcept": "Thyroglobulin is the tumor marker."
+                  "explanation": "Thyroglobulin is produced by follicular cells and used as a marker.",
+                  "keyConcept": "Thyroglobulin."
                 }
               ]
             },
             {
-              "id": 87,
+              "id": 75,
               "type": "case",
-              "question": "A woman presented with an enlarged thyroid gland. Fine needle aspiration cytology showed malignant epithelial cells with papillary formation. (Also appears in Problem Cases 10, 14, 25)",
+              "question": "A woman presented with an enlarged thyroid gland. Fine needle aspiration cytology showed malignant epithelial cells with papillary formation.",
               "subQuestions": [
                 {
-                  "id": "87_a",
+                  "id": "75_a",
                   "type": "essay",
-                  "text": "What is the diagnosis?",
+                  "question": "What is the diagnosis?",
                   "modelAnswer": "Papillary carcinoma of the thyroid.",
-                  "explanation": "Papillary architecture on FNA is diagnostic of papillary carcinoma.",
-                  "keyConcept": "Papillary carcinoma = most common thyroid malignancy."
+                  "explanation": "Papillary formations on cytology are characteristic.",
+                  "keyConcept": "Papillary thyroid carcinoma."
                 },
                 {
-                  "id": "87_b",
+                  "id": "75_b",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this tumor.",
+                  "question": "Describe the histologic picture of this tumor.",
                   "modelAnswer": "- Papillary formations with fibrovascular cores covered by neoplastic epithelial cells.\n- Characteristic nuclear features: Orphan Annie eye (ground glass) nuclei, nuclear grooves, and nuclear pseudo-inclusions.\n- Psammoma bodies (concentric calcifications) are often present.\n- Lymphocytic infiltrate may be seen.",
-                  "explanation": "Nuclear features (grooves, pseudo-inclusions, ground glass) are pathognomonic.",
-                  "keyConcept": "Papillae, Orphan Annie nuclei, psammoma bodies."
+                  "explanation": "Papillae, ground glass nuclei, grooves, pseudo-inclusions, psammoma bodies.",
+                  "keyConcept": "Orphan Annie eyes, psammoma bodies."
                 },
                 {
-                  "id": "87_c",
+                  "id": "75_c",
                   "type": "essay",
-                  "text": "Mention the tumor marker for this cancer.",
+                  "question": "Mention the tumor marker for this cancer.",
                   "modelAnswer": "Thyroglobulin.",
-                  "explanation": "Same as follicular carcinoma; thyroglobulin is produced by differentiated thyroid cancers.",
+                  "explanation": "Same as follicular carcinoma; derived from follicular cells.",
                   "keyConcept": "Thyroglobulin."
                 },
                 {
-                  "id": "87_d",
+                  "id": "75_d",
                   "type": "essay",
-                  "text": "What is the earliest method of distant spread in this tumor?",
+                  "question": "What is the earliest method of distant spread in this tumor?",
                   "modelAnswer": "Lymphatic spread to regional lymph nodes (cervical lymph nodes).",
-                  "explanation": "Papillary carcinoma preferentially metastasizes via lymphatics.",
-                  "keyConcept": "Lymphatic spread to cervical nodes."
+                  "explanation": "Papillary carcinoma typically metastasizes first to lymph nodes.",
+                  "keyConcept": "Lymphatic metastasis."
                 },
                 {
-                  "id": "87_e",
+                  "id": "75_e",
                   "type": "essay",
-                  "text": "Enumerate other malignant tumors of the thyroid gland.",
+                  "question": "Enumerate other malignant tumors of the thyroid gland.",
                   "modelAnswer": "1. Follicular carcinoma\n2. Medullary carcinoma\n3. Anaplastic (undifferentiated) carcinoma\n4. Primary thyroid lymphoma",
-                  "explanation": "Other types include follicular, medullary, anaplastic, and lymphoma.",
+                  "explanation": "Other primary malignancies include follicular, medullary, anaplastic, lymphoma.",
                   "keyConcept": "Follicular, medullary, anaplastic, lymphoma."
                 },
                 {
-                  "id": "87_f",
+                  "id": "75_f",
                   "type": "essay",
-                  "text": "Mention another thyroid lesion in which papillae are present.",
+                  "question": "Mention another thyroid lesion in which papillae are present.",
                   "modelAnswer": "Graves' disease (primary toxic goiter) can show papillary infoldings of the follicular epithelium, but these are not true papillae with fibrovascular cores.",
-                  "explanation": "Hyperplastic papillae in Graves' are non-neoplastic.",
-                  "keyConcept": "Graves' disease has pseudopapillae."
+                  "explanation": "Hyperplastic papillary infoldings in Graves' disease are benign.",
+                  "keyConcept": "Graves' disease: papillary infoldings."
                 },
                 {
-                  "id": "87_g",
+                  "id": "75_g",
                   "type": "essay",
-                  "text": "Enumerate other two tumors in which psammoma bodies are present.",
+                  "question": "Enumerate other two tumors in which psammoma bodies are present.",
                   "modelAnswer": "1. Serous cystadenocarcinoma of the ovary\n2. Meningioma",
-                  "explanation": "Psammoma bodies are concentric calcifications also seen in these tumors.",
+                  "explanation": "Psammoma bodies are concentric calcifications seen in various tumors.",
                   "keyConcept": "Ovarian serous carcinoma, meningioma."
                 }
               ]
             },
             {
-              "id": 88,
+              "id": 76,
               "type": "case",
-              "question": "An old man suffered from watery diarrhea and flushing of the face. Clinical examination showed a thyroid tumor which consists of malignant polygonal cells which are arranged in trabecular or follicular pattern with amyloid stroma. (Also appears in Problem Cases 9, 22)",
+              "question": "An old man suffered from watery diarrhea and flushing of the face. Clinical examination showed a thyroid tumor which consists of malignant polygonal cells which are arranged in trabecular or follicular pattern with amyloid stroma.",
               "subQuestions": [
                 {
-                  "id": "88_a",
+                  "id": "76_a",
                   "type": "essay",
-                  "text": "What is the diagnosis?",
+                  "question": "What is the diagnosis?",
                   "modelAnswer": "Medullary carcinoma of the thyroid.",
                   "explanation": "Amyloid stroma and neuroendocrine features are characteristic.",
-                  "keyConcept": "Medullary carcinoma = C-cell tumor with amyloid."
+                  "keyConcept": "Medullary thyroid carcinoma."
                 },
                 {
-                  "id": "88_b",
+                  "id": "76_b",
                   "type": "essay",
-                  "text": "Mention the cell of origin of this tumor.",
+                  "question": "Mention the cell of origin of this tumor.",
                   "modelAnswer": "Parafollicular C cells (neuroendocrine origin), which normally produce calcitonin.",
-                  "explanation": "Derived from neural crest, not follicular epithelium.",
-                  "keyConcept": "C cells (parafollicular cells)."
+                  "explanation": "C cells are neural crest-derived.",
+                  "keyConcept": "C cells (parafollicular)."
                 },
                 {
-                  "id": "88_c",
+                  "id": "76_c",
                   "type": "essay",
-                  "text": "Mention the diagnostic tumor marker for this cancer.",
+                  "question": "Mention the diagnostic tumor marker for this cancer.",
                   "modelAnswer": "Calcitonin (elevated in serum). Also, carcinoembryonic antigen (CEA) may be elevated.",
-                  "explanation": "Calcitonin is specific and used for diagnosis and follow-up.",
-                  "keyConcept": "Calcitonin and CEA."
+                  "explanation": "Calcitonin is specific and used for diagnosis and monitoring.",
+                  "keyConcept": "Calcitonin, CEA."
                 },
                 {
-                  "id": "88_d",
+                  "id": "76_d",
                   "type": "essay",
-                  "text": "Explain the cause of diarrhea and flushing in this patient.",
+                  "question": "Explain the cause of diarrhea and flushing in this patient.",
                   "modelAnswer": "Secretion of various neuroendocrine substances by the tumor, including serotonin, calcitonin, prostaglandins, and VIP (vasoactive intestinal peptide). Serotonin stimulates intestinal motility (causing diarrhea) and causes vasodilation (causing flushing).",
-                  "explanation": "Paraneoplastic secretion of vasoactive peptides causes symptoms.",
-                  "keyConcept": "Serotonin, VIP, prostaglandins cause diarrhea/flushing."
+                  "explanation": "Tumor secretes bioactive amines and peptides.",
+                  "keyConcept": "Serotonin, VIP, calcitonin cause symptoms."
                 },
                 {
-                  "id": "88_e",
+                  "id": "76_e",
                   "type": "essay",
-                  "text": "If the tumor cells are examined for thyroglobulin, what is the expected result?",
+                  "question": "If the tumor cells are examined for thyroglobulin, what is the expected result?",
                   "modelAnswer": "Negative (medullary carcinoma is not of follicular cell origin).",
                   "explanation": "C cells do not produce thyroglobulin.",
                   "keyConcept": "Thyroglobulin negative."
                 },
                 {
-                  "id": "88_f",
+                  "id": "76_f",
                   "type": "essay",
-                  "text": "If the tumor cells are examined for calcitonin, what is the expected result?",
+                  "question": "If the tumor cells are examined for calcitonin, what is the expected result?",
                   "modelAnswer": "Positive (immunohistochemical staining for calcitonin is a diagnostic feature).",
-                  "explanation": "Calcitonin is the specific product of C cells.",
+                  "explanation": "Calcitonin is the defining marker.",
                   "keyConcept": "Calcitonin positive."
                 }
               ]
             },
             {
-              "id": 89,
+              "id": 77,
               "type": "case",
               "question": "A 53-year-old woman has an infiltrative mass involving the left lobe of the thyroid and extending into adjacent soft tissues. Microscopically, the mass shows malignant spindle shaped cells. She dies within a year with metastatic lesions.",
               "subQuestions": [
                 {
-                  "id": "89_a",
+                  "id": "77_a",
                   "type": "essay",
-                  "text": "Which of the following neoplasms is this woman most likely to have?",
+                  "question": "Which of the following neoplasms is this woman most likely to have?",
                   "modelAnswer": "Anaplastic (undifferentiated) carcinoma.",
-                  "explanation": "Rapidly growing, infiltrative, spindle cell morphology, poor prognosis.",
-                  "keyConcept": "Anaplastic carcinoma = aggressive, spindle/giant cells."
+                  "explanation": "Rapidly invasive, spindle cells, poor prognosis.",
+                  "keyConcept": "Anaplastic thyroid carcinoma."
                 },
                 {
-                  "id": "89_b",
+                  "id": "77_b",
                   "type": "essay",
-                  "text": "What are the expected complications which might occur?",
+                  "question": "What are the expected complications which might occur?",
                   "modelAnswer": "- Rapid growth with local invasion causing dysphagia, dyspnea, hoarseness, and stridor.\n- Early hematogenous metastasis to lungs, bone, and brain.\n- Death usually within 6-12 months of diagnosis.",
-                  "explanation": "Highly lethal; most patients die within one year.",
-                  "keyConcept": "Local invasion, early metastasis, poor survival."
+                  "explanation": "Highly aggressive with local and distant spread.",
+                  "keyConcept": "Local invasion, early hematogenous metastases, fatal within 1 year."
                 },
                 {
-                  "id": "89_c",
+                  "id": "77_c",
                   "type": "essay",
-                  "text": "What are other microscopic features in this case?",
+                  "question": "What are other microscopic features in this case?",
                   "modelAnswer": "Pleomorphic cells: spindle cells, giant cells, and epithelioid cells; numerous mitotic figures; necrosis; absence of differentiated thyroid architecture; may have foci of previous differentiated carcinoma (papillary or follicular).",
-                  "explanation": "Often arises from pre-existing differentiated thyroid cancer.",
-                  "keyConcept": "Pleomorphism, mitoses, necrosis, dedifferentiation."
+                  "explanation": "Undifferentiated morphology often with prior differentiated component.",
+                  "keyConcept": "Pleomorphic, high mitoses, necrosis."
                 }
               ]
             },
             {
-              "id": 90,
+              "id": 78,
               "type": "case",
-              "question": "A middle-aged female complained of excessive sweating and insomnia. Clinical examination revealed increased blood pressure, exophthalmos and diffusely enlarged thyroid gland. (Also appears in Problem Cases 3, 17)",
+              "question": "A middle-aged female complained of excessive sweating and insomnia. Clinical examination revealed increased blood pressure, exophthalmos and diffusely enlarged thyroid gland.",
               "subQuestions": [
                 {
-                  "id": "90_a",
+                  "id": "78_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Graves' disease (primary toxic goiter).",
-                  "explanation": "Diffuse goiter, hyperthyroidism, and exophthalmos are classic.",
-                  "keyConcept": "Graves' disease = hyperthyroidism + goiter + exophthalmos."
+                  "explanation": "Hyperthyroidism, goiter, exophthalmos triad.",
+                  "keyConcept": "Graves' disease."
                 },
                 {
-                  "id": "90_b",
+                  "id": "78_b",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this disease.",
+                  "question": "Describe the histologic picture of this disease.",
                   "modelAnswer": "- Follicular epithelial hyperplasia: tall columnar cells with papillary infoldings into the follicle lumen.\n- Scalloped margins of colloid (resorption lacunae) due to increased follicular activity.\n- Decreased colloid (which is pale and watery).\n- Stroma is vascular with lymphocytic infiltrate (often with germinal centers).",
-                  "explanation": "Hyperfunctioning follicles show scalloped colloid and tall cells.",
-                  "keyConcept": "Tall columnar cells, scalloped colloid, lymphoid infiltrate."
+                  "explanation": "Hyperplastic follicles with scalloped colloid, lymphocytic infiltrate.",
+                  "keyConcept": "Tall columnar cells, scalloped colloid, lymphoid aggregates."
                 },
                 {
-                  "id": "90_c",
+                  "id": "78_c",
                   "type": "essay",
-                  "text": "Explain the cause of exophthalmos in this case.",
+                  "question": "Explain the cause of exophthalmos in this case.",
                   "modelAnswer": "Due to: (1) Edema and lymphocytic infiltration of the orbital soft tissues and extraocular muscles, (2) increased orbital fat, and (3) possible secretion of an exophthalmos-producing substance (likely TSH-receptor antibodies cross-reacting with orbital fibroblasts).",
-                  "explanation": "Autoimmune reaction against orbital tissues causes proptosis.",
-                  "keyConcept": "Orbit inflammation and fat expansion from TSH-R antibodies."
+                  "explanation": "Autoimmune orbital inflammation and fat expansion.",
+                  "keyConcept": "Orbital inflammation and edema."
                 },
                 {
-                  "id": "90_d",
+                  "id": "78_d",
                   "type": "essay",
-                  "text": "What is the most important complication in this disease?",
+                  "question": "What is the most important complication in this disease?",
                   "modelAnswer": "Heart failure (thyrotoxic cardiomyopathy) due to prolonged tachycardia, increased cardiac output, and possible atrial fibrillation.",
-                  "explanation": "High-output heart failure is a life-threatening complication.",
-                  "keyConcept": "Thyrotoxic cardiomyopathy and atrial fibrillation."
+                  "explanation": "High-output failure from sustained hyperthyroidism.",
+                  "keyConcept": "Thyrotoxic heart failure."
                 }
               ]
             }
@@ -820,74 +820,6 @@
               "keyConcept": "Adenoma is the most frequent cause."
             },
             {
-              "id": 91,
-              "type": "case",
-              "question": "An old female presented with osteoporosis and frequent renal stones. Blood examination showed very high serum calcium and low serum phosphorus. (Also appears in Problem Cases 5, 19, 30)",
-              "subQuestions": [
-                {
-                  "id": "91_a",
-                  "type": "essay",
-                  "text": "What is the most likely diagnosis?",
-                  "modelAnswer": "Primary hyperparathyroidism (most likely due to parathyroid adenoma).",
-                  "explanation": "Hypercalcemia, hypophosphatemia, bone loss, and stones are typical.",
-                  "keyConcept": "Primary hyperparathyroidism = high Ca, low PO4."
-                },
-                {
-                  "id": "91_b",
-                  "type": "essay",
-                  "text": "How to confirm the diagnosis?",
-                  "modelAnswer": "By detection of high serum level of parathyroid hormone (PTH) in the presence of hypercalcemia.",
-                  "explanation": "Elevated PTH with hypercalcemia confirms primary hyperparathyroidism.",
-                  "keyConcept": "High PTH + high Ca = primary hyperparathyroidism."
-                },
-                {
-                  "id": "91_c",
-                  "type": "essay",
-                  "text": "Mention the causes of this disease.",
-                  "modelAnswer": "- Parathyroid adenoma (most common, ~80-85%)\n- Parathyroid hyperplasia (usually due to MEN syndromes or chronic renal failure – secondary hyperparathyroidism)\n- Parathyroid carcinoma (rare)",
-                  "explanation": "Adenoma is the most frequent cause; hyperplasia seen in MEN.",
-                  "keyConcept": "Adenoma > hyperplasia > carcinoma."
-                },
-                {
-                  "id": "91_d",
-                  "type": "essay",
-                  "text": "Explain the cause of renal stones in this disease.",
-                  "modelAnswer": "Hypercalcemia leads to increased calcium excretion in the urine (hypercalciuria). Calcium precipitates, most commonly as calcium oxalate or calcium phosphate stones, resulting in nephrolithiasis.",
-                  "explanation": "High filtered calcium load exceeds solubility, forming stones.",
-                  "keyConcept": "Hypercalciuria → calcium stones."
-                },
-                {
-                  "id": "91_e",
-                  "type": "essay",
-                  "text": "Enumerate other two manifestations of this disease.",
-                  "modelAnswer": "1. Gallstones\n2. Peptic ulcer disease (due to hypercalcemia stimulating gastrin release)\n3. Acute pancreatitis\n4. \"Bones, stones, abdominal groans, and psychic moans\" – bone pain/osteoporosis, renal stones, constipation/peptic ulcer, and depression/confusion.",
-                  "explanation": "Classic mnemonic covers many systemic effects.",
-                  "keyConcept": "Bones, stones, abdominal groans, psychic moans."
-                },
-                {
-                  "id": "91_f",
-                  "type": "essay",
-                  "text": "What is the cause of bone pain in this patient?",
-                  "modelAnswer": "Decalcification and generalized osteoporosis due to increased osteoclastic bone resorption. Severe cases lead to osteitis fibrosa cystica (brown tumors, bone cysts, and subperiosteal resorption).",
-                  "explanation": "Excess PTH stimulates osteoclasts, causing bone loss.",
-                  "keyConcept": "Osteoclast activation → osteoporosis, brown tumors."
-                },
-                {
-                  "id": "91_g",
-                  "type": "essay",
-                  "text": "What syndrome does this patient most likely have if she also has an islet cell tumor of the pancreas (insulinoma)?",
-                  "modelAnswer": "Multiple Endocrine Neoplasia (MEN) syndrome, usually MEN1 (Wermer syndrome): parathyroid hyperplasia/adenoma, pancreatic islet cell tumors, and pituitary adenoma.",
-                  "explanation": "MEN1 involves parathyroid, pancreas, and pituitary.",
-                  "keyConcept": "MEN1: parathyroid, pancreatic islet, pituitary."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "topic": "Parathyroid Clinical",
-          "questions": [
-            {
               "id": 30,
               "type": "case",
               "question": "A 56-year-old woman presents with recurrent flank pain, hypercalcemia, decreased bone density on DEXA scan, and bilateral renal stones.",
@@ -895,7 +827,7 @@
                 {
                   "id": "30_a",
                   "type": "essay",
-                  "text": "What is the most appropriate diagnosis? (0.5 Mark)",
+                  "question": "What is the most appropriate diagnosis? (0.5 Mark)",
                   "modelAnswer": "Primary hyperparathyroidism.",
                   "explanation": "Hypercalcemia with bone loss and renal stones is classic.",
                   "keyConcept": "Primary hyperparathyroidism triad: hypercalcemia, bone loss, stones."
@@ -903,7 +835,7 @@
                 {
                   "id": "30_b",
                   "type": "essay",
-                  "text": "Describe the physiology underlying the decreased bone density and formation of renal stones. (1 Mark)",
+                  "question": "Describe the physiology underlying the decreased bone density and formation of renal stones. (1 Mark)",
                   "modelAnswer": "Decreased bone density: Excess PTH stimulates osteoclasts → bone resorption → osteoporosis.\nRenal stones: Persistent hypercalcemia → high filtered calcium → precipitates as calcium salts → nephrolithiasis.",
                   "explanation": "PTH mobilizes calcium from bone and increases renal calcium excretion.",
                   "keyConcept": "PTH increases bone resorption and renal calcium load."
@@ -911,7 +843,7 @@
                 {
                   "id": "30_c",
                   "type": "essay",
-                  "text": "Describe the state of skeletal muscle in this patient. (0.5 Mark)",
+                  "question": "Describe the state of skeletal muscle in this patient. (0.5 Mark)",
                   "modelAnswer": "Skeletal muscle weakness because hypercalcemia decreases neuromuscular excitability.",
                   "explanation": "High calcium stabilizes neuronal membranes, reducing excitability.",
                   "keyConcept": "Hypercalcemia reduces neuromuscular excitability."
@@ -919,7 +851,7 @@
                 {
                   "id": "30_d",
                   "type": "essay",
-                  "text": "Describe the LM and EM features of the cells responsible for secreting the hormone involved (parathyroid chief cells). (2 Marks)",
+                  "question": "Describe the LM and EM features of the cells responsible for secreting the hormone involved (parathyroid chief cells). (2 Marks)",
                   "modelAnswer": "LM: small polygonal cells with centrally located vesicular nuclei; basophilic cytoplasm containing lipid and glycogen.\nEM: rough endoplasmic reticulum, prominent Golgi, and a few secretory granules.",
                   "explanation": "Chief cells secrete PTH; ultrastructure reflects active protein synthesis.",
                   "keyConcept": "Chief cells show protein synthesis machinery on EM."
@@ -927,7 +859,7 @@
                 {
                   "id": "30_e",
                   "type": "essay",
-                  "text": "Mention four pathological causes of this condition (primary hyperparathyroidism). (2 Marks)",
+                  "question": "Mention four pathological causes of this condition (primary hyperparathyroidism). (2 Marks)",
                   "modelAnswer": "1. Parathyroid adenoma (85-95%)\n2. Primary hyperplasia (5-10%)\n3. Parathyroid carcinoma (~1%)\n4. Genetic defects (MEN-1 and MEN-2A)",
                   "explanation": "Adenoma is the most common cause.",
                   "keyConcept": "Adenoma, hyperplasia, carcinoma, MEN syndromes."
@@ -935,10 +867,73 @@
                 {
                   "id": "30_f",
                   "type": "essay",
-                  "text": "What is the appropriate drug to prescribe for this patient, and its mechanism of action? (2 Marks)",
+                  "question": "What is the appropriate drug to prescribe for this patient, and its mechanism of action? (2 Marks)",
                   "modelAnswer": "Drug: Cinacalcet.\nMechanism: Calcimimetic that increases sensitivity of calcium-sensing receptors → decreases PTH secretion → lowers blood calcium.",
                   "explanation": "Cinacalcet is used in patients with primary hyperparathyroidism who are not candidates for surgery.",
                   "keyConcept": "Cinacalcet lowers PTH by sensitizing CaSR."
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "type": "case",
+              "question": "An old female presented with osteoporosis and frequent renal stones. Blood examination showed very high serum calcium and low serum phosphorus.",
+              "subQuestions": [
+                {
+                  "id": "79_a",
+                  "type": "essay",
+                  "question": "What is the most likely diagnosis?",
+                  "modelAnswer": "Primary hyperparathyroidism (most likely due to parathyroid adenoma).",
+                  "explanation": "Hypercalcemia, hypophosphatemia, bone loss, stones.",
+                  "keyConcept": "Primary hyperparathyroidism."
+                },
+                {
+                  "id": "79_b",
+                  "type": "essay",
+                  "question": "How to confirm the diagnosis?",
+                  "modelAnswer": "By detection of high serum level of parathyroid hormone (PTH) in the presence of hypercalcemia.",
+                  "explanation": "Elevated PTH with hypercalcemia confirms primary hyperparathyroidism.",
+                  "keyConcept": "High PTH + high calcium."
+                },
+                {
+                  "id": "79_c",
+                  "type": "essay",
+                  "question": "Mention the causes of this disease.",
+                  "modelAnswer": "- Parathyroid adenoma (most common, ~80-85%)\n- Parathyroid hyperplasia (usually due to MEN syndromes or chronic renal failure – secondary hyperparathyroidism)\n- Parathyroid carcinoma (rare)",
+                  "explanation": "Adenoma is the most common cause.",
+                  "keyConcept": "Adenoma, hyperplasia, carcinoma."
+                },
+                {
+                  "id": "79_d",
+                  "type": "essay",
+                  "question": "Explain the cause of renal stones in this disease.",
+                  "modelAnswer": "Hypercalcemia leads to increased calcium excretion in the urine (hypercalciuria). Calcium precipitates, most commonly as calcium oxalate or calcium phosphate stones, resulting in nephrolithiasis.",
+                  "explanation": "Hypercalciuria from hypercalcemia promotes stone formation.",
+                  "keyConcept": "Hypercalciuria → calcium stones."
+                },
+                {
+                  "id": "79_e",
+                  "type": "essay",
+                  "question": "Enumerate other two manifestations of this disease.",
+                  "modelAnswer": "1. Gallstones\n2. Peptic ulcer disease (due to hypercalcemia stimulating gastrin release)\n3. Acute pancreatitis\n4. \"Bones, stones, abdominal groans, and psychic moans\" – bone pain/osteoporosis, renal stones, constipation/peptic ulcer, and depression/confusion.",
+                  "explanation": "Classic mnemonic for symptoms.",
+                  "keyConcept": "Bones, stones, groans, psychic moans."
+                },
+                {
+                  "id": "79_f",
+                  "type": "essay",
+                  "question": "What is the cause of bone pain in this patient?",
+                  "modelAnswer": "Decalcification and generalized osteoporosis due to increased osteoclastic bone resorption. Severe cases lead to osteitis fibrosa cystica (brown tumors, bone cysts, and subperiosteal resorption).",
+                  "explanation": "PTH-driven osteoclast activation causes bone resorption.",
+                  "keyConcept": "Osteitis fibrosa cystica."
+                },
+                {
+                  "id": "79_g",
+                  "type": "essay",
+                  "question": "What syndrome does this patient most likely have if she also has an islet cell tumor of the pancreas (insulinoma)?",
+                  "modelAnswer": "Multiple Endocrine Neoplasia (MEN) syndrome, usually MEN1 (Wermer syndrome): parathyroid hyperplasia/adenoma, pancreatic islet cell tumors, and pituitary adenoma.",
+                  "explanation": "MEN1 includes parathyroid, pancreatic, and pituitary tumors.",
+                  "keyConcept": "MEN1: parathyroid, pancreas, pituitary."
                 }
               ]
             }
@@ -1000,222 +995,222 @@
               "keyConcept": "Cushing syndrome causes atrophy (exogenous) or hyperplasia (endogenous)."
             },
             {
-              "id": 92,
+              "id": 80,
               "type": "case",
-              "question": "A young lady complained of headache. Blood pressure was 150/100. Blood examination showed high level of catecholamines. Abdominal sonography revealed an encapsulated tumor of the adrenal gland. (Also appears in Problem Cases 11, 18, 24, 28)",
+              "question": "A young lady complained of headache. Blood pressure was 150/100. Blood examination showed high level of catecholamines. Abdominal sonography revealed an encapsulated tumor of the adrenal gland.",
               "subQuestions": [
                 {
-                  "id": "92_a",
+                  "id": "80_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Pheochromocytoma.",
-                  "explanation": "Hypertension, elevated catecholamines, adrenal mass = pheochromocytoma.",
-                  "keyConcept": "Pheochromocytoma = catecholamine-secreting adrenal medulla tumor."
+                  "explanation": "Hypertension, high catecholamines, adrenal mass.",
+                  "keyConcept": "Pheochromocytoma."
                 },
                 {
-                  "id": "92_b",
+                  "id": "80_b",
                   "type": "essay",
-                  "text": "Mention the cell of origin of this tumor.",
+                  "question": "Mention the cell of origin of this tumor.",
                   "modelAnswer": "Pheochromocytes (chromaffin cells) of the adrenal medulla.",
                   "explanation": "Derived from neural crest chromaffin cells.",
                   "keyConcept": "Chromaffin cells."
                 },
                 {
-                  "id": "92_c",
+                  "id": "80_c",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this tumor.",
+                  "question": "Describe the histologic picture of this tumor.",
                   "modelAnswer": "- Nests (Zellballen) of polygonal or spindle-shaped cells surrounded by a rich vascular network (sustentacular cells are S-100 positive).\n- Granular, basophilic or amphophilic cytoplasm containing catecholamines (positive chromaffin reaction).\n- Nuclei are round with mild atypia. Pleomorphism is common but does not indicate malignancy.",
-                  "explanation": "Zellballen pattern is characteristic; malignancy defined only by metastasis.",
-                  "keyConcept": "Zellballen, vascular stroma, granular cytoplasm."
+                  "explanation": "Zellballen pattern, granular cytoplasm, vascular stroma.",
+                  "keyConcept": "Zellballen, chromaffin reaction."
                 },
                 {
-                  "id": "92_d",
+                  "id": "80_d",
                   "type": "essay",
-                  "text": "Discuss the biologic behavior of this tumor.",
+                  "question": "Discuss the biologic behavior of this tumor.",
                   "modelAnswer": "It is usually benign (~90%). Malignancy is difficult to predict histologically; the only reliable criterion of malignancy is the presence of metastasis (lymph nodes, liver, bone, lungs). Malignant pheochromocytomas are more common in extra-adrenal sites.",
-                  "explanation": "Behavior unpredictable; only metastasis proves malignancy.",
-                  "keyConcept": "Benign in 90%; metastasis = malignant."
+                  "explanation": "Malignancy defined by metastasis, not histology.",
+                  "keyConcept": "Metastasis = malignancy."
                 },
                 {
-                  "id": "92_e",
+                  "id": "80_e",
                   "type": "essay",
-                  "text": "Enumerate other two extra-adrenal sites for this tumor.",
+                  "question": "Enumerate other two extra-adrenal sites for this tumor.",
                   "modelAnswer": "- Organ of Zuckerkandl (near the aortic bifurcation)\n- Carotid body (where it is called paraganglioma)\n- Other sympathetic ganglia, urinary bladder, mediastinum",
-                  "explanation": "Extra-adrenal pheochromocytomas are called paragangliomas.",
-                  "keyConcept": "Organ of Zuckerkandl, carotid body, bladder."
+                  "explanation": "Extra-adrenal paragangliomas occur along sympathetic chains.",
+                  "keyConcept": "Organ of Zuckerkandl, carotid body."
                 },
                 {
-                  "id": "92_f",
+                  "id": "80_f",
                   "type": "essay",
-                  "text": "Mention substances secreted by this tumor.",
+                  "question": "Mention substances secreted by this tumor.",
                   "modelAnswer": "Adrenaline (epinephrine), noradrenaline (norepinephrine), and dopamine.",
-                  "explanation": "Catecholamines cause episodic hypertension, palpitations, sweating.",
+                  "explanation": "Catecholamines cause hypertension and other symptoms.",
                   "keyConcept": "Epinephrine, norepinephrine, dopamine."
                 },
                 {
-                  "id": "92_g",
+                  "id": "80_g",
                   "type": "essay",
-                  "text": "What are other tests that can confirm the diagnosis?",
+                  "question": "What are other tests that can confirm the diagnosis?",
                   "modelAnswer": "- 24-hour urinary fractionated metanephrines (most specific).\n- Plasma-free metanephrines.\n- Urinary vanillylmandelic acid (VMA) and homovanillic acid (HVA).",
-                  "explanation": "Metanephrines are the most sensitive and specific biochemical test.",
+                  "explanation": "Metanephrines are the preferred screening test.",
                   "keyConcept": "Metanephrines, VMA, HVA."
                 },
                 {
-                  "id": "92_h",
+                  "id": "80_h",
                   "type": "essay",
-                  "text": "Enumerate other tumors of the adrenal medulla.",
+                  "question": "Enumerate other tumors of the adrenal medulla.",
                   "modelAnswer": "1. Neuroblastoma (in children)\n2. Ganglioneuroma (benign, mature)",
-                  "explanation": "Other neural crest tumors include neuroblastoma and ganglioneuroma.",
+                  "explanation": "Other neural crest tumors of adrenal medulla.",
                   "keyConcept": "Neuroblastoma, ganglioneuroma."
                 }
               ]
             },
             {
-              "id": 93,
+              "id": 81,
               "type": "case",
-              "question": "A child 4 years old presented with flank pain. Abdominal sonography showed a tumor mass arising from adrenal medulla. Biopsy examination revealed malignant small round cells with rosette formation. (Also appears in Problem Cases 12, 20)",
+              "question": "A child 4 years old presented with flank pain. Abdominal sonography showed a tumor mass arising from adrenal medulla. Biopsy examination revealed malignant small round cells with rosette formation.",
               "subQuestions": [
                 {
-                  "id": "93_a",
+                  "id": "81_a",
                   "type": "essay",
-                  "text": "What is the diagnosis?",
+                  "question": "What is the diagnosis?",
                   "modelAnswer": "Neuroblastoma.",
-                  "explanation": "Small round blue cell tumor in child with rosettes = neuroblastoma.",
-                  "keyConcept": "Neuroblastoma = pediatric small round blue cell tumor."
+                  "explanation": "Pediatric adrenal tumor with small round blue cells and rosettes.",
+                  "keyConcept": "Neuroblastoma."
                 },
                 {
-                  "id": "93_b",
+                  "id": "81_b",
                   "type": "essay",
-                  "text": "Mention the diagnostic urine test for this tumor.",
+                  "question": "Mention the diagnostic urine test for this tumor.",
                   "modelAnswer": "Elevated urinary vanillylmandelic acid (VMA) and homovanillic acid (HVA) (catecholamine metabolites).",
-                  "explanation": "Catecholamine metabolites are elevated in most neuroblastomas.",
-                  "keyConcept": "VMA and HVA elevated."
+                  "explanation": "Catecholamine metabolites are elevated.",
+                  "keyConcept": "VMA, HVA."
                 },
                 {
-                  "id": "93_c",
+                  "id": "81_c",
                   "type": "essay",
-                  "text": "What is the cell of origin of this tumor?",
+                  "question": "What is the cell of origin of this tumor?",
                   "modelAnswer": "Blast (embryonic) cells derived from the neural crest, which normally differentiate into chromaffin cells of the adrenal medulla and sympathetic ganglia.",
-                  "explanation": "Arrested differentiation of neural crest precursors.",
-                  "keyConcept": "Neural crest blast cells."
+                  "explanation": "Primitive neural crest cells.",
+                  "keyConcept": "Neural crest blasts."
                 },
                 {
-                  "id": "93_d",
+                  "id": "81_d",
                   "type": "essay",
-                  "text": "Mention substances secreted by this tumor.",
+                  "question": "Mention substances secreted by this tumor.",
                   "modelAnswer": "Adrenaline, noradrenaline, and dopamine (VMA and HVA are breakdown products).",
-                  "explanation": "Same catecholamines as pheochromocytoma but often more dopamine.",
-                  "keyConcept": "Catecholamines, especially dopamine."
+                  "explanation": "Same catecholamines as pheochromocytoma.",
+                  "keyConcept": "Catecholamines."
                 },
                 {
-                  "id": "93_e",
+                  "id": "81_e",
                   "type": "essay",
-                  "text": "Describe the histologic picture of this tumor.",
+                  "question": "Describe the histologic picture of this tumor.",
                   "modelAnswer": "- Sheets of small, round, blue cells with hyperchromatic nuclei and scant cytoplasm (small round blue cell tumor).\n- Homer-Wright pseudorosettes (tumor cells arranged around a central area of neuropil, not a true lumen).\n- Neuropil (fibrillary background).\n- Immature appearance, variable differentiation.",
-                  "explanation": "Homer-Wright rosettes are characteristic but not always present.",
-                  "keyConcept": "Small round blue cells, Homer-Wright rosettes."
+                  "explanation": "Small round blue cells, pseudorosettes, neuropil.",
+                  "keyConcept": "Homer-Wright rosettes, neuropil."
                 },
                 {
-                  "id": "93_f",
+                  "id": "81_f",
                   "type": "essay",
-                  "text": "Discuss the biologic behavior of this tumor.",
+                  "question": "Discuss the biologic behavior of this tumor.",
                   "modelAnswer": "It is a highly malignant tumor with poor prognosis in older children, but infants under 1 year have a better prognosis. It can undergo spontaneous regression, especially in infants, or mature into a benign ganglioneuroma.",
-                  "explanation": "Prognosis varies by age; favorable histology and low stage in infants.",
-                  "keyConcept": "Poor prognosis >1 year; can regress spontaneously."
+                  "explanation": "Age-dependent prognosis; can regress or mature.",
+                  "keyConcept": "Spontaneous regression in infants."
                 },
                 {
-                  "id": "93_g",
+                  "id": "81_g",
                   "type": "essay",
-                  "text": "Enumerate other tumors of the adrenal medulla.",
+                  "question": "Enumerate other tumors of the adrenal medulla.",
                   "modelAnswer": "1. Pheochromocytoma\n2. Ganglioneuroma",
-                  "explanation": "Other neural crest tumors of the adrenal medulla.",
+                  "explanation": "Other adrenal medullary tumors.",
                   "keyConcept": "Pheochromocytoma, ganglioneuroma."
                 },
                 {
-                  "id": "93_h",
+                  "id": "81_h",
                   "type": "essay",
-                  "text": "What are the methods of spread of neuroblastoma?",
+                  "question": "What are the methods of spread of neuroblastoma?",
                   "modelAnswer": "- Lymphatic spread: to regional lymph nodes.\n- Hematogenous spread: to liver, bone (causing bone pain and periorbital ecchymosis), bone marrow, and skin (blueberry muffin lesions).",
-                  "explanation": "Metastasis to bone and liver is common; periorbital ecchymoses are classic.",
-                  "keyConcept": "Lymphatic and hematogenous; bone, liver, skin."
+                  "explanation": "Metastases to bone, liver, skin.",
+                  "keyConcept": "Blueberry muffin lesions, periorbital ecchymosis."
                 }
               ]
             },
             {
-              "id": 94,
+              "id": 82,
               "type": "case",
               "question": "Surgical excision of an adrenal gland is performed because of a 2 cm well demarcated tumor. Grossly the tumor is encapsulated, with homogenous yellowish brown cut surface. Sections prepared reveal cells with vacuolated cytoplasm in trabecular arrangement simulating normal gland tissue. No evidence of mitosis and no areas of necrosis.",
               "subQuestions": [
                 {
-                  "id": "94_a",
+                  "id": "82_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Adrenocortical adenoma.",
-                  "explanation": "Small, encapsulated, yellow, trabecular cells without mitoses = benign adenoma.",
-                  "keyConcept": "Adrenocortical adenoma = benign, small, yellow."
+                  "explanation": "Small, encapsulated, yellow, benign histology.",
+                  "keyConcept": "Adrenocortical adenoma."
                 },
                 {
-                  "id": "94_b",
+                  "id": "82_b",
                   "type": "essay",
-                  "text": "What are the alarming gross and microscopic features that suggest carcinoma in this case?",
+                  "question": "What are the alarming gross and microscopic features that suggest carcinoma in this case?",
                   "modelAnswer": "- Gross: large size (>5 cm), weight >50-100 g, hemorrhage, necrosis, irregular borders, invasion into surrounding tissues.\n- Microscopic: high mitotic rate (>5 per 50 high-power fields), atypical mitoses, diffuse architecture (loss of trabecular arrangement), broad fibrous bands, vascular invasion, necrosis.",
-                  "explanation": "Carcinoma is larger, invasive, mitotically active, and necrotic.",
-                  "keyConcept": "Large size, hemorrhage, necrosis, high mitoses, invasion."
+                  "explanation": "Malignancy suspected by size, weight, invasion, high mitoses.",
+                  "keyConcept": "Large size, necrosis, invasion, high mitotic rate."
                 },
                 {
-                  "id": "94_c",
+                  "id": "82_c",
                   "type": "essay",
-                  "text": "What is the only sure sign of malignancy in those tumors?",
+                  "question": "What is the only sure sign of malignancy in those tumors?",
                   "modelAnswer": "Metastasis (lymph nodes, liver, lungs, bone) or direct local invasion beyond the capsule.",
-                  "explanation": "Only metastatic or invasive behavior proves malignancy.",
-                  "keyConcept": "Metastasis or local invasion = carcinoma."
+                  "explanation": "Only metastasis unequivocally proves malignancy.",
+                  "keyConcept": "Metastasis = carcinoma."
                 },
                 {
-                  "id": "94_d",
+                  "id": "82_d",
                   "type": "essay",
-                  "text": "What are the methods of spread if the case is carcinoma?",
+                  "question": "What are the methods of spread if the case is carcinoma?",
                   "modelAnswer": "- Direct local invasion into periadrenal fat, kidney, or diaphragm.\n- Lymphatic spread to para-aortic and renal hilar lymph nodes.\n- Hematogenous spread to liver, lungs, and bone.",
-                  "explanation": "Adrenocortical carcinoma spreads locally, lymphatically, and hematogenously.",
-                  "keyConcept": "Direct, lymphatic, hematogenous."
+                  "explanation": "Local, lymphatic, and hematogenous spread.",
+                  "keyConcept": "Direct invasion, lymphatics, hematogenous."
                 }
               ]
             },
             {
-              "id": 95,
+              "id": 83,
               "type": "case",
               "question": "A 27-year-old female presents in the emergency room in acute crisis of shock with low B.P., high fever, pain in the abdomen with nausea, vomiting and diarrhea. Serological findings include marked hyponatraemia (decreased serum sodium). Her mother states that her daughter has recently a severe psychic trauma.",
               "subQuestions": [
                 {
-                  "id": "95_a",
+                  "id": "83_a",
                   "type": "essay",
-                  "text": "What is the most likely diagnosis?",
+                  "question": "What is the most likely diagnosis?",
                   "modelAnswer": "Acute adrenal insufficiency (Addisonian crisis).",
-                  "explanation": "Shock, hyponatremia, GI symptoms, and stress trigger in setting of adrenal insufficiency.",
-                  "keyConcept": "Addisonian crisis = acute adrenal insufficiency with shock."
+                  "explanation": "Shock, hyponatremia, stress precipitant.",
+                  "keyConcept": "Addisonian crisis."
                 },
                 {
-                  "id": "95_b",
+                  "id": "83_b",
                   "type": "essay",
-                  "text": "What are other possible causes for this condition?",
+                  "question": "What are other possible causes for this condition?",
                   "modelAnswer": "- Bilateral adrenal hemorrhage (e.g., Waterhouse-Friderichsen syndrome from meningococcemia, anticoagulant use).\n- Rapid withdrawal of chronic corticosteroid therapy.\n- Pituitary apoplexy.\n- Sepsis in a patient with chronic adrenal insufficiency.",
-                  "explanation": "Sudden loss of cortisol can occur from hemorrhage, pituitary crisis, or steroid withdrawal.",
+                  "explanation": "Causes include adrenal hemorrhage, steroid withdrawal, pituitary apoplexy.",
                   "keyConcept": "Waterhouse-Friderichsen, steroid withdrawal, pituitary apoplexy."
                 },
                 {
-                  "id": "95_c",
+                  "id": "83_c",
                   "type": "essay",
-                  "text": "If this disorder is chronic, what will be the diagnosis? What are the causes?",
+                  "question": "If this disorder is chronic, what will be the diagnosis? What are the causes?",
                   "modelAnswer": "Diagnosis: Addison's disease (chronic primary adrenal insufficiency). Causes: Autoimmune adrenalitis (most common in developed countries), tuberculosis (most common in developing countries), metastatic carcinoma, HIV, fungal infections, amyloidosis.",
-                  "explanation": "Chronic destruction of adrenal cortex leads to Addison's disease.",
-                  "keyConcept": "Addison's disease; autoimmune, TB, metastases."
+                  "explanation": "Chronic insufficiency = Addison's disease; autoimmune or infectious.",
+                  "keyConcept": "Addison's disease: autoimmune, TB."
                 },
                 {
-                  "id": "95_d",
+                  "id": "83_d",
                   "type": "essay",
-                  "text": "What are the pathological effects of this chronic disorder?",
+                  "question": "What are the pathological effects of this chronic disorder?",
                   "modelAnswer": "- Hyperpigmentation (due to increased ACTH and MSH from loss of cortisol feedback).\n- Hyponatremia, hyperkalemia, hypovolemia, hypotension.\n- Fatigue, weight loss, anorexia, nausea, vomiting.\n- Hypoglycemia (due to cortisol deficiency).\n- Inability to tolerate stress.",
-                  "explanation": "Deficiency of cortisol and aldosterone causes metabolic, electrolyte, and pigmentary changes.",
-                  "keyConcept": "Hyperpigmentation, hyponatremia, hyperkalemia, hypotension, hypoglycemia."
+                  "explanation": "Lack of cortisol and aldosterone causes electrolyte imbalance, hypoglycemia, pigmentation.",
+                  "keyConcept": "Hyperpigmentation, hyponatremia, hyperkalemia, hypoglycemia."
                 }
               ]
             }
@@ -1469,7 +1464,7 @@
                 {
                   "id": "64_a",
                   "type": "essay",
-                  "text": "What is the possible diagnosis? (1 Mark)",
+                  "question": "What is the possible diagnosis? (1 Mark)",
                   "modelAnswer": "Diabetic ketoacidosis (DKA).",
                   "explanation": "Severe hyperglycemia, ketosis, and acidosis in a type 1 diabetic define DKA.",
                   "keyConcept": "DKA: hyperglycemia, ketosis, acidosis."
@@ -1477,7 +1472,7 @@
                 {
                   "id": "64_b",
                   "type": "essay",
-                  "text": "Explain cause(s) of dehydration in this patient. (1 Mark)",
+                  "question": "Explain cause(s) of dehydration in this patient. (1 Mark)",
                   "modelAnswer": "1. Excretion of glucose and ketone bodies in urine → polyuria and osmotic diuresis.\n2. Excessive vomiting.",
                   "explanation": "Osmotic diuresis from glucosuria is the primary driver.",
                   "keyConcept": "Osmotic diuresis and vomiting cause dehydration."
@@ -1485,7 +1480,7 @@
                 {
                   "id": "64_c",
                   "type": "essay",
-                  "text": "Outline metabolic changes occurring in type 1 diabetes mellitus regarding carbohydrate metabolism. (1 Mark)",
+                  "question": "Outline metabolic changes occurring in type 1 diabetes mellitus regarding carbohydrate metabolism. (1 Mark)",
                   "modelAnswer": "1. Decreased glucose uptake in muscle and adipose tissue (GLUT-4 insulin-dependent) → hyperglycemia.\n2. Stimulation of gluconeogenesis and glycogenolysis by liver → hyperglycemia.",
                   "explanation": "Insulin deficiency leads to unchecked hepatic glucose production and reduced peripheral utilization.",
                   "keyConcept": "Insulin deficiency causes increased hepatic glucose output and reduced uptake."
@@ -1493,7 +1488,7 @@
                 {
                   "id": "64_d",
                   "type": "essay",
-                  "text": "List 4 pathological complications of diabetes. (2 Marks)",
+                  "question": "List 4 pathological complications of diabetes. (2 Marks)",
                   "modelAnswer": "1. Arteries: microvascular disease / atherosclerosis.\n2. Kidney: diabetic nephropathy → nephrotic syndrome or CKD.\n3. Retina: retinopathy → blindness.\n4. Nerves: diabetic neuropathy → pain & numbness (glove-and-stock pattern).",
                   "explanation": "Chronic hyperglycemia damages small and large vessels.",
                   "keyConcept": "Microvascular (retina, kidney, nerves) and macrovascular complications."
@@ -1501,7 +1496,7 @@
                 {
                   "id": "64_e",
                   "type": "essay",
-                  "text": "State type of insulin and route of administration to be used in this case (DKA). (1 Mark)",
+                  "question": "State type of insulin and route of administration to be used in this case (DKA). (1 Mark)",
                   "modelAnswer": "Regular insulin – IV/IM.",
                   "explanation": "IV regular insulin allows rapid titration and is standard for severe DKA.",
                   "keyConcept": "IV regular insulin for severe DKA."
@@ -1516,7 +1511,7 @@
                 {
                   "id": "65_a",
                   "type": "essay",
-                  "text": "Mention the causes of the presenting clinical symptoms. (2 Marks)",
+                  "question": "Mention the causes of the presenting clinical symptoms. (2 Marks)",
                   "modelAnswer": "1. Deep rapid breathing (Kussmaul respiration) – compensatory for metabolic acidosis.\n2. Fruity odor – accumulation and expiration of acetone.\n3. Abdominal pain – triggered by acidosis and increased epinephrine (decreased intestinal motility).",
                   "explanation": "Each symptom has a distinct metabolic cause in DKA.",
                   "keyConcept": "Kussmaul breathing, acetone breath, abdominal pain are DKA symptoms."
@@ -1524,7 +1519,7 @@
                 {
                   "id": "65_b",
                   "type": "essay",
-                  "text": "Explain the pathogenesis of Type 1 Diabetes Mellitus. (1 Mark)",
+                  "question": "Explain the pathogenesis of Type 1 Diabetes Mellitus. (1 Mark)",
                   "modelAnswer": "- Autoimmune disease: destruction of pancreatic β-cells by T cells and autoantibodies (ICA, GADA).\n- Triggered by environmental factors (e.g., viral infection) in genetically susceptible individuals.",
                   "explanation": "Type 1 diabetes results from cell-mediated autoimmunity against β-cells.",
                   "keyConcept": "Autoimmune β-cell destruction causes type 1 DM."
@@ -1532,7 +1527,7 @@
                 {
                   "id": "65_c",
                   "type": "essay",
-                  "text": "Describe the metabolic changes in lipid metabolism in Type 1 DM. (2 Marks)",
+                  "question": "Describe the metabolic changes in lipid metabolism in Type 1 DM. (2 Marks)",
                   "modelAnswer": "[1] Hypertriglyceridemia: low lipoprotein lipase activity → poor clearance of chylomicrons and VLDL; liver produces more VLDL.\n[2] Ketosis: massive lipolysis → free fatty acids → accelerated β-oxidation → excess Acetyl CoA → ketone bodies.",
                   "explanation": "Unrestrained lipolysis and reduced lipid clearance cause elevated triglycerides and ketones.",
                   "keyConcept": "Lipoprotein lipase deficiency causes hypertriglyceridemia; lipolysis causes ketosis."
@@ -1540,7 +1535,7 @@
                 {
                   "id": "65_d",
                   "type": "essay",
-                  "text": "Identify the primary cause of dehydration in this patient (DKA). (1 Mark)",
+                  "question": "Identify the primary cause of dehydration in this patient (DKA). (1 Mark)",
                   "modelAnswer": "Osmotic diuresis caused by high blood glucose (glucosuria) and ketone bodies.",
                   "explanation": "Glucosuria is the main driver; ketonuria adds to the osmotic effect.",
                   "keyConcept": "Osmotic diuresis from glucosuria and ketonuria."
@@ -1548,7 +1543,7 @@
                 {
                   "id": "65_e",
                   "type": "essay",
-                  "text": "For a mild, uncomplicated case of DKA, mention the preferred type of insulin and its route of administration. (2 Marks)",
+                  "question": "For a mild, uncomplicated case of DKA, mention the preferred type of insulin and its route of administration. (2 Marks)",
                   "modelAnswer": "Rapid-acting insulin analogs administered subcutaneously (S.C.).",
                   "explanation": "In mild DKA, subcutaneous rapid-acting insulin is effective and avoids the need for IV infusion.",
                   "keyConcept": "Subcutaneous rapid-acting insulin for mild DKA."
@@ -1563,7 +1558,7 @@
                 {
                   "id": "66_a",
                   "type": "essay",
-                  "text": "Describe the normal mechanism of insulin secretion from pancreatic β cells. (2 Marks)",
+                  "question": "Describe the normal mechanism of insulin secretion from pancreatic β cells. (2 Marks)",
                   "modelAnswer": "- Glucose enters β-cells via GLUT-2 → metabolized to ATP.\n- High ATP closes ATP-sensitive K+ channels → depolarization → opens voltage-gated Ca2+ channels.\n- Calcium influx triggers exocytosis of insulin granules.",
                   "explanation": "This glucose-stimulated insulin secretion is the core of β-cell function.",
                   "keyConcept": "ATP closes KATP channels, leading to Ca2+ influx and insulin release."
@@ -1571,7 +1566,7 @@
                 {
                   "id": "66_b",
                   "type": "essay",
-                  "text": "Name three complications associated with this patient's condition (type 2 diabetes). (3 Marks)",
+                  "question": "Name three complications associated with this patient's condition (type 2 diabetes). (3 Marks)",
                   "modelAnswer": "1. Diabetic retinopathy.\n2. Diabetic nephropathy.\n3. Diabetic neuropathy.",
                   "explanation": "Microvascular complications are common in both type 1 and type 2 diabetes.",
                   "keyConcept": "Retinopathy, nephropathy, neuropathy."
@@ -1579,7 +1574,7 @@
                 {
                   "id": "66_c",
                   "type": "essay",
-                  "text": "List the adverse effects of Liraglutide. (1 Mark)",
+                  "question": "List the adverse effects of Liraglutide. (1 Mark)",
                   "modelAnswer": "- Nausea (most common, especially with high doses).\n- Possible association with pancreatitis.",
                   "explanation": "Liraglutide (GLP-1 agonist) commonly causes GI side effects; rare pancreatitis risk.",
                   "keyConcept": "Nausea and pancreatitis risk."
@@ -1587,7 +1582,7 @@
                 {
                   "id": "66_d",
                   "type": "essay",
-                  "text": "What is the route of administration for Liraglutide? (1 Mark)",
+                  "question": "What is the route of administration for Liraglutide? (1 Mark)",
                   "modelAnswer": "Subcutaneous (S.C.).",
                   "explanation": "All GLP-1 receptor agonists are injected subcutaneously.",
                   "keyConcept": "Subcutaneous injection."
@@ -1595,7 +1590,7 @@
                 {
                   "id": "66_e",
                   "type": "essay",
-                  "text": "Identify a contraindication for which Liraglutide should be avoided. (1 Mark)",
+                  "question": "Identify a contraindication for which Liraglutide should be avoided. (1 Mark)",
                   "modelAnswer": "Patients with a family history of medullary carcinoma of the thyroid.",
                   "explanation": "Liraglutide may increase the risk of thyroid C-cell tumors; contraindicated in such patients.",
                   "keyConcept": "Contraindicated in medullary thyroid cancer history."
