@@ -89,7 +89,7 @@ export function ResultsDashboard({
 
   const renderFormattedText = (
     text: string | undefined,
-    fallbackClassName: string = "text-sm font-semibold text-success-dark leading-relaxed whitespace-pre-wrap"
+    fallbackClassName: string = "text-sm font-semibold text-success-dark dark:text-green-300 leading-relaxed whitespace-pre-wrap"
   ) => {
     if (!text) return null;
     if (text.includes('|')) {
@@ -619,7 +619,7 @@ export function ResultsDashboard({
                         </div>
                         <div className="bg-success/[0.02] rounded-2xl p-5 border border-success/10">
                           <div className="text-[10px] text-success font-bold uppercase tracking-wider mb-2">Reference Model Answer</div>
-                          {renderFormattedText(q.modelAnswer, "text-sm font-semibold text-success-dark leading-relaxed whitespace-pre-wrap text-left")}
+                          {renderFormattedText(q.modelAnswer, "text-sm font-semibold text-success-dark dark:text-green-300 leading-relaxed whitespace-pre-wrap text-left")}
                         </div>
                       </div>
                     )}
@@ -705,7 +705,7 @@ export function ResultsDashboard({
                                     </div>
                                     <div className="bg-success/[0.02] rounded-xl p-3.5 border border-success/10 text-xs">
                                       <span className="font-bold text-[10px] uppercase text-success block mb-1">Reference Answer:</span>
-                                      {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark leading-relaxed text-left whitespace-pre-wrap")}
+                                      {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark dark:text-green-300 leading-relaxed text-left whitespace-pre-wrap")}
                                     </div>
                                   </div>
                                 )}

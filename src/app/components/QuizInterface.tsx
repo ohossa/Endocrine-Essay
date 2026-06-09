@@ -46,7 +46,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
 
   const renderFormattedText = (
     text: string | undefined,
-    fallbackClassName: string = "text-sm font-medium text-gray-700 dark:text-gray-355 leading-relaxed mb-4 whitespace-pre-wrap text-left"
+    fallbackClassName: string = "text-sm font-medium text-gray-700 dark:text-gray-200 leading-relaxed mb-4 whitespace-pre-wrap text-left"
   ) => {
     if (!text) return null;
     if (text.includes('|')) {
@@ -565,7 +565,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                                   <Lightbulb size={14} />
                                   <span className="text-[10px] font-bold uppercase tracking-wider">Model Answer Reference</span>
                                 </div>
-                                  {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark leading-relaxed text-left whitespace-pre-wrap")}
+                                  {renderFormattedText(subQ.modelAnswer, "text-xs font-semibold text-success-dark dark:text-green-300 leading-relaxed text-left whitespace-pre-wrap")}
 
                                 {/* Display Key Concept immediately upon model answer reveal */}
                                 {subQ.keyConcept && (
