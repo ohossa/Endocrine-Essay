@@ -230,12 +230,9 @@ export function ChapterSelect({ onSelectChapter }: Props) {
                   </div>
                 </div>
 
-                <h3 className={`font-archivo text-xl font-bold text-gray-900 dark:text-white tracking-tight mb-1 ${hoverText[chapter.accentColor]} transition-colors duration-300`}>
+                <h3 className={`font-archivo text-xl font-bold text-gray-900 dark:text-white tracking-tight mb-4 ${hoverText[chapter.accentColor]} transition-colors duration-300`}>
                   {chapter.title}
                 </h3>
-                <p className="text-xs text-gray-400 dark:text-gray-500 mb-5">
-                  {chapter.subtitle}
-                </p>
 
                 <div className="flex flex-wrap gap-1.5 mb-5">
                   {chapter.subjects.map((s) => (
