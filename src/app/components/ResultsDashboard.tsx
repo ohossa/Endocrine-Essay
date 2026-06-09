@@ -108,10 +108,10 @@ export function ResultsDashboard({
         const bodyRows = rows.slice(1);
 
         return (
-          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-250 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
             <table className="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
-                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
+                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
                   {headers.map((h, idx) => (
                     <th key={idx} className="p-4 text-[10px] sm:text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                       {h}
@@ -119,11 +119,11 @@ export function ResultsDashboard({
                   ))}
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-100 dark:divide-gray-850">
+              <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                 {bodyRows.map((row, rIdx) => (
                   <tr key={rIdx} className="hover:bg-gray-50/50 dark:hover:bg-gray-950/30 transition-colors">
                     {row.map((cell, cIdx) => (
-                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-750 dark:text-gray-350">
+                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300">
                         {cell}
                       </td>
                     ))}

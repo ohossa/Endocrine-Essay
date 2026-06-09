@@ -69,10 +69,10 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         const bodyRows = rows.slice(1);
 
         return (
-          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-250 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
+          <div className="overflow-x-auto my-4 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-left">
             <table className="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
-                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-250 dark:border-gray-800">
+                <tr className="bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
                   {headers.map((h, idx) => (
                     <th key={idx} className="p-4 text-[10px] sm:text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                       {h}
@@ -80,11 +80,11 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                   ))}
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-100 dark:divide-gray-850">
+              <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                 {bodyRows.map((row, rIdx) => (
                   <tr key={rIdx} className="hover:bg-gray-50/50 dark:hover:bg-gray-950/30 transition-colors">
                     {row.map((cell, cIdx) => (
-                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-750 dark:text-gray-300">
+                      <td key={cIdx} className="p-4 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300">
                         {cell}
                       </td>
                     ))}
@@ -368,7 +368,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                 className={`p-2 rounded-2xl border transition-all ${
                   flagged.has(currentIdx)
                     ? 'bg-amber-50 border-amber-300 text-amber-500 dark:bg-amber-950/20 dark:border-amber-700'
-                    : 'bg-white dark:bg-gray-900 border-gray-100 dark:border-gray-800 text-gray-400 hover:text-gray-650'
+                    : 'bg-white dark:bg-gray-900 border-gray-100 dark:border-gray-800 text-gray-400 hover:text-gray-800 dark:hover:text-white'
                 }`}
                 title="Flag for Review (Press 'F')"
               >
@@ -859,7 +859,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                     </div>
                     <div>
                       <h4 className="font-archivo text-sm font-bold text-success-dark mb-1">Explanation</h4>
-                      <p className="text-sm text-gray-650 dark:text-gray-405 leading-relaxed">{current.explanation}</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{current.explanation}</p>
                     </div>
                   </div>
                 )}
@@ -871,7 +871,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
               <button
                 onClick={() => setCurrentIdx((i) => Math.max(0, i - 1))}
                 disabled={currentIdx === 0}
-                className="nav-btn inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white dark:bg-gray-900 border-2 border-gray-100 dark:border-gray-800 text-gray-650 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:border-gray-300 dark:hover:border-gray-600 text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed"
+                className="nav-btn inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white dark:bg-gray-900 border-2 border-gray-100 dark:border-gray-800 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:border-gray-300 dark:hover:border-gray-600 text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed"
                 style={{ boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}
               >
                 <ArrowLeft size={16} />
@@ -987,7 +987,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                     <div key={row.label} className="flex items-center justify-between text-xs">
                       <div className="flex items-center gap-1.5">
                         <span className={`w-2 h-2 rounded-full ${row.color}`} />
-                        <span className="font-semibold text-gray-650 dark:text-gray-400">{row.label}</span>
+                        <span className="font-semibold text-gray-600 dark:text-gray-400">{row.label}</span>
                       </div>
                       <span className={`font-bold ${row.textColor}`}>{row.value}</span>
                     </div>
@@ -1015,7 +1015,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                     else if (isFlagged) cls += 'bg-amber-50 dark:bg-amber-900/30 border-amber-300 dark:border-amber-700 text-amber-600 dark:text-amber-400';
                     else if (wasCorrect) cls += 'bg-success/10 border-success/30 text-success';
                     else if (isCompleted) cls += 'bg-danger/10 border-danger/30 text-danger';
-                    else cls += 'bg-gray-50 dark:bg-gray-800 border-gray-100 dark:border-gray-700 text-gray-300 dark:text-gray-650';
+                    else cls += 'bg-gray-50 dark:bg-gray-800 border-gray-100 dark:border-gray-700 text-gray-400 dark:text-gray-500';
 
                     return (
                       <button key={idx} className={cls} onClick={() => setCurrentIdx(idx)}>
@@ -1107,7 +1107,7 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
                   <span className="text-sm font-semibold text-gray-600 dark:text-gray-400">{item.desc}</span>
                   <div className="flex gap-1 flex-shrink-0">
                     {item.keys.map((k) => (
-                      <kbd key={k} className="px-2 py-1 rounded bg-gray-100 dark:bg-gray-850 border border-gray-200 dark:border-gray-750 font-mono text-xs font-bold text-gray-800 dark:text-gray-250 shadow-sm">
+                      <kbd key={k} className="px-2 py-1 rounded bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 font-mono text-xs font-bold text-gray-800 dark:text-gray-300 shadow-sm">
                         {k}
                       </kbd>
                     ))}
@@ -1148,9 +1148,9 @@ function QuizTimer({ onTick }: TimerProps) {
   }, [onTick]);
 
   return (
-    <div className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-850 rounded-2xl border border-gray-105 dark:border-gray-750">
-      <Clock size={14} className="text-gray-400 dark:text-gray-500" />
-      <span className="text-sm font-semibold text-gray-650 dark:text-gray-300 tabular-nums">{formatTime(seconds)}</span>
+    <div className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700">
+      <Clock size={14} className="text-gray-500 dark:text-gray-400" />
+      <span className="text-sm font-semibold text-gray-700 dark:text-gray-300 tabular-nums">{formatTime(seconds)}</span>
     </div>
   );
 }
