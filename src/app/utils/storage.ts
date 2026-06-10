@@ -8,6 +8,9 @@ export interface QuizResult {
   total: number;
   pct: number;
   elapsedSeconds: number;
+  questionIds?: number[];
+  answers?: Record<number, any>;
+  flaggedQuestionIds?: number[];
 }
 
 const HISTORY_KEY = 'endocrine_essay_quiz_history';

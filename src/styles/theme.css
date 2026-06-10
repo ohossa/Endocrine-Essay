@@ -111,6 +111,14 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
+
+  /* Success/Danger overrides for dark mode legibility */
+  --color-success-dark: #86efac;
+  --color-success: #4ade80;
+  --color-success-light: rgba(74, 222, 128, 0.15);
+  --color-danger-dark: #fca5a5;
+  --color-danger: #f87171;
+  --color-danger-light: rgba(248, 113, 113, 0.15);
 }
 
 @theme inline {

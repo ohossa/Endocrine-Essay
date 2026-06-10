@@ -5,7 +5,8 @@ import { SubjectSelect } from './components/SubjectSelect';
 import { QuizInterface } from './components/QuizInterface';
 import { ResultsDashboard } from './components/ResultsDashboard';
 import { ThemeProvider } from './context/ThemeContext';
-import { saveQuizResult } from './utils/storage';
+import { saveQuizResult, QuizResult } from './utils/storage';
+import { chapters } from './data';
 
 interface QuizPayload {
   chapter: ChapterData;
@@ -130,10 +131,55 @@ export default function App() {
       total,
       pct: total > 0 ? Math.round((correct / total) * 100) : 0,
       elapsedSeconds,
+      questionIds: questions.map(q => q.id),
+      answers,
+      flaggedQuestionIds: Array.from(flaggedQuestions)
     });
 
     transitionTo(() => {
       setResultPayload({ chapter: quizPayload!.chapter, subject: quizPayload!.subject, questions, answers, elapsedSeconds, flaggedQuestions });
+      setScreen('results');
+    });
+  };
+
+  const handleSelectHistory = (result: QuizResult) => {
+    const chapter = chapters.find((c) => c.id === result.chapterId);
+    if (!chapter) return;
+
+    const subject = chapter.subjects.find((s) => s.name === result.subjectName) || null;
+
+    let questionsList: Question[] = [];
+    if (result.questionIds && Array.isArray(result.questionIds)) {
+      const allChapterQuestions = chapter.subjects.flatMap((s) => s.questions);
+      result.questionIds.forEach((id: number) => {
+        const found = allChapterQuestions.find((q) => q.id === id);
+        if (found) {
+          questionsList.push(found);
+        }
+      });
+    }
+
+    if (questionsList.length === 0) {
+      if (subject) {
+        questionsList = subject.questions;
+      } else {
+        questionsList = chapter.subjects.flatMap((s) => s.questions);
+      }
+    }
+
+    const answersRecord = result.answers || {};
+    const flaggedSet = new Set<number>(result.flaggedQuestionIds || []);
+
+    transitionTo(() => {
+      setQuizPayload({ chapter, subject, questions: questionsList });
+      setResultPayload({
+        chapter,
+        subject,
+        questions: questionsList,
+        answers: answersRecord,
+        elapsedSeconds: result.elapsedSeconds,
+        flaggedQuestions: flaggedSet,
+      });
       setScreen('results');
     });
   };
@@ -157,7 +203,7 @@ export default function App() {
 
   return (
     <ThemeProvider>
-      {screen === 'chapters' && <ChapterSelect onSelectChapter={handleSelectChapter} />}
+      {screen === 'chapters' && <ChapterSelect onSelectChapter={handleSelectChapter} onSelectHistory={handleSelectHistory} />}
       {screen === 'subjects' && selectedChapter && (
         <SubjectSelect
           chapter={selectedChapter}

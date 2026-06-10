@@ -1233,9 +1233,9 @@ function QuizTimer({ onTick }: TimerProps) {
   }, [onTick]);
 
   return (
-    <div className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700">
+    <div className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-900/50 rounded-2xl border border-gray-100 dark:border-gray-800">
       <Clock size={14} className="text-gray-500 dark:text-gray-400" />
-      <span className="text-sm font-semibold text-gray-700 dark:text-gray-300 tabular-nums">{formatTime(seconds)}</span>
+      <span className="text-sm font-semibold text-gray-600 dark:text-gray-400 tabular-nums">{formatTime(seconds)}</span>
     </div>
   );
 }

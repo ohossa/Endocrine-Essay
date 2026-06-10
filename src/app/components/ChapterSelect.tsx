@@ -7,6 +7,7 @@ import { getQuizHistory, clearQuizHistory, QuizResult } from '../utils/storage';
 
 interface Props {
   onSelectChapter: (chapter: ChapterData) => void;
+  onSelectHistory?: (result: QuizResult) => void;
 }
 
 const badgeColors: Record<SubjectColor, string> = {
@@ -60,7 +61,7 @@ function formatDate(iso: string) {
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
 }
 
-export function ChapterSelect({ onSelectChapter }: Props) {
+export function ChapterSelect({ onSelectChapter, onSelectHistory }: Props) {
   const [history, setHistory] = useState<QuizResult[]>([]);
 
   useEffect(() => {
@@ -285,9 +286,10 @@ export function ChapterSelect({ onSelectChapter }: Props) {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {history.map((r) => (
-                <div
+                <button
                   key={r.id}
-                  className="history-card bg-white dark:bg-gray-900 rounded-3xl px-5 py-4 border border-gray-100 dark:border-gray-800 flex items-center gap-4"
+                  onClick={() => onSelectHistory && onSelectHistory(r)}
+                  className="history-card text-left w-full cursor-pointer bg-white dark:bg-gray-900 rounded-3xl px-5 py-4 border border-gray-100 dark:border-gray-800 flex items-center gap-4 hover:border-gray-300 dark:hover:border-gray-700 hover:scale-[1.01] hover:shadow-md active:scale-[0.99] transition-all duration-300"
                   style={{ boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}
                 >
                   <div className="flex-shrink-0 w-12 h-12 rounded-2xl bg-gray-50 dark:bg-gray-800 flex items-center justify-center">
@@ -312,7 +314,7 @@ export function ChapterSelect({ onSelectChapter }: Props) {
                     <div className="text-[10px] text-gray-300 dark:text-gray-600 font-medium">{formatDate(r.date)}</div>
                     <Award size={14} className={`mt-1 ml-auto ${pctColor(r.pct)}`} />
                   </div>
-                </div>
+                </button>
               ))}
             </div>
           </div>
