@@ -191,9 +191,99 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
   // Keyboard navigation & actions
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      const isEnter = e.key === 'Enter';
+      const isCmdOrCtrlEnter = isEnter && (e.metaKey || e.ctrlKey);
+
+      if (isEnter || isCmdOrCtrlEnter) {
+        if (e.target instanceof HTMLTextAreaElement || e.target instanceof HTMLInputElement) {
+          if (!isCmdOrCtrlEnter) {
+            return;
+          }
+          e.preventDefault();
+        }
+
+        if (current.type === 'essay') {
+          if (!answered) {
+            if (!showEssayAnswer) {
+              setShowEssayAnswer(true);
+            } else {
+              setAnswers((prev) => ({
+                ...prev,
+                [currentIdx]: { text: essayDraft, selfGrade: 'correct' },
+              }));
+              setShowEssayAnswer(false);
+              if (currentIdx < questions.length - 1) {
+                setCurrentIdx((i) => i + 1);
+              } else {
+                handleFinish();
+              }
+            }
+          } else {
+            if (currentIdx < questions.length - 1) {
+              setCurrentIdx((i) => i + 1);
+            } else {
+              handleFinish();
+            }
+          }
+        } else if (current.type === 'case' && current.subQuestions) {
+          const subQs = current.subQuestions;
+          const unansweredSubQIndex = subQs.findIndex((sq) => {
+            const subAnswer = answers[currentIdx]?.[sq.id];
+            return subAnswer === undefined;
+          });
+
+          if (unansweredSubQIndex !== -1) {
+            const subQ = subQs[unansweredSubQIndex];
+            if (subQ.type === 'essay') {
+              if (!revealedSubEssays[subQ.id]) {
+                setRevealedSubEssays((prev) => ({ ...prev, [subQ.id]: true }));
+              } else {
+                setAnswers((prev) => {
+                  const cur = prev[currentIdx] || {};
+                  return {
+                    ...prev,
+                    [currentIdx]: {
+                      ...cur,
+                      [subQ.id]: { text: subEssayDrafts[subQ.id] || '', selfGrade: 'correct' }
+                    }
+                  };
+                });
+                
+                const remainingUnanswered = subQs.filter((sq, idx) => {
+                  if (idx === unansweredSubQIndex) return false;
+                  return answers[currentIdx]?.[sq.id] === undefined;
+                });
+                
+                if (remainingUnanswered.length === 0) {
+                  if (currentIdx < questions.length - 1) {
+                    setCurrentIdx((i) => i + 1);
+                  } else {
+                    handleFinish();
+                  }
+                }
+              }
+            }
+          } else {
+            if (currentIdx < questions.length - 1) {
+              setCurrentIdx((i) => i + 1);
+            } else {
+              handleFinish();
+            }
+          }
+        } else {
+          if (currentIdx < questions.length - 1) {
+            setCurrentIdx((i) => i + 1);
+          } else {
+            handleFinish();
+          }
+        }
+        return;
+      }
+
       if (e.target instanceof HTMLTextAreaElement || e.target instanceof HTMLInputElement) {
         return;
       }
+
       const k = e.key.toUpperCase();
       if (k === 'F') {
         toggleFlag(currentIdx);
@@ -203,19 +293,13 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
         if (currentIdx < questions.length - 1) {
           setCurrentIdx((i) => i + 1);
         }
-      } else if (e.key === 'Enter') {
-        if (currentIdx < questions.length - 1) {
-          setCurrentIdx((i) => i + 1);
-        } else {
-          handleFinish();
-        }
       } else if (e.key === 'Escape') {
         setShowKeyboardHelper(false);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIdx, answers, questions]);
+  }, [currentIdx, answers, questions, essayDraft, subEssayDrafts, showEssayAnswer, revealedSubEssays, answered]);
 
   const toggleFlag = (idx: number) => {
     setFlagged((prev) => {
@@ -1100,7 +1184,8 @@ export function QuizInterface({ chapter, subject, questions, onBack, onFinish }:
               {[
                 { keys: ['F'], desc: 'Flag / Unflag Question' },
                 { keys: ['←', '→'], desc: 'Navigate to Previous / Next Question' },
-                { keys: ['Enter'], desc: 'Advance to Next Question / Finish' },
+                { keys: ['Enter'], desc: 'Reveal answer / Grade as Correct & Advance' },
+                { keys: ['⌘/Ctrl', 'Enter'], desc: 'Reveal / Grade while typing in answer boxes' },
                 { keys: ['Esc'], desc: 'Close this shortcuts window' }
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center justify-between py-2.5 border-b border-gray-100 dark:border-gray-800/60 last:border-b-0">
