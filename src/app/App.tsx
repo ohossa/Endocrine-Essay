@@ -171,6 +171,7 @@ export default function App() {
     const flaggedSet = new Set<number>(result.flaggedQuestionIds || []);
 
     transitionTo(() => {
+      setSelectedChapter(chapter);
       setQuizPayload({ chapter, subject, questions: questionsList });
       setResultPayload({
         chapter,
